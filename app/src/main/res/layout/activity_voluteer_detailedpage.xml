@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    android:background="#FFFFFF"
+    tools:context=".AdoptionDetailedpage">
+
+    <View
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/arrowleft" />
+
+    <View
+        android:id="@+id/rectangle_30"
+        android:layout_width="360dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:background="#F4F4F4" />
+
+
+    <TextView
+        android:id="@+id/text_ourwork"
+        android:layout_width="300dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/suit"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="3sp"
+        android:text="봉사 후기"
+        android:textAppearance="@style/text_mypage"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text_reviewdetailed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/suit"
+        android:gravity="top"
+        android:lineSpacingExtra="5sp"
+
+        android:text="고된 미국 출장 속 작은 행복"
+        android:textColor="#121212"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationY="-2.52sp" />
+
+    <TextView
+        android:id="@+id/text_reviewdatedetailed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="103dp"
+        android:fontFamily="@font/suit"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="1sp"
+        android:text="2024.01.23 화요일 12:29"
+        android:textColor="#181818"
+        android:textSize="12sp" />
+
+
+
+    <View
+        android:id="@+id/rectangle_"
+        android:layout_width="360dp"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginEnd="-1dp"
+        android:background="#F4F4F4" />
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="326dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:text="해라에게 크리스마스 선물로 엄마, 아빠, 두 오빠와 덩치 큰 여동생 베리와 레오가 생겼습니다. 해라는 보령 불법 무허가 번식장에서 구조된 3살 추정 강아지입니다."
+        android:lineSpacingExtra="4sp"
+        android:translationY="-2.02sp"
+        android:gravity="top"
+        android:textSize="16sp"
+        android:textColor="#121212"
+        android:fontFamily="@font/suit"
+        />
+
+    <View
+        android:id="@+id/rectangle_32"
+        android:layout_width="328dp"
+        android:layout_height="328dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="273dp"
+        android:background="@drawable/picture1"
+        />
+
+    <View
+        android:id="@+id/rectangle_22"
+        android:layout_width="328dp"
+        android:layout_height="328dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/picture2"
+        />
+
+
+
+
+</RelativeLayout>

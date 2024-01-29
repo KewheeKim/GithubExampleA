@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".WritingReview"
+            android:exported="false" />
+        <activity
+            android:name=".VoluteerDetailedpage"
+            android:exported="false" />
+        <activity
+            android:name=".VolunteerView"
+            android:exported="false" />
+        <activity
+            android:name=".AdoptionDetailedpage"
+            android:exported="false" />
+        <activity
+            android:name=".AdoptionView"
+            android:exported="false" />
+        <activity
+            android:name=".myPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
