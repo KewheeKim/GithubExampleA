@@ -134,6 +134,54 @@
                 android:translationY="-2.52sp"
                 android:gravity="center_horizontal|top" />
 
+            <View
+                android:id="@+id/meetFamilyBg"
+                android:layout_width="328dp"
+                android:layout_height="112dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="615dp"
+                android:background="@drawable/rect_board" />
+
+            <View
+                android:id="@+id/meetFamilyImg"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="238dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="624dp"
+                android:background="@drawable/img_family" />
+
+            <TextView
+                android:id="@+id/meetFamilyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="633dp"
+                android:text="@string/meetFamilyName"
+                android:textAppearance="@style/meetFamilyName"
+                android:lineSpacingExtra="4sp"
+                android:translationY="-1.76sp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/meetFamilyContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="660dp"
+                android:text="@string/meetFamilyContent"
+                android:textAppearance="@style/meetFamilyContent"
+                android:lineSpacingExtra="3sp"
+                android:translationY="-1.51sp"
+                android:gravity="top" />
+
 
             <!-- 평생 가족을 기다려요 -->
             <TextView

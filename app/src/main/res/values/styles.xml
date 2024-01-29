@@ -53,6 +53,16 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
+    <style name="meetFamilyName">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="meetFamilyContent">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
     <style name="CustomToolBar" parent="@style/Widget.AppCompat.Toolbar">
         <item name="titleTextColor">@color/mint</item>
         <item name="fontFamily">@font/suit_extrabold</item>
