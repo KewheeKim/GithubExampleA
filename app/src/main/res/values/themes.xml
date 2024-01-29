@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Navigation_5" parent="Theme.AppCompat.DayNight">
+
+        <!-- 기본 배경색 흰색 설정 -->
+        <item name="colorPrimary">@color/white</item>
+        <!-- 상태바 흰색 설정, 아이콘도 보이게 -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="toolbarStyle">@style/CustomToolBar</item>
+
+    </style>
+
+
+    <style name="Theme.Navigation_5" parent="Base.Theme.Navigation_5" />
+</resources>
