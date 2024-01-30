@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"> <!-- 홈 화면 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- 메인홈 뒷배경 -->
+            <View
+                android:id="@+id/bg_main"
+                android:layout_width="360dp"
+                android:layout_height="297dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@color/mint" />
+
+            <!-- 메인홈 강아지 사진 -->
+            <View
+                android:id="@+id/img_dog_1"
+                android:layout_width="161dp"
+                android:layout_height="260dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="212dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="23dp"
+                android:background="@drawable/img_dog"
+                android:alpha="1" />
+
+            <!-- 신청 전 문구 -->
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="32dp"
+                android:text="@string/beforeVol"
+                android:textAppearance="@style/beforeVol"
+                android:lineSpacingExtra="5sp"
+                android:translationY="-2.52sp"
+                android:gravity="top" />
+
+            <!-- 신청 전 티켓 -->
+            <View
+                android:id="@+id/vector"
+                android:layout_width="328dp"
+                android:layout_height="147dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="136dp"
+                android:background="@drawable/vector_ticket" />
+
+            <!-- 뛰는 강아지 -->
+            <View
+                android:id="@+id/running_dog"
+                android:layout_width="118dp"
+                android:layout_height="145dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="137dp"
+                android:background="@drawable/ic_dog" />
+
+            <!-- 신청하러 가기 -->
+            <TextView
+                android:id="@+id/applyVol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="181dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="174dp"
+                android:text="@string/applyVol"
+                android:textAppearance="@style/applyVol"
+                android:lineSpacingExtra="4sp"
+                android:translationY="-2.02sp"
+                android:gravity="center_horizontal|top" />
+
+            <!-- 플러스 아이콘 -->
+            <View
+                android:id="@+id/plus"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="226dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="210dp"
+                android:background="@drawable/ic_plus" />
+
+            <!-- 나와 함께한 친구들 -->
+            <TextView
+                android:id="@+id/withmeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="393dp"
+                android:text="@string/withmeTitle"
+                android:textAppearance="@style/withmeTitle"
+                android:lineSpacingExtra="5sp"
+                android:translationY="-2.52sp"
+                android:gravity="center_horizontal|top" />
+
+            <!-- 드디어 가족을 만났어요 -->
+            <TextView
+                android:id="@+id/meetFamilyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="585dp"
+                android:text="@string/meetFamilyTitle"
+                android:textAppearance="@style/withmeTitle"
+                android:lineSpacingExtra="5sp"
+                android:translationY="-2.52sp"
+                android:gravity="center_horizontal|top" />
+
+            <View
+                android:id="@+id/meetFamilyBg"
+                android:layout_width="328dp"
+                android:layout_height="112dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="615dp"
+                android:background="@drawable/rect_board" />
+
+            <View
+                android:id="@+id/meetFamilyImg"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="238dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="624dp"
+                android:background="@drawable/img_family" />
+
+            <TextView
+                android:id="@+id/meetFamilyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="633dp"
+                android:text="@string/meetFamilyName"
+                android:textAppearance="@style/meetFamilyName"
+                android:lineSpacingExtra="4sp"
+                android:translationY="-1.76sp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/meetFamilyContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="660dp"
+                android:text="@string/meetFamilyContent"
+                android:textAppearance="@style/meetFamilyContent"
+                android:lineSpacingExtra="3sp"
+                android:translationY="-1.51sp"
+                android:gravity="top" />
+
+
+            <!-- 평생 가족을 기다려요 -->
+            <TextView
+                android:id="@+id/waitFamilyTitle"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="781dp"
+                android:layout_marginBottom="150dp"
+                android:text="@string/waitFamilyTitle"
+                android:textAppearance="@style/withmeTitle"
+                android:lineSpacingExtra="5sp"
+                android:translationY="-2.52sp"
+                android:gravity="center_horizontal|top" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</FrameLayout>
