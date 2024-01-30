@@ -7,7 +7,16 @@
     android:background="#FFFFFF"
     tools:context=".AdoptionDetailedpage">
 
-    <View
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
         android:layout_width="24dp"
         android:layout_height="26dp"
         android:layout_marginStart="15dp"
@@ -24,7 +33,6 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="0dp"
         android:background="#F4F4F4" />
-
 
     <TextView
         android:id="@+id/text_ourwork"
@@ -76,15 +84,6 @@
         android:textColor="#181818"
         android:textSize="12sp" />
 
-    <View
-        android:id="@+id/line_118"
-        android:layout_width="360dp"
-        android:layout_height="0dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="-1dp"
-        android:layout_marginTop="147dp"
-        android:background="@drawable/line_118" />
 
     <View
         android:id="@+id/rectangle_"
@@ -125,17 +124,17 @@
         android:background="@drawable/picture1"
         />
 
-    <View
-        android:id="@+id/rectangle_22"
-        android:layout_width="328dp"
-        android:layout_height="328dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="650dp"
-        android:background="@drawable/picture2"
-        />
+            <View
+                android:id="@+id/rectangle_22"
+                android:layout_width="328dp"
+                android:layout_height="328dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="650dp"
+                android:background="@drawable/picture2" />
 
-
+        </RelativeLayout>
+    </ScrollView>
 
 
 </RelativeLayout>

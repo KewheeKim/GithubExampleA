@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">투게독</string>
 
     <style name="text_logout">
         <item name="android:textSize">16sp</item>
@@ -70,4 +70,25 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#121212</item>
     </style>
+
+
+    <string name="btnLogin">로그인</string>
+    <string name="btnRegister">회원가입</string>
+    <string name="beforeVol">이동 봉사를 신청하고\n유기견에게 새로운 삶을 선물하세요</string>
+    <string name="applyVol">이동봉사 신청하기</string>
+    <string name="mainTitle">투게독</string>
+    <string name="noticeTitle">이동 봉사 시 주의사항</string>
+    <string name="withmeTitle">나의 여행길에 함께한 친구들</string>
+    <string name="meetFamilyTitle">드디어 가족을 만났어요</string>
+    <string name="meetFamilyName">크리스마스에 찾아온 소중한 가족</string>
+    <string name="meetFamilyContent">윌리엄이 가족을 만났어요! 연천 허가 번\n식장 구조
+        8살 추정 윌리엄이 가족을 만났\n습니다. 집에 오니 잘 적응하는 모습을...</string>
+    <string name="waitFamilyTitle">평생 가족을 기다려요</string>
+    <string name="dogName1">가디</string>
+    <string name="dogName2">미일</string>
+    <string name="dogName3">캠퍼</string>
+    <string name="infoText">이동 봉사 시 주의사항</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

@@ -5,7 +5,16 @@
     android:layout_width="360dp"
     android:layout_height="800dp"
     android:background="#FFFFFF"
-    tools:context=".AdoptionView">
+    tools:context=".AdoptionDetailedpage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
     <View
         android:layout_width="24dp"
@@ -81,380 +90,364 @@
         android:layout_marginLeft="181dp"
         android:layout_marginTop="102dp"
         android:background="#F3F3F3" />
-<!-- 크리스마스에 찾아온 후기-->
-    <TextView
-        android:id="@+id/btn_review1"
-        android:layout_width="240dp"
-        android:layout_height="38dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="128dp"
-        android:background="#FFFFFF"
-        android:fontFamily="@font/suit"
-        android:gravity="top"
-        android:lineSpacingExtra="8sp"
-        android:text="크리스마스에 찾아온 소중한 가족"
-        android:textColor="#121212"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:translationY="-4.02sp" />
 
-    <View
-        android:id="@+id/image_59"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="262dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="130dp"
-        android:background="@drawable/img_calendar"
-        />
+            <!-- 크리스마스에 찾아온 후기-->
+            <TextView
+                android:id="@+id/btn_review1"
+                android:layout_width="240dp"
+                android:layout_height="38dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="128dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="8sp"
+                android:text="크리스마스에 찾아온 소중한 가족"
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationY="-4.02sp" />
 
-    <TextView
-        android:layout_width="59dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="285dp"
-        android:layout_marginTop="137dp"
-        android:fontFamily="@font/suit"
-        android:gravity="top"
-        android:lineSpacingExtra="13sp"
-        android:text="2023.12.25"
-        android:textColor="#A7A7A7"
-        android:textSize="12sp"
-        android:translationY="-6.51sp" />
+            <View
+                android:id="@+id/image_59"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="262dp"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/img_calendar" />
 
-    <TextView
-        android:layout_width="332dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="167dp"
-        android:fontFamily="@font/suit"
-        android:gravity="top"
-        android:lineSpacingExtra="3sp"
-        android:text="해라에게 크리스마스 선물로 엄마, 아빠, 두 오빠와 덩치 큰 여동생 베리와 레오가 생겼습니다. 해라는 보령 불법 무허가 번식..."
-        android:textColor="#A7A7A7"
-        android:textSize="13sp"
-        android:translationY="-1.51sp" />
+            <TextView
+                android:layout_width="59dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="137dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="13sp"
+                android:text="2023.12.25"
+                android:textColor="#A7A7A7"
+                android:textSize="12sp"
+                android:translationY="-6.51sp" />
 
-    <View
-        android:id="@+id/rectangle_1"
-        android:layout_width="360dp"
-        android:layout_height="9dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="354dp"
-        android:background="#F7F7F7"
-        />
+            <TextView
+                android:layout_width="332dp"
+                android:layout_height="44dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="167dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="3sp"
+                android:text="해라에게 크리스마스 선물로 엄마, 아빠, 두 오빠와 덩치 큰 여동생 베리와 레오가 생겼습니다. 해라는 보령 불법 무허가 번식..."
+                android:textColor="#A7A7A7"
+                android:textSize="13sp"
+                android:translationY="-1.51sp" />
 
-    <View
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="238dp"
-        android:background="@drawable/picture1"
-        />
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="360dp"
+                android:layout_height="9dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="354dp"
+                android:background="#F7F7F7" />
 
-    <View
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="124dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="238dp"
-        android:background="@drawable/picture2"
-        />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="238dp"
+                android:background="@drawable/picture1" />
 
-<!--버들이 입양후기-->
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="238dp"
+                android:background="@drawable/picture2" />
 
-    <TextView
-        android:layout_width="231dp"
-        android:layout_height="31dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="380dp"
-        android:background="#FFFFFF"
-        android:fontFamily="@font/suit"
-        android:gravity="top"
-        android:lineSpacingExtra="8sp"
-        android:text="버들이 입양 후기입니다."
-        android:textColor="#121212"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:translationY="-4.02sp" />
+            <!--버들이 입양후기-->
 
-    <View
-        android:id="@+id/image_60"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="262dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="386dp"
-        android:background="@drawable/img_calendar"
-        />
+            <TextView
+                android:layout_width="231dp"
+                android:layout_height="31dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="380dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="8sp"
+                android:text="버들이 입양 후기입니다."
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationY="-4.02sp" />
 
-    <TextView
-        android:layout_width="59dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="285dp"
-        android:layout_marginTop="392dp"
-        android:fontFamily="@font/suit"
-        android:gravity="top"
-        android:lineSpacingExtra="13sp"
-        android:text="2023.12.20"
-        android:textColor="#A7A7A7"
-        android:textSize="12sp"
-        android:translationY="-6.51sp" />
+            <View
+                android:id="@+id/image_60"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="262dp"
+                android:layout_marginTop="386dp"
+                android:background="@drawable/img_calendar" />
 
-    <TextView
-        android:id="@+id/text_review2"
-        android:layout_width="332dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="17dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="415dp"
-        android:fontFamily="@font/suit"
-        android:textColor="#A7A7A7"
-        android:textSize="13sp"
-        android:text="버들이가 오래오래 사랑 받으며 행복하게 지내도록 최선을 다하여 돌보겠습니다! 입양가기까지 도움을 주신 봉사자님, 후원자님..."
-        android:lineSpacingExtra="3sp"
-        android:translationY="-1.51sp"
-        android:gravity="top"
-        />
+            <TextView
+                android:layout_width="59dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="392dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="13sp"
+                android:text="2023.12.20"
+                android:textColor="#A7A7A7"
+                android:textSize="12sp"
+                android:translationY="-6.51sp" />
 
-    <View
-        android:id="@+id/rectangle_2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="475dp"
-        android:background="@drawable/picture3"
-        />
+            <TextView
+                android:id="@+id/text_review2"
+                android:layout_width="332dp"
+                android:layout_height="44dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="415dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="3sp"
+                android:text="버들이가 오래오래 사랑 받으며 행복하게 지내도록 최선을 다하여 돌보겠습니다! 입양가기까지 도움을 주신 봉사자님, 후원자님..."
+                android:textColor="#A7A7A7"
+                android:textSize="13sp"
+                android:translationY="-1.51sp" />
 
-    <View
-        android:id="@+id/rectangle_3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="124dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="475dp"
-        android:background="@drawable/picture4"
-        />
+            <View
+                android:id="@+id/rectangle_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="475dp"
+                android:background="@drawable/picture3" />
 
-    <View
-        android:id="@+id/rectangle_8"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="232dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="475dp"
-        android:background="@drawable/picture5"
-        />
+            <View
+                android:id="@+id/rectangle_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="475dp"
+                android:background="@drawable/picture4" />
 
-    <View
-        android:id="@+id/rectangle_9"
-        android:layout_width="360dp"
-        android:layout_height="9dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="591dp"
-        android:background="#F7F7F7"
-        />
+            <View
+                android:id="@+id/rectangle_8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="232dp"
+                android:layout_marginTop="475dp"
+                android:background="@drawable/picture5" />
 
-    <!--윌리엄이 가족을 만났어요!-->
-    <TextView
-        android:id="@+id/text_william"
-        android:layout_width="239dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="616dp"
-        android:background="#FFFFFF"
-        android:gravity="top"
-        android:lineSpacingExtra="8sp"
-        android:text="윌리엄이 가족을 만났어요!"
-        android:textAppearance="@style/text_william"
-        android:textStyle="bold"
-        android:translationY="-4.02sp" />
+            <View
+                android:id="@+id/rectangle_9"
+                android:layout_width="360dp"
+                android:layout_height="9dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="591dp"
+                android:background="#F7F7F7" />
 
-    <View
-        android:id="@+id/image_61"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="262dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="617dp"
-        android:background="@drawable/img_calendar"
-        />
+            <!--윌리엄이 가족을 만났어요!-->
+            <TextView
+                android:id="@+id/text_william"
+                android:layout_width="239dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="616dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:lineSpacingExtra="8sp"
+                android:text="윌리엄이 가족을 만났어요!"
+                android:textAppearance="@style/text_william"
+                android:textStyle="bold"
+                android:translationY="-4.02sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="286dp"
-        android:layout_marginTop="624dp"
-        android:fontFamily="@font/suit"
-        android:gravity="top"
-        android:lineSpacingExtra="13sp"
-        android:text="2023.12.07"
-        android:textColor="#A7A7A7"
-        android:textSize="12sp"
-        android:translationY="-6.51sp" />
+            <View
+                android:id="@+id/image_61"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="262dp"
+                android:layout_marginTop="617dp"
+                android:background="@drawable/img_calendar" />
 
-    <TextView
-        android:id="@+id/text_review3"
-        android:layout_width="332dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="652dp"
-        android:text="윌리엄이 가족을 만났어요! 연천 허가 번식장 구조 8살 추정 윌리엄이 가족을 만났습니다. 집에 오니 잘 적응하는 모습을..."
-        android:lineSpacingExtra="3sp"
-        android:translationY="-1.51sp"
-        android:gravity="top"
-        android:fontFamily="@font/suit"
-        android:textColor="#A7A7A7"
-        android:textSize="13sp"
-        />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="286dp"
+                android:layout_marginTop="624dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="13sp"
+                android:text="2023.12.07"
+                android:textColor="#A7A7A7"
+                android:textSize="12sp"
+                android:translationY="-6.51sp" />
 
-    <View
-        android:id="@+id/rectangle_10"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="712dp"
-        android:background="@drawable/picture6"
-        />
+            <TextView
+                android:id="@+id/text_review3"
+                android:layout_width="332dp"
+                android:layout_height="44dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="652dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="3sp"
+                android:text="윌리엄이 가족을 만났어요! 연천 허가 번식장 구조 8살 추정 윌리엄이 가족을 만났습니다. 집에 오니 잘 적응하는 모습을..."
+                android:textColor="#A7A7A7"
+                android:textSize="13sp"
+                android:translationY="-1.51sp" />
 
-    <View
-        android:id="@+id/rectangle_12"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="124dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="712dp"
-        android:background="@drawable/picture7"
-        />
+            <View
+                android:id="@+id/rectangle_10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="712dp"
+                android:background="@drawable/picture6" />
 
-    <View
-        android:id="@+id/greyrect1"
-        android:layout_width="360dp"
-        android:layout_height="9dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="828dp"
-        android:background="#F7F7F7"
-        />
+            <View
+                android:id="@+id/rectangle_12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="712dp"
+                android:background="@drawable/picture7" />
 
-    <!--까미 가족 소개-->
+            <View
+                android:id="@+id/greyrect1"
+                android:layout_width="360dp"
+                android:layout_height="9dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="828dp"
+                android:background="#F7F7F7" />
 
-    <TextView
-        android:id="@+id/some_id"
-        android:layout_width="167dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="853dp"
-        android:text="까미의 가족을 소개합니다"
-        android:textAppearance="@style/text_william"
-        android:textStyle="bold"
-        android:lineSpacingExtra="8sp"
-        android:translationY="-4.02sp"
-        android:gravity="top"
-        />
+            <!--까미 가족 소개-->
 
-    <TextView
-        android:id="@+id/text_review4"
-        android:layout_width="332dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="889dp"
-        android:text="대전 유성구 원내동 도살장 구조된 까미가 가족을 만났습니다. 마당이 있는 집에 도착한 까미는 새로운 것들이 마냥 신기합니다..."
-        android:lineSpacingExtra="3sp"
-        android:translationY="-1.51sp"
-        android:gravity="top"
-        android:fontFamily="@font/suit"
-        android:textColor="#A7A7A7"
-        android:textSize="13sp"
-        />
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="853dp"
+                android:gravity="top"
+                android:lineSpacingExtra="8sp"
+                android:text="까미의 가족을 소개합니다"
+                android:textAppearance="@style/text_william"
+                android:textStyle="bold"
+                android:translationY="-4.02sp" />
 
-    <View
-        android:id="@+id/image_62"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="262dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="859dp"
-        android:background="@drawable/img_calendar"
-        />
+            <TextView
+                android:id="@+id/text_review4"
+                android:layout_width="332dp"
+                android:layout_height="44dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="889dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="3sp"
+                android:text="대전 유성구 원내동 도살장 구조된 까미가 가족을 만났습니다. 마당이 있는 집에 도착한 까미는 새로운 것들이 마냥 신기합니다..."
+                android:textColor="#A7A7A7"
+                android:textSize="13sp"
+                android:translationY="-1.51sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="286dp"
-        android:layout_marginTop="865dp"
-        android:fontFamily="@font/suit"
-        android:gravity="top"
-        android:lineSpacingExtra="13sp"
-        android:text="2023.12.01"
-        android:textColor="#A7A7A7"
-        android:textSize="12sp"
-        android:translationY="-6.51sp" />
+            <View
+                android:id="@+id/image_62"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="262dp"
+                android:layout_marginTop="859dp"
+                android:background="@drawable/img_calendar" />
 
-    <View
-        android:id="@+id/picture8"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="949dp"
-        android:background="@drawable/picture8"
-        />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="286dp"
+                android:layout_marginTop="865dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="13sp"
+                android:text="2023.12.01"
+                android:textColor="#A7A7A7"
+                android:textSize="12sp"
+                android:translationY="-6.51sp" />
 
-    <View
-        android:id="@+id/picture9"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="124dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="949dp"
-        android:background="@drawable/picture9"
-        />
+            <View
+                android:id="@+id/picture8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="949dp"
+                android:background="@drawable/picture8" />
 
-    <!--하단 네비게이션-->
-    
+            <View
+                android:id="@+id/picture9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="949dp"
+                android:background="@drawable/picture9" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
     <View
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -501,57 +494,60 @@
         android:layout_weight="1"
         android:background="@drawable/img_user1" />
 
-    <TextView
-        android:id="@+id/text_home1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="42.5dp"
-        android:layout_marginBottom="9dp"
-        android:fontFamily="@font/suit"
-        android:text="홈"
-        android:textColor="#AFAFAF"
-        android:textSize="10sp" />
+            <TextView
+                android:id="@+id/text_home1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="42.5dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="@font/suit"
+                android:text="홈"
+                android:textColor="#AFAFAF"
+                android:textSize="10sp" />
 
-    <TextView
-        android:id="@+id/text_home2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="114dp"
-        android:layout_marginBottom="9dp"
-        android:fontFamily="@font/suit"
-        android:text="나의 동행"
-        android:textColor="#AFAFAF"
-        android:textSize="10sp" />
+            <TextView
+                android:id="@+id/text_home2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="114dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="@font/suit"
+                android:text="나의 동행"
+                android:textColor="#AFAFAF"
+                android:textSize="10sp" />
 
-    <TextView
-        android:id="@+id/text_home3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="194dp"
-        android:layout_marginBottom="9dp"
-        android:fontFamily="@font/suit"
-        android:text="우리의 동행"
-        android:textColor="#43D491"
-        android:textSize="10sp" />
+            <TextView
+                android:id="@+id/text_home3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="194dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="@font/suit"
+                android:text="우리의 동행"
+                android:textColor="#43D491"
+                android:textSize="10sp" />
 
-    <TextView
-        android:id="@+id/text_home4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="284dp"
-        android:layout_marginBottom="9dp"
-        android:fontFamily="@font/suit"
-        android:text="마이페이지"
-        android:textColor="#AFAFAF"
-        android:textSize="10sp" />
+            <TextView
+                android:id="@+id/text_home4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="284dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="@font/suit"
+                android:text="마이페이지"
+                android:textColor="#AFAFAF"
+                android:textSize="10sp" />
+
+    <!-- 하단네비게이션 코드 끝-->
+
 
 
 
