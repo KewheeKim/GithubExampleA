@@ -423,7 +423,7 @@
             android:layout_marginTop="110dp"
             android:layout_marginEnd="-3dp"
             android:background="#F4F4F4" />
-
+<!--하단네비게이션바
         <View
             android:layout_width="24dp"
             android:layout_height="24dp"
@@ -513,6 +513,8 @@
             android:text="마이페이지"
             android:textColor="#43D491"
             android:textSize="10sp" />
+        -->
+        <!-- 하단 네비게이션 -->
 
 
     </RelativeLayout>
