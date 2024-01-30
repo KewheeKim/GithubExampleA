@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_home"
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    tools:context=".myPage">
+
+    <RelativeLayout
+
+        android:layout_width="360dp"
+        android:layout_height="800dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="-51dp"
+        android:layout_marginEnd="4dp"
+        android:background="#FFFFFF"
+        android:clipToOutline="true"
+        tools:context=".myPage">
+
+
+        <TextView
+            android:id="@+id/text_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="699dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0sp"
+            android:text="로그아웃"
+            android:fontFamily="@font/suit"
+            android:textAppearance="@style/text_logout"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_ask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="648dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0sp"
+            android:text="1:1문의하기"
+            android:fontFamily="@font/suit"
+            android:textAppearance="@style/text_logout" />
+
+        <TextView
+            android:id="@+id/text_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="600dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0sp"
+            android:text="자주 묻는 질문"
+            android:fontFamily="@font/suit"
+            android:textAppearance="@style/text_question" />
+
+        <TextView
+            android:id="@+id/text_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="549dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0sp"
+            android:text="공지사항"
+            android:fontFamily="@font/suit"
+            android:textAppearance="@style/text_notice" />
+
+        <TextView
+            android:id="@+id/text_textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="498dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0sp"
+            android:text="글자 크기 조절"
+            android:fontFamily="@font/suit"
+            android:textAppearance="@style/text_textsize" />
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="360dp"
+            android:layout_height="3dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="682dp"
+            android:background="#F7F7F7" />
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="360dp"
+            android:layout_height="3dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="634dp"
+            android:background="#F4F4F4" />
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:layout_width="360dp"
+            android:layout_height="3dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="583dp"
+            android:background="#F4F4F4" />
+
+        <View
+            android:id="@+id/rectangle_4"
+            android:layout_width="360dp"
+            android:layout_height="3dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="532dp"
+            android:background="#F4F4F4" />
+
+        <View
+            android:id="@+id/rec_1"
+            android:layout_width="360dp"
+            android:layout_height="9dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="307dp"
+            android:background="#F7F7F7" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="336dp"
+            android:fontFamily="@font/suit"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0sp"
+            android:text="김규희님,"
+            android:textAppearance="@style/text_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_fraction"
+            android:layout_width="23dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="259dp"
+            android:layout_marginTop="258dp"
+            android:fontFamily="@font/suit"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="2/5"
+            android:textAppearance="@style/text_fraction"
+            android:textStyle="bold"
+            android:translationY="-1.76sp" />
+
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="155dp"
+            android:gravity="top"
+            android:lineSpacingExtra="9sp"
+            android:text="내 정보 관리"
+            android:fontFamily="@font/suit"
+            android:textAppearance="@style/text_info"
+            android:translationY="-4.51sp" />
+
+        <TextView
+            android:id="@+id/text_stamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="222dp"
+            android:fontFamily="@font/suit"
+            android:gravity="top"
+            android:lineSpacingExtra="3sp"
+            android:text="나의 동행 스탬프"
+            android:textAppearance="@style/text_stamp"
+            android:textStyle="bold"
+            android:translationY="-1.51sp" />
+
+        <TextView
+            android:id="@+id/text_ooo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="146dp"
+            android:fontFamily="@font/suit"
+            android:gravity="top"
+            android:lineSpacingExtra="11sp"
+            android:text="OOO 님"
+            android:textAppearance="@style/text_ooo"
+            android:textStyle="bold"
+            android:translationY="-5.26sp" />
+
+        <FrameLayout
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/intersect" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="69dp"
+            android:background="@drawable/arrowleft" />
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="262dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/settingline" />
+
+        <View
+            android:id="@+id/rec_2"
+            android:layout_width="360dp"
+            android:layout_height="9dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="475dp"
+            android:background="#F7F7F7" />
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="647dp"
+            android:background="@drawable/headset" />
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/signout" />
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="597dp"
+            android:background="@drawable/charcircle" />
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="553dp"
+            android:background="@drawable/megaphonesimple" />
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="497dp"
+            android:background="@drawable/textsize" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_ellipse" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_pawprint" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_ellipse" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_pawprint" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="111dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_ellipse1" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="111dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_pawprint1" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_ellipse1" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_pawprint1" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="204dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_ellipse1" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="204dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/img_pawprint1" />
+
+        <TextView
+            android:id="@+id/text_mypage"
+            android:layout_width="300dp"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="@font/suit"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="3sp"
+            android:text="마이페이지"
+            android:textAppearance="@style/text_mypage"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/rectangle_"
+            android:layout_width="360dp"
+            android:layout_height="3dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="-3dp"
+            android:background="#F4F4F4" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="750dp"
+            android:background="@drawable/house" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="750dp"
+            android:background="@drawable/img_paw" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="207dp"
+            android:layout_marginTop="750dp"
+            android:layout_weight="1"
+            android:background="@drawable/notepencil" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="750dp"
+            android:layout_weight="1"
+            android:background="@drawable/user" />
+
+        <TextView
+            android:id="@+id/text_home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="42.5dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/suit"
+            android:text="홈"
+            android:textColor="#AFAFAF"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/text_home2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/suit"
+            android:text="나의 동행"
+            android:textColor="#AFAFAF"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/text_home3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/suit"
+            android:text="우리의 동행"
+            android:textColor="#AFAFAF"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/text_home4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="284dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/suit"
+            android:text="마이페이지"
+            android:textColor="#43D491"
+            android:textSize="10sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

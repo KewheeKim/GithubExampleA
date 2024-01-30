@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".WritingReview">
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    android:background="#FFFFFF"
+    tools:context=".AdoptionDetailedpage">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/arrowleft" />
+
+    <View
+        android:id="@+id/rectangle_30"
+        android:layout_width="360dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:background="#F4F4F4" />
+
+
+    <TextView
+        android:id="@+id/text_ourwork"
+        android:layout_width="300dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/suit"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="3sp"
+        android:text="봉사 후기 작성"
+        android:textAppearance="@style/text_mypage"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
