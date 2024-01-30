@@ -5,7 +5,7 @@
     android:layout_width="360dp"
     android:layout_height="800dp"
     android:background="#FFFFFF"
-    tools:context=".AdoptionView">
+    tools:context=".VolunteerView">
 <!-- 봉사후기 목록-->
     <ScrollView
         android:layout_width="match_parent"
@@ -18,6 +18,7 @@
 
             <!-- 뒤로 가기 버튼-->
     <Button
+        android:id="@+id/btnBack"
         android:layout_width="24dp"
         android:layout_height="26dp"
         android:layout_marginStart="15dp"
@@ -42,7 +43,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnAdoptReview"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -54,7 +55,7 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnVolReview"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -95,7 +96,7 @@
 
 
     <TextView
-        android:id="@+id/btn_review1"
+        android:id="@+id/btn_VolReview"
         android:layout_width="224dp"
         android:layout_height="19dp"
         android:layout_alignParentLeft="true"
@@ -559,6 +560,7 @@
     <!--봉사후기기작성 버튼-->
 
     <Button
+        android:id="@+id/btnWriteReview"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_alignParentLeft="true"

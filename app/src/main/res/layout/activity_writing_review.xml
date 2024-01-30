@@ -5,11 +5,12 @@
     android:layout_width="360dp"
     android:layout_height="800dp"
     android:background="#FFFFFF"
-    tools:context=".AdoptionDetailedpage">
+    tools:context=".WritingReview">
 <!-- 봉사후기 글 작성-->
 
     <!-- 뒤로 가기 버튼-->
     <Button
+        android:id="@+id/btnBack"
         android:layout_width="24dp"
         android:layout_height="26dp"
         android:layout_marginStart="15dp"
