@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">투게독</string>
 
     <style name="text_logout">
         <item name="android:textSize">16sp</item>
