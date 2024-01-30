@@ -7,7 +7,9 @@
     android:background="#FFFFFF"
     tools:context=".AdoptionDetailedpage">
 <!-- 봉사후기 글 작성-->
-    <View
+
+    <!-- 뒤로 가기 버튼-->
+    <Button
         android:layout_width="24dp"
         android:layout_height="26dp"
         android:layout_marginStart="15dp"
@@ -43,8 +45,8 @@
         android:textStyle="bold" />
 
     <!-- 제목 입력 하는 코드-->
-    <TextView
-        android:id="@+id/text_entertitle"
+    <EditText
+        android:id="@+id/textEntertitle"
         android:layout_width="167dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
@@ -53,9 +55,10 @@
         android:layout_marginTop="85dp"
         android:fontFamily="@font/suit"
         android:gravity="top"
+        android:background="FFFFFF"
         android:hint="제목을 입력해 주세요"
         android:lineSpacingExtra="5sp"
-        android:textColor="#A7A7A7"
+        android:textColorHint="#A7A7A7"
         android:textSize="20sp"
         android:translationY="-2.52sp"
         app:lineHeight="30sp" />
@@ -72,14 +75,15 @@
         android:background="@drawable/line_118" />
 
     <!-- 봉사 후기 작성 하는 코드-->
-    <TextView
-        android:id="@+id/some_id"
+    <EditText
+        android:id="@+id/textReview"
         android:layout_width="201dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="16dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="144dp"
+        android:background="FFFFFF"
         android:hint="여기를 눌러 봉사 후기를 작성하세요!"
         android:fontFamily="@font/suit"
         android:textSize="14sp"
