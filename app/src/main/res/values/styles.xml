@@ -68,4 +68,80 @@
         <item name="fontFamily">@font/suit_extrabold</item>
     </style>
 
+    <style name="btnFinish">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="text_logout">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_ask">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_question">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_notice">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_textsize">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_name">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_fraction">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <string name="text_fraction">
+2/5
+</string>
+
+    <style name="text_info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#656565</item>
+    </style>
+
+    <style name="text_stamp">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_ooo">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_mypage">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+    <style name="text_home1">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+
+
+    <style name="text_william">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+
+
 </resources>

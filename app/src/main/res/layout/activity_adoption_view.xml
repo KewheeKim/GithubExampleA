@@ -6,7 +6,7 @@
     android:layout_height="800dp"
     android:background="#FFFFFF"
     tools:context=".AdoptionDetailedpage">
-
+<!--입양후기 목록-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -368,7 +368,7 @@
             <!--까미 가족 소개-->
 
             <TextView
-                android:id="@+id/some_id"
+                android:id="@+id/text_entertitle"
                 android:layout_width="wrap_content"
                 android:layout_height="28dp"
                 android:layout_alignParentLeft="true"
@@ -447,7 +447,7 @@
         </RelativeLayout>
     </ScrollView>
 
-
+<!--하단네비게이션바-->
     <View
         android:layout_width="match_parent"
         android:layout_height="60dp"

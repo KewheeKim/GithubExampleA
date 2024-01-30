@@ -6,7 +6,7 @@
     android:layout_height="800dp"
     android:background="#FFFFFF"
     tools:context=".AdoptionDetailedpage">
-
+<!-- 입양 후기 상세 페이지-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -98,7 +98,7 @@
         android:background="#F4F4F4" />
 
     <TextView
-        android:id="@+id/some_id"
+        android:id="@+id/text_entertitle"
         android:layout_width="326dp"
         android:layout_height="96dp"
         android:layout_alignParentLeft="true"

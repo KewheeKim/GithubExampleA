@@ -6,7 +6,7 @@
     android:layout_height="800dp"
     android:background="#FFFFFF"
     tools:context=".AdoptionView">
-
+<!-- 봉사후기 목록-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -372,7 +372,7 @@
         />
 
     <TextView
-        android:id="@+id/some_id"
+        android:id="@+id/text_entertitle"
         android:layout_width="167dp"
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"
@@ -553,6 +553,7 @@
         android:text="마이페이지"
         android:textColor="#AFAFAF"
         android:textSize="10sp" />
+    <!--하단네비게이션 코드 끝-->
 
     <!--봉사후기기작성 버튼-->
 

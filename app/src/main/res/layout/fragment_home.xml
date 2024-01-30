@@ -41,7 +41,7 @@
 
             <!-- 신청 전 문구 -->
             <TextView
-                android:id="@+id/some_id"
+                android:id="@+id/text_entertitle"
                 android:layout_width="277dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
