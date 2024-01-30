@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class AdoptionView : AppCompatActivity() {
     lateinit var btnVolReview: Button
-    lateinit var AdopReview: Button
+    lateinit var AdoptReview: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class AdoptionView : AppCompatActivity() {
             startActivity(intent)
         }
 
-        AdopReview.setOnClickListener {
+        AdoptReview.setOnClickListener {
             // 작성된 입양 후기글 제목 클릭 시 AdoptionDetailedpage로 이동하는 코드
             val intent = Intent(this, AdoptionDetailedpage::class.java)
             startActivity(intent)
