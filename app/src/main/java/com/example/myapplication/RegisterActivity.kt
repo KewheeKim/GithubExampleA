@@ -21,14 +21,16 @@ class RegisterActivity : AppCompatActivity() {
             val user = registerBinding.createUsername.text.toString()
             val pass = registerBinding.createPassword.text.toString()
             val repass = registerBinding.checkPassword.text.toString()
+
+            // 아이디, 비밀번호, 재확인 비밀번호 중 하나라도 입력이 되지 않았을 때
             if (user == "" || pass == "" || repass == "") Toast.makeText(
                 this@RegisterActivity,
                 "회원 정보를 전부 입력해주세요.",
                 Toast.LENGTH_SHORT
             ).show() else {
-                if (pass == repass) {
+                if (pass == repass) { // 비밀번호, 재확인 비밀번호가 모두 동일할 때
                     val checkUsername = DB!!.checkUsername(user)
-                    if (checkUsername == false) {
+                    if (checkUsername == false) {   // 아이디가 DB에 존재하지 않을 때
                         val insert = DB!!.insertData(user, pass)
                         if(insert == true) {
                             Toast.makeText(
@@ -45,21 +47,21 @@ class RegisterActivity : AppCompatActivity() {
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
-                    } else {
+                    } else { // 아이디가 이미 DB에 존재할 때
                         Toast.makeText(
                             this@RegisterActivity,
                             "이미 가입된 회원입니다.",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
-                } else {
+                } else { // 비밀번호, 재확인 비밀번호가 서로 다를 때
                     Toast.makeText(this@RegisterActivity, "비밀번호가 일치하지 않습니다.", Toast.LENGTH_SHORT)
                         .show()
                 }
             }
         }
 
-        //뒤로가기
+        // 액션바 뒤로가기
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
     }
