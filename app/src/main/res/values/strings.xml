@@ -88,5 +88,7 @@
     <string name="dogName2">미일</string>
     <string name="dogName3">캠퍼</string>
     <string name="infoText">이동 봉사 시 주의사항</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
