@@ -97,6 +97,7 @@
             android:layout_height="wrap_content"
             android:text="JFK 뉴욕 존 F.케네디"
             android:textColor="@color/black"
+            android:layout_marginBottom="30dp"
             android:fontFamily="@font/suit_regular"
             />
 
@@ -104,6 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="LAX 로스앤젤레스"
+            android:layout_marginBottom="30dp"
             android:textColor="@color/black"
             android:fontFamily="@font/suit_regular"/>
 
