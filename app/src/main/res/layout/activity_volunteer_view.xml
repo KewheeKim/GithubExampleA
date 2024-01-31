@@ -16,31 +16,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- 뒤로 가기 버튼-->
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_width="24dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/arrowleft" />
-
-    <TextView
-        android:id="@+id/text_ourwork"
-        android:layout_width="300dp"
-        android:layout_height="26dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="9dp"
-        android:fontFamily="@font/suit"
-        android:gravity="center_vertical"
-        android:lineSpacingExtra="3sp"
-        android:text="우리의 동행"
-        android:textAppearance="@style/text_mypage"
-        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnAdoptReview"
@@ -456,6 +431,43 @@
 
         </RelativeLayout>
     </ScrollView>
+
+    <View
+        android:id="@+id/rect_title"
+        android:layout_width="360dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        />
+
+    <!-- 뒤로 가기 버튼-->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/arrowleft" />
+
+    <TextView
+        android:id="@+id/text_ourwork"
+        android:layout_width="300dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/suit"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="3sp"
+        android:text="우리의 동행"
+        android:textAppearance="@style/text_mypage"
+        android:textStyle="bold" />
+
     <!--하단 네비게이션-->
 
     <View
