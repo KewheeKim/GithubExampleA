@@ -52,6 +52,32 @@
             android:name=".MainActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".ApplyPage1Activity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ApplyPage2Activity"
+            android:parentActivityName=".ApplyPage1Activity"/>
+        <activity
+            android:name=".ApplyPage3Activity"
+            android:parentActivityName=".ApplyPage2Activity"/>
+        <activity
+            android:name=".ApplyPage4Activity"
+            android:parentActivityName=".ApplyPage3Activity"/>
+        <activity
+            android:name=".ApplyPage5Activity"
+            android:parentActivityName=".ApplyPage4Activity"/>
+        <activity
+            android:name=".ApplyPage6Activity"
+            android:parentActivityName=".ApplyPage5Activity"/>
+        <activity
+            android:name=".ApplyPage7Activity"
+            android:parentActivityName=".ApplyPage6Activity" />
+        <activity
+            android:name=".AccompanyBeforeActivity" />
+        <activity
+            android:name=".AccompanyAfterActivity" />
+
 
     </application>
 
