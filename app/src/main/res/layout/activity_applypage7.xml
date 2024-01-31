@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/rectangle" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="14dp"
+        android:text="6/6"
+        android:fontFamily="@font/suit_regular"
+        android:textColor="@color/medium_grey" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/pawprint" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        app:srcCompat="@drawable/rectangle7" />
+    
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="480dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="66dp"
+        android:background="@color/white">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="신청 전 확인사항"
+            android:lineSpacingExtra="6sp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/mint"
+            android:fontFamily="@font/suit_extrabold"
+
+            android:textSize="24sp"/>
+
+        <CheckBox
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="76dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="위의 출국일정으로 진행이 가능 할 시, 여권사본과\nE-ticket 전달을 요청 드리게 됩니다.\n\n해당 정보는 항공사에 반려동물 자리 예약과 사전검\n역절차 그리고 현지에서의 세관 신고를 위해 이용되\n며, 전달해 주신 개인정보는 해외이동봉사 목적 외에\n는 사용되지 않습니다."
+            android:textColor="@color/black"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="76dp"
+            android:fontFamily="@font/suit_regular"
+            android:textSize="12sp"/>
+
+        <CheckBox
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="234dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비행편을 이용할 수 있도록 최선을 다하여 준비하도\n록 하겠습니다.\n\n다만, 현지 입양속도와 공항픽업 봉사자 연결 및\n임시보호처 연결 등 현지사정에 따라\n출국 전 해외이동봉사가 취소될 수도 있습니다."
+            android:layout_marginStart="54dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/suit_regular"
+            android:layout_marginTop="234dp"
+            android:textSize="12sp"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="위 내용을 모두 확인하였으며,\n해외이동봉사를 신청하시겠습니까?"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="366dp"
+            android:layout_marginStart="14dp"
+            android:fontFamily="@font/suit_bold"/>
+        
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:text="신청하기"
+            android:textColor="@color/white"
+            android:fontFamily="@font/suit_bold"
+            android:layout_marginStart="14dp"
+            android:backgroundTint="@color/mint"
+            android:layout_marginTop="420dp"/>
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/baseline_close_24" />
+
+    </RelativeLayout>
+
+
+
+    <!-- 신청하기 버튼을 누르면 나타나며 5초 뒤에 사라지는 팝업 이후 메인 화면으로 이동 -->
+    <RelativeLayout
+        android:id="@+id/lastPage"
+        android:layout_width="360dp"
+        android:layout_height="800dp"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/ellipse" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="196dp"
+            android:layout_marginEnd="119dp"
+            app:srcCompat="@drawable/pawprint2" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="331dp"
+            android:fontFamily="@font/suitregular"
+            android:text="신청이 완료되었습니다."
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="288dp"
+            android:fontFamily="@font/suitregular"
+            android:text="  유기견에게 새 삶을 선물해주셔서 감사합니다.\n곧 알림으로 ㅇㅇ님과 동행할 친구를 알려드릴게요!" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
