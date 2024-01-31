@@ -5,9 +5,21 @@
     android:layout_width="360dp"
     android:layout_height="800dp"
     android:background="#FFFFFF"
-    tools:context=".AdoptionDetailedpage">
+    tools:context=".WritingReview">
+<!-- 봉사후기 글 작성-->
 
+    <!-- 뒤로 가기 버튼-->
     <View
+        android:id="@+id/rect_title"
+        android:layout_width="360dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/btnBack"
         android:layout_width="24dp"
         android:layout_height="26dp"
         android:layout_marginStart="15dp"
@@ -41,6 +53,67 @@
         android:text="봉사 후기 작성"
         android:textAppearance="@style/text_mypage"
         android:textStyle="bold" />
+
+    <!-- 제목 입력 하는 코드-->
+    <EditText
+        android:id="@+id/textEntertitle"
+        android:layout_width="167dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/suit"
+        android:gravity="top"
+        android:background="FFFFFF"
+        android:hint="제목을 입력해 주세요"
+        android:lineSpacingExtra="5sp"
+        android:textColorHint="#A7A7A7"
+        android:textSize="20sp"
+        android:translationY="-2.52sp"
+        app:lineHeight="30sp" />
+
+    <View
+        android:id="@+id/line_118"
+        android:layout_width="328dp"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="123dp"
+        android:background="@drawable/line_118" />
+
+    <!-- 봉사 후기 작성 하는 코드-->
+    <EditText
+        android:id="@+id/textReview"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:background="FFFFFF"
+        android:hint="여기를 눌러 봉사 후기를 작성하세요!"
+        android:fontFamily="@font/suit"
+        android:textSize="14sp"
+        android:lineSpacingExtra="13sp"
+        android:translationY="-6.26sp"
+        android:gravity="top"
+        />
+
+    <!-- 완료 버튼-->
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="51dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="293dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="완료"
+        android:textAppearance="@style/btnFinish"
+        android:background="@drawable/rect_finish" />
 
 
 

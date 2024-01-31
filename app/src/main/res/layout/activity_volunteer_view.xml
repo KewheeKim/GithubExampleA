@@ -5,8 +5,8 @@
     android:layout_width="360dp"
     android:layout_height="800dp"
     android:background="#FFFFFF"
-    tools:context=".AdoptionView">
-
+    tools:context=".VolunteerView">
+<!-- 봉사후기 목록-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -16,32 +16,9 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-    <View
-        android:layout_width="24dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/arrowleft" />
-
-    <TextView
-        android:id="@+id/text_ourwork"
-        android:layout_width="300dp"
-        android:layout_height="26dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="9dp"
-        android:fontFamily="@font/suit"
-        android:gravity="center_vertical"
-        android:lineSpacingExtra="3sp"
-        android:text="우리의 동행"
-        android:textAppearance="@style/text_mypage"
-        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnAdoptReview"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -53,7 +30,7 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnVolReview"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -94,7 +71,7 @@
 
 
     <TextView
-        android:id="@+id/btn_review1"
+        android:id="@+id/btn_VolReview"
         android:layout_width="224dp"
         android:layout_height="19dp"
         android:layout_alignParentLeft="true"
@@ -372,7 +349,7 @@
         />
 
     <TextView
-        android:id="@+id/some_id"
+        android:id="@+id/text_entertitle"
         android:layout_width="167dp"
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"
@@ -454,6 +431,43 @@
 
         </RelativeLayout>
     </ScrollView>
+
+    <View
+        android:id="@+id/rect_title"
+        android:layout_width="360dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        />
+
+    <!-- 뒤로 가기 버튼-->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/arrowleft" />
+
+    <TextView
+        android:id="@+id/text_ourwork"
+        android:layout_width="300dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/suit"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="3sp"
+        android:text="우리의 동행"
+        android:textAppearance="@style/text_mypage"
+        android:textStyle="bold" />
+
     <!--하단 네비게이션-->
 
     <View
@@ -553,32 +567,19 @@
         android:text="마이페이지"
         android:textColor="#AFAFAF"
         android:textSize="10sp" />
+    <!--하단네비게이션 코드 끝-->
 
     <!--봉사후기기작성 버튼-->
 
-    <View
-        android:id="@+id/ellipse_32"
+    <Button
+        android:id="@+id/btnWriteReview"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="284dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="664dp"
-        android:elevation="4dp"
-        android:background="@drawable/ellipse32"
-        />
-
-    <View
-        android:id="@+id/pencil"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="294.64dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="670.64dp"
-        android:elevation="4dp"
-        android:background="@drawable/pencil"
-        />
+        android:background="@drawable/btn_review" />
 
 
 
