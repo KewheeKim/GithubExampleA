@@ -165,7 +165,7 @@
             android:fontFamily="@font/suit"
             android:gravity="center_vertical"
             android:lineSpacingExtra="0sp"
-            android:text="김규희님,"
+            android:text="평생 가족을 기다려요"
             android:textAppearance="@style/text_name"
             android:textStyle="bold" />
 
@@ -227,7 +227,7 @@
             android:fontFamily="@font/suit"
             android:gravity="top"
             android:lineSpacingExtra="11sp"
-            android:text="OOO 님"
+            android:text="투게독 님"
             android:textAppearance="@style/text_ooo"
             android:textStyle="bold"
             android:translationY="-5.26sp" />
