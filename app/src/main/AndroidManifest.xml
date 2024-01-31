@@ -34,7 +34,7 @@
             android:name=".WritingReview"
             android:exported="false" />
         <activity
-            android:name=".VoluteerDetailedpage"
+            android:name=".VolunteerDetailedpage"
             android:exported="false" />
         <activity
             android:name=".VolunteerView"
