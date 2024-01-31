@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="332dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        app:srcCompat="@drawable/rectangle1" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="332dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="605dp"
+        android:backgroundTint="@color/mint"
+        android:fontFamily="@font/suit_bold"
+        android:radius="10px"
+        android:text="다음"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="14dp"
+        android:text="1/6"
+        android:textSize="12sp"
+        android:fontFamily="@font/suit_regular"
+        android:textColor="@color/medium_grey" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/pawprint" />
+
+    <!-- 위 위젯들은 모든 페이지에 공통으로 들어감 -->
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:text="현재, 출국일까지 2주 이상의 기간이\n남아있습니까?"
+            android:textSize="22sp"
+            android:fontFamily="@font/suit_bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="8dp"
+            android:text="출국 준비를 위하여 최소 2주 이상의 기간이 필요합니다."
+            android:textSize="14sp"
+            android:fontFamily="@font/suit_regular"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="24px"
+        android:layout_height="24px"
+        android:layout_marginTop="202dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="202dp"
+        android:layout_marginStart="50dp"
+        android:text="네, 2주 이상 남았습니다."
+        android:textSize="16sp"
+        android:fontFamily="@font/suit_regular"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="116dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:text="인천공항에서 출발하여 최종 목적지에\n도착하는 직항 비행편이 맞습니까?"
+            android:textSize="22sp"
+            android:fontFamily="@font/suit_bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="8dp"
+            android:text="강아지들의 비행시간을 고려하여, 경유 비행편으로는 해외\n이동봉사를 진행하지 않고 있습니다."
+            android:textSize="14sp"
+            android:fontFamily="@font/suit_regular"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="24px"
+        android:layout_height="24px"
+        android:layout_marginTop="422dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/suit_regular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="422dp"
+        android:layout_marginStart="50dp"
+        android:text="네, 인천에서 출발하여 최종 목적지로 도착하는\n직항 비행편 입니다."
+        android:textSize="16sp"
+        android:fontFamily="@font/suit_regular"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>
