@@ -59,44 +59,190 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="274dp"
+        android:layout_marginTop="297dp"
         android:text="지난 입양 이동 봉사"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:fontFamily="@font/suit_bold" />
 
+    <!-- 구분선 -->
     <ImageView
         android:layout_width="328dp"
         android:layout_height="147dp"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="315dp"
+        android:layout_marginTop="338dp"
         app:srcCompat="@drawable/vecter1_shadow" />
 
+    <!-- 지난 입양 이동 봉사 1-->
+
     <ImageView
-        android:id="@+id/imageView13"
         android:layout_width="328dp"
         android:layout_height="147dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="312dp"
+        android:layout_marginTop="335dp"
         app:srcCompat="@drawable/vecter1" />
 
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="442dp"
+        android:layout_marginStart="169dp"
+        android:background="@color/mint"
+        android:text="입양 후기 보기"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/suit_semibold"
+        android:paddingTop="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="347dp"
+        android:layout_marginStart="158dp"
+        android:text="가디"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/suit_bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:layout_marginStart="182dp"
+        android:text="INC"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/suit_medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:layout_marginStart="240dp"
+        android:text="JFK"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/suit_medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="408.5dp"
+        android:layout_marginStart="182dp"
+        android:text="2023년 12월 24일 (일)"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/suit_medium" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:layout_marginStart="158dp"
+        app:srcCompat="@drawable/airplanetakeoff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="408dp"
+        android:layout_marginStart="158dp"
+        app:srcCompat="@drawable/calendar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:layout_marginStart="214dp"
+        app:srcCompat="@drawable/dotsthree"/>
 
 
-
+    <!-- 지난 입양 이동 봉사 2-->
 
     <ImageView
         android:layout_width="328dp"
         android:layout_height="147dp"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="478dp"
+        android:layout_marginTop="501dp"
         app:srcCompat="@drawable/vecter1_shadow" />
 
     <ImageView
-        android:id="@+id/imageView14"
         android:layout_width="328dp"
         android:layout_height="147dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="475dp"
+        android:layout_marginTop="498dp"
         app:srcCompat="@drawable/vecter1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="158dp"
+        android:text="미일"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/suit_bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="547dp"
+        android:layout_marginStart="182dp"
+        android:text="INC"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/suit_medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="547dp"
+        android:layout_marginStart="240dp"
+        android:text="LAX"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/suit_medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="571.5dp"
+        android:layout_marginStart="182dp"
+        android:text="2023년 11월 9일 (목)"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/suit_medium" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="547dp"
+        android:layout_marginStart="158dp"
+        app:srcCompat="@drawable/airplanetakeoff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="571dp"
+        android:layout_marginStart="158dp"
+        app:srcCompat="@drawable/calendar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="547dp"
+        android:layout_marginStart="214dp"
+        app:srcCompat="@drawable/dotsthree"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginStart="169dp"
+        android:background="@color/mint"
+        android:text="입양 후기 보기"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/suit_semibold"
+        android:paddingTop="2dp"/>
 
 </FrameLayout>
