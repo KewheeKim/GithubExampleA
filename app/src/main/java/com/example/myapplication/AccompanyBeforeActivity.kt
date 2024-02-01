@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 class AccompanyBeforeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_accompanybefore)
+        setContentView(R.layout.fragment_record_1)
 
         getSupportActionBar()?.setTitle("나의 동행")
 
