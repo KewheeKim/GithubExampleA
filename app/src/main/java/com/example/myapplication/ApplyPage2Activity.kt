@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class ApplyPage2Activity : AppCompatActivity() {
     //lateinit var myHelper : myDBHelper
-    lateinit var sqlDB: SQLiteDatabase
+    //lateinit var sqlDB: SQLiteDatabase
 
     lateinit var ap2DBManager: Ap2DBManager
     lateinit var sqlitedb: SQLiteDatabase

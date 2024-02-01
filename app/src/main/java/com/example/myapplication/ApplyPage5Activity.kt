@@ -13,8 +13,11 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class ApplyPage5Activity : AppCompatActivity() {
-        lateinit var sqlDB: SQLiteDatabase
-        lateinit var myHelper: myDBHelper
+//        lateinit var sqlDB: SQLiteDatabase
+//        lateinit var myHelper: myDBHelper
+
+    lateinit var ap5DBManager: Ap5DBManager
+    lateinit var sqlitedb: SQLiteDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,11 +41,17 @@ class ApplyPage5Activity : AppCompatActivity() {
                 val valueRNum = edtRNum.text.toString()
                 val vlaueAirLine = selectedRBtn.text.toString()
 
-                myHelper = myDBHelper(this)
+//                myHelper = myDBHelper(this)
+//
+//                sqlDB = myHelper.writableDatabase
+//                sqlDB.execSQL("INSERT INTO ap5TBL VALUES ('$vlaueAirLine','$valueFName', '$valueRNum')")
+//                sqlDB.close()
 
-                sqlDB = myHelper.writableDatabase
-                sqlDB.execSQL("INSERT INTO ap5TBL VALUES ('$vlaueAirLine','$valueFName', '$valueRNum')")
-                sqlDB.close()
+                ap5DBManager = Ap5DBManager(this, "ap5", null, 1)
+
+                sqlitedb = ap5DBManager.writableDatabase
+                sqlitedb.execSQL("INSERT INTO ap4 VALUES ('$vlaueAirLine','$valueFName', '$valueRNum')")
+                sqlitedb.close()
 
                 val intent = Intent(this, ApplyPage6Activity::class.java)
                 startActivity(intent)
@@ -50,6 +59,7 @@ class ApplyPage5Activity : AppCompatActivity() {
         }
 
     }
+    /*
     inner class myDBHelper(context: Context) : SQLiteOpenHelper (context, "ap5DB", null, 1) {
         override fun onCreate(db: SQLiteDatabase?) {
             db!!.execSQL("CREATE TABLE ap5TBL (airLine text, FName text, RNum text);")
@@ -60,5 +70,7 @@ class ApplyPage5Activity : AppCompatActivity() {
             onCreate(db)
         }
     }
+    */
+
 
 }
