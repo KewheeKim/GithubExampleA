@@ -30,7 +30,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="58dp"
-            android:layout_marginTop="699dp"
+            android:layout_marginTop="630dp"
             android:gravity="center_vertical"
             android:lineSpacingExtra="0sp"
             android:text="로그아웃"
@@ -45,7 +45,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="58dp"
-            android:layout_marginTop="648dp"
+            android:layout_marginTop="579dp"
             android:gravity="center_vertical"
             android:lineSpacingExtra="0sp"
             android:text="1:1문의하기"
@@ -59,7 +59,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="58dp"
-            android:layout_marginTop="600dp"
+            android:layout_marginTop="531dp"
             android:gravity="center_vertical"
             android:lineSpacingExtra="0sp"
             android:text="자주 묻는 질문"
@@ -73,7 +73,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="58dp"
-            android:layout_marginTop="549dp"
+            android:layout_marginTop="480dp"
             android:gravity="center_vertical"
             android:lineSpacingExtra="0sp"
             android:text="공지사항"
@@ -87,7 +87,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="58dp"
-            android:layout_marginTop="498dp"
+            android:layout_marginTop="429dp"
             android:gravity="center_vertical"
             android:lineSpacingExtra="0sp"
             android:text="글자 크기 조절"
@@ -102,7 +102,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="2dp"
             android:layout_marginLeft="4dp"
-            android:layout_marginTop="682dp"
+            android:layout_marginTop="613dp"
             android:background="#F7F7F7" />
 
         <View
@@ -115,7 +115,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginStart="2dp"
             android:layout_marginLeft="4dp"
-            android:layout_marginTop="634dp"
+            android:layout_marginTop="565dp"
             android:background="#F4F4F4" />
 
         <View
@@ -128,7 +128,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginStart="2dp"
             android:layout_marginLeft="4dp"
-            android:layout_marginTop="583dp"
+            android:layout_marginTop="514dp"
             android:background="#F4F4F4" />
 
         <View
@@ -141,7 +141,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginStart="2dp"
             android:layout_marginLeft="4dp"
-            android:layout_marginTop="532dp"
+            android:layout_marginTop="463dp"
             android:background="#F4F4F4" />
 
         <View
@@ -151,7 +151,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="2dp"
-            android:layout_marginTop="307dp"
+            android:layout_marginTop="238dp"
             android:background="#F7F7F7" />
 
         <TextView
@@ -161,7 +161,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="336dp"
+            android:layout_marginTop="267dp"
             android:fontFamily="@font/suit"
             android:gravity="center_vertical"
             android:lineSpacingExtra="0sp"
@@ -176,7 +176,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="259dp"
-            android:layout_marginTop="258dp"
+            android:layout_marginTop="192dp"
             android:fontFamily="@font/suit"
             android:gravity="top"
             android:lineSpacingExtra="4sp"
@@ -192,7 +192,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="284dp"
-            android:layout_marginTop="155dp"
+            android:layout_marginTop="86dp"
             android:gravity="top"
             android:lineSpacingExtra="9sp"
             android:text="내 정보 관리"
@@ -207,7 +207,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="222dp"
+            android:layout_marginTop="153dp"
             android:fontFamily="@font/suit"
             android:gravity="top"
             android:lineSpacingExtra="3sp"
@@ -223,7 +223,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="91dp"
-            android:layout_marginTop="146dp"
+            android:layout_marginTop="77dp"
             android:fontFamily="@font/suit"
             android:gravity="top"
             android:lineSpacingExtra="11sp"
@@ -236,7 +236,7 @@
             android:layout_width="63dp"
             android:layout_height="63dp"
             android:layout_marginStart="13dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="61dp"
             android:background="@drawable/intersect" />
 
         <!--View
@@ -252,7 +252,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="262dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="81dp"
             android:background="@drawable/settingline" />
 
         <View
@@ -261,7 +261,7 @@
             android:layout_height="9dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="475dp"
+            android:layout_marginTop="406dp"
             android:background="#F7F7F7" />
 
         <View
@@ -270,7 +270,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="647dp"
+            android:layout_marginTop="578dp"
             android:background="@drawable/headset" />
 
         <View
@@ -279,7 +279,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="700dp"
+            android:layout_marginTop="631dp"
             android:background="@drawable/signout" />
 
         <View
@@ -288,7 +288,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="597dp"
+            android:layout_marginTop="528dp"
             android:background="@drawable/charcircle" />
 
         <View
@@ -297,7 +297,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="553dp"
+            android:layout_marginTop="484dp"
             android:background="@drawable/megaphonesimple" />
 
         <View
@@ -306,7 +306,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="497dp"
+            android:layout_marginTop="428dp"
             android:background="@drawable/textsize" />
 
         <View
@@ -315,7 +315,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="17dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_ellipse" />
 
         <View
@@ -324,7 +324,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="17dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_pawprint" />
 
         <View
@@ -333,7 +333,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="63dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_ellipse" />
 
         <View
@@ -342,7 +342,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="63dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_pawprint" />
 
         <View
@@ -351,7 +351,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="111dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_ellipse1" />
 
         <View
@@ -360,7 +360,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="111dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_pawprint1" />
 
         <View
@@ -369,7 +369,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="158dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_ellipse1" />
 
         <View
@@ -378,7 +378,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="158dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_pawprint1" />
 
         <View
@@ -387,7 +387,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="204dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_ellipse1" />
 
         <View
@@ -396,7 +396,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="204dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="181dp"
             android:background="@drawable/img_pawprint1" />
 
         <!--TextView
