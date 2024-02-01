@@ -66,6 +66,8 @@ class RegisterActivity : AppCompatActivity() {
 
     }
 
+
+   // 액션바 뒤로가기 기능 구현
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item?.itemId) {
             android.R.id.home -> {
