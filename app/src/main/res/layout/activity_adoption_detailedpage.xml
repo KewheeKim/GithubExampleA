@@ -73,7 +73,7 @@
         android:layout_marginLeft="16dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="165dp"
-        android:text="해라에게 크리스마스 선물로 엄마, 아빠, 두 오빠와 덩치 큰 여동생 베리와 레오가 생겼습니다. 해라는 보령 불법 무허가 번식장에서 구조된 3살 추정 강아지입니다."
+        android:text="가디에게 크리스마스 선물로 엄마, 아빠, 두 오빠와 덩치 큰 여동생 베리와 레오가 생겼습니다. 가디는 보령 불법 무허가 번식장에서 구조된 3살 추정 강아지입니다."
         android:lineSpacingExtra="4sp"
         android:translationY="-2.02sp"
         android:gravity="top"
