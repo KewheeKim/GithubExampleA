@@ -13,13 +13,17 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.Homectivity"
+            android:exported="false" />
+        <activity
             android:name=".NaviActivity"
             android:exported="true" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="false" />
-
-        <!-- 로딩 후 첫 화면 -->
+            android:exported="false" /> <!-- 로딩 후 첫 화면 -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -29,7 +33,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".WritingReview"
             android:exported="false" />
@@ -51,34 +54,29 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
         <activity
             android:name=".ApplyPage1Activity"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ApplyPage2Activity"
-            android:parentActivityName=".ApplyPage1Activity"/>
+            android:parentActivityName=".ApplyPage1Activity" />
         <activity
             android:name=".ApplyPage3Activity"
-            android:parentActivityName=".ApplyPage2Activity"/>
+            android:parentActivityName=".ApplyPage2Activity" />
         <activity
             android:name=".ApplyPage4Activity"
-            android:parentActivityName=".ApplyPage3Activity"/>
+            android:parentActivityName=".ApplyPage3Activity" />
         <activity
             android:name=".ApplyPage5Activity"
-            android:parentActivityName=".ApplyPage4Activity"/>
+            android:parentActivityName=".ApplyPage4Activity" />
         <activity
             android:name=".ApplyPage6Activity"
-            android:parentActivityName=".ApplyPage5Activity"/>
+            android:parentActivityName=".ApplyPage5Activity" />
         <activity
             android:name=".ApplyPage7Activity"
             android:parentActivityName=".ApplyPage6Activity" />
-        <activity
-            android:name=".AccompanyBeforeActivity" />
-        <activity
-            android:name=".AccompanyAfterActivity" />
-
-
+        <activity android:name=".AccompanyBeforeActivity" />
+        <activity android:name=".AccompanyAfterActivity" />
     </application>
 
 </manifest>
