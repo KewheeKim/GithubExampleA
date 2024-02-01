@@ -38,7 +38,7 @@ class RegisterActivity : AppCompatActivity() {
                                 "가입되었습니다.",
                                 Toast.LENGTH_SHORT
                             ).show()
-                            val intent = Intent(applicationContext, HomeFragment::class.java)
+                            val intent = Intent(applicationContext, HomeActivity::class.java)
                             startActivity(intent)
                         } else {
                             Toast.makeText(

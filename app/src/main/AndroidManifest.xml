@@ -16,9 +16,6 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.theme.Homectivity"
-            android:exported="false" />
-        <activity
             android:name=".NaviActivity"
             android:exported="true" />
         <activity

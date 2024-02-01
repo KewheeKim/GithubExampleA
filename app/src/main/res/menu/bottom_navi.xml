@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/home"
+        android:id="@+id/action_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@drawable/selector_home_ic"
         android:title="홈" />
 
     <item
-        android:id="@+id/record"
+        android:id="@+id/action_record"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@drawable/selector_record_ic"
         android:title="나의 동행" />
 
     <item
-        android:id="@+id/board"
+        android:id="@+id/action_board"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@drawable/selector_board_ic"
         android:title="우리의 동행" />
 
     <item
-        android:id="@+id/mypage"
+        android:id="@+id/action_mypage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@drawable/selector_mypage_ic"

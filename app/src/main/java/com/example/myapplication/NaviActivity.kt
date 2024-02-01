@@ -3,7 +3,6 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.ActivityNaviBinding
 
 
@@ -15,7 +14,7 @@ class NaviActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityNaviBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        replaceFragment(HomeFragment())
+        replaceActivity(HomeActivity::class.java)
 
         binding.bottomNavigationView.itemIconTintList = null // 아이콘 색 안변함 이슈 해결
 
@@ -23,10 +22,10 @@ class NaviActivity : AppCompatActivity() {
 
             when(it.itemId) {
 
-                R.id.home -> replaceFragment(HomeFragment())
-                R.id.record -> replaceFragment(Record_1Fragment())
-                R.id.board -> replaceFragment(BoardFragment())
-                R.id.mypage -> replaceFragment(MyPageFragment())
+                R.id.action_home -> replaceActivity(HomeActivity::class.java)
+                R.id.action_record -> replaceActivity(AccompanyBeforeActivity::class.java)
+                R.id.action_board -> replaceActivity(VolunteerView::class.java)
+                R.id.action_mypage -> replaceActivity(myPage::class.java)
 
                 else -> {
 
@@ -39,19 +38,19 @@ class NaviActivity : AppCompatActivity() {
 
     }
 
-    private fun replaceFragment(fragment: Fragment) {
+    /* private fun replaceFragment(fragment: Fragment) {
 
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.frame_layout, fragment)
         fragmentTransaction.commit()
 
-    }
+    } */
 
-    /*
+
     private fun replaceActivity(activityClass: Class <*>) {
         val intent = Intent(this, activityClass)
         startActivity(intent)
         finish()
-    } */
+    }
 }
