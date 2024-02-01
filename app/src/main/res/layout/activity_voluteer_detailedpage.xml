@@ -67,14 +67,14 @@
         android:background="#F4F4F4" />
 
     <TextView
-        android:id="@+id/text_entertitle"
+        android:id="@+id/text_detailedreview1_1"
         android:layout_width="326dp"
         android:layout_height="96dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="16dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="165dp"
-        android:text="해라에게 크리스마스 선물로 엄마, 아빠, 두 오빠와 덩치 큰 여동생 베리와 레오가 생겼습니다. 해라는 보령 불법 무허가 번식장에서 구조된 3살 추정 강아지입니다."
+        android:text="샌프란시스코로 출장을 가야 하는 일정이 잡혀 이번에도 어김없이 해외 입양 이동 봉사를 신청해보았습니다. 항상 눈에 밟히던 친구인 와리가 가족을 만나게 되어 기쁩니다."
         android:lineSpacingExtra="4sp"
         android:translationY="-2.02sp"
         android:gravity="top"
@@ -90,8 +90,25 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="273dp"
-        android:background="@drawable/picture1"
+        android:background="@drawable/vpicture2"
         />
+
+            <TextView
+                android:id="@+id/text_detailedreview1_2"
+                android:layout_width="326dp"
+                android:layout_height="96dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="625dp"
+                android:text="탑승 전에 잠깐 산책을 했더니 긴장이 조금 풀어진 모습입니다. 장시간 비행을 하는 동안 와리가 많이 힘들어하지 않길 바라고 있습니다."
+                android:lineSpacingExtra="4sp"
+                android:translationY="-2.02sp"
+                android:gravity="top"
+                android:textSize="16sp"
+                android:textColor="#121212"
+                android:fontFamily="@font/suit"
+                />
 
     <View
         android:id="@+id/rectangle_22"
@@ -99,9 +116,19 @@
         android:layout_height="328dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="650dp"
-        android:background="@drawable/picture2"
+        android:layout_marginTop="710dp"
+        android:background="@drawable/vpicture1"
         />
+
+            <View
+                android:id="@+id/rect_occupy"
+                android:layout_width="360dp"
+                android:layout_height="51dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1100dp"
+                android:background="#FFFFFF"
+                />
 
 
         </RelativeLayout>

@@ -98,8 +98,19 @@
                 android:layout_height="328dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="650dp"
+                android:layout_marginTop="620dp"
                 android:background="@drawable/picture2" />
+
+            <View
+                android:id="@+id/rect_occupy"
+                android:layout_width="360dp"
+                android:layout_height="51dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1100dp"
+                android:background="#FFFFFF"
+                />
+
 
         </RelativeLayout>
     </ScrollView>
