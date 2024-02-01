@@ -4,12 +4,12 @@
     android:id="@+id/fragment_record"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RecordFragment"> <!-- 나의 동행 화면 -->
+    tools:context=".Record_1Fragment"> <!-- 나의 동행 화면 -->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="나의 동행"
+        android:text="신청 전 나의 동행"
         android:textSize="30sp"
         android:layout_gravity="center" />
 
