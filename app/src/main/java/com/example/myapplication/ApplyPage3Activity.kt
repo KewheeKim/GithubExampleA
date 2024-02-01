@@ -17,7 +17,6 @@ class ApplyPage3Activity : AppCompatActivity() {
     lateinit var edtNumber: EditText
     lateinit var edtEmail1: EditText
     lateinit var edtEmail2: EditText
-    lateinit var sqlDB: SQLiteDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,30 +37,6 @@ class ApplyPage3Activity : AppCompatActivity() {
         var nextBtn = findViewById<Button>(R.id.nextBtn)
 
         nextBtn.setOnClickListener({
-
-            /*sqlDB = myHelper.writableDatabase
-            sqlDB.execSQL("INSERT INTO applyTBL VALUES ( '"
-            + edtName.text.toString() + "', "
-            + edtNumber.text.toString() + ","
-            + edtEmail1.text.toString() + "', "
-            + edtEmail2.text.toString() + "';"
-
-            val name = edtName.text.toString()
-            val number = edtNumber.text.toString()
-            val email1 = edtEmail1.text.toString()
-            val email2 = edtEmail2.text.toString()
-
-            // 데이터베이스에 데이터를 저장
-            val sqlDB = myHelper.writableDatabase
-            val values = ContentValues().apply {
-                put("name", name)
-                put("number", number)
-                put("email1", email1)
-                put("email2", email2)
-            }
-            sqlDB.insert("applyTBL", null, values)
-
-            sqlDB.close()*/
 
             //다음 화면으로 넘어감
             val intent = Intent(this, ApplyPage4Activity::class.java)
