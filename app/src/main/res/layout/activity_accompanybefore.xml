@@ -42,87 +42,8 @@
             android:layout_marginStart="148dp"
             app:srcCompat="@drawable/baseline_add_24"
             android:background="@color/white"/>
-<!--
-        <TextView
-            android:id="@+id/tvDestination"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="19dp"
-            android:layout_marginTop="51dp"
-            android:text="tvDestination" />
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="15dp"
-            android:text="TextView" />
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="85dp"
-            android:layout_marginEnd="251dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="21dp"
-            android:layout_marginTop="124dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="14dp"
-            android:layout_marginEnd="38dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="49dp"
-            android:layout_marginEnd="35dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="89dp"
-            android:layout_marginEnd="34dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="120dp"
-            android:layout_marginEnd="33dp"
-            android:text="TextView" />
--->
     </RelativeLayout>
 
     <RelativeLayout
