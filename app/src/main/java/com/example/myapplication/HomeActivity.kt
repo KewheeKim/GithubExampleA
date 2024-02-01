@@ -5,11 +5,22 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.ImageButton
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+        var plus = findViewById<ImageButton>(R.id.plus)
+
+        plus.setOnClickListener({
+
+            //다음 화면으로 넘어감
+            val intent = Intent(this, ApplyPage1Activity::class.java)
+            startActivity(intent)
+        })
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

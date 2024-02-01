@@ -93,7 +93,8 @@
                 android:gravity="center_horizontal|top" />
 
             <!-- 플러스 아이콘 -->
-            <View
+
+            <ImageButton
                 android:id="@+id/plus"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
@@ -103,6 +104,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="210dp"
                 android:background="@drawable/ic_plus" />
+
+
 
             <!-- 나와 함께한 친구들 -->
             <TextView
