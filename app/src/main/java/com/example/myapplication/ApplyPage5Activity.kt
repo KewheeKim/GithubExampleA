@@ -50,7 +50,7 @@ class ApplyPage5Activity : AppCompatActivity() {
                 ap5DBManager = Ap5DBManager(this, "ap5", null, 1)
 
                 sqlitedb = ap5DBManager.writableDatabase
-                sqlitedb.execSQL("INSERT INTO ap4 VALUES ('$vlaueAirLine','$valueFName', '$valueRNum')")
+                sqlitedb.execSQL("INSERT INTO ap5 VALUES ('$vlaueAirLine','$valueFName', '$valueRNum')")
                 sqlitedb.close()
 
                 val intent = Intent(this, ApplyPage6Activity::class.java)
