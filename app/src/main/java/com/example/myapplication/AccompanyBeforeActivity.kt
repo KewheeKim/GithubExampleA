@@ -39,4 +39,6 @@ class AccompanyBeforeActivity : AppCompatActivity() {
             startActivity(intent)
         })
     }
+
+    
 }
