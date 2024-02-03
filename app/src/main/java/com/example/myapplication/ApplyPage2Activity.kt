@@ -38,7 +38,7 @@ class ApplyPage2Activity : AppCompatActivity() {
             // 라디오 버튼의 선택 상태가 변경될 때마다 처리할 내용
             // 다음 화면으로 전환, db에 저장
             nextBtn.setOnClickListener({
-                val destination = selectedRBtn.text.toString()
+                val destination = resources.getResourceEntryName(selectedRBtn.id)
 
                 /*myHelper = myDBHelper(this)
 

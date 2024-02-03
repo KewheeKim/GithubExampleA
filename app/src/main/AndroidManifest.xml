@@ -53,7 +53,7 @@
             android:exported="false" />
         <activity
             android:name=".ApplyPage1Activity"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".ApplyPage2Activity"
             android:parentActivityName=".ApplyPage1Activity" />
@@ -72,8 +72,12 @@
         <activity
             android:name=".ApplyPage7Activity"
             android:parentActivityName=".ApplyPage6Activity" />
-        <activity android:name=".AccompanyBeforeActivity" />
-        <activity android:name=".AccompanyAfterActivity" />
+        <activity 
+            android:name=".AccompanyBeforeActivity"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".AccompanyAfterActivity"
+            android:parentActivityName=".HomeActivity"/>
     </application>
 
 </manifest>

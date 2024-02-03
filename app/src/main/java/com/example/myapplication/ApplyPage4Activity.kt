@@ -99,7 +99,7 @@ class ApplyPage4Activity : AppCompatActivity() {
                 android.R.style.Theme_Holo_Light_Dialog_NoActionBar,
                 TimePickerDialog.OnTimeSetListener { view: TimePicker, selectedHour: Int, minuteOfDay: Int ->
                     // 시간이 설정되면 실행되는 콜백 함수
-                    val selectedTime = "       $selectedHour:$minuteOfDay"
+                    val selectedTime = "$selectedHour:$minuteOfDay"
                     edtTime1.text = selectedTime // 버튼 텍스트를 선택한 날짜로 설정
                 },
                 hour,
@@ -122,7 +122,7 @@ class ApplyPage4Activity : AppCompatActivity() {
                 android.R.style.Theme_Holo_Light_Dialog_NoActionBar,
                 TimePickerDialog.OnTimeSetListener { view: TimePicker, selectedHour: Int, minuteOfDay: Int ->
                     // 시간이 설정되면 실행되는 콜백 함수
-                    val selectedTime = "       $selectedHour:$minuteOfDay"
+                    val selectedTime = "$selectedHour:$minuteOfDay"
                     edtTime2.text = selectedTime // 버튼 텍스트를 선택한 날짜로 설정
                 },
                 hour,

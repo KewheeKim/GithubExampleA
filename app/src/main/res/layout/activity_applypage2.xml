@@ -93,6 +93,7 @@
         android:layout_marginTop="152dp">
 
         <RadioButton
+            android:id="@+id/JFK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="JFK 뉴욕 존 F.케네디"
@@ -102,6 +103,7 @@
             />
 
         <RadioButton
+            android:id="@+id/LAX"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="LAX 로스앤젤레스"
@@ -110,6 +112,7 @@
             android:fontFamily="@font/suit_regular"/>
 
         <RadioButton
+            android:id="@+id/SFO"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SFO 샌프란시스코"

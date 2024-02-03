@@ -6,231 +6,6 @@
     android:layout_height="match_parent" >
 
 
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="16dp"-->
-<!--        android:layout_marginTop="32dp"-->
-<!--        android:text="다가오는 입양 이동 봉사"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:fontFamily="@font/suit_bold"/>-->
-
-<!--    <RelativeLayout-->
-<!--        android:layout_width="328dp"-->
-<!--        android:layout_height="154dp"-->
-<!--        android:layout_marginTop="67dp"-->
-<!--        android:layout_marginStart="16dp"-->
-<!--        android:backgroundTint="@color/mint"-->
-<!--        android:background="@color/light_light_grey">-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginStart="106dp"-->
-<!--            android:layout_marginTop="46dp"-->
-<!--            android:text="이동봉사 신청하기"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:fontFamily="@font/suit_bold"-->
-<!--            android:textSize="16sp" />-->
-
-<!--        <ImageButton-->
-<!--            android:id="@+id/addBtn"-->
-<!--            android:layout_width="32dp"-->
-<!--            android:layout_height="32dp"-->
-<!--            android:layout_marginStart="148dp"-->
-<!--            android:layout_marginTop="76dp"-->
-<!--            android:background="@color/mint"-->
-<!--            app:srcCompat="@drawable/baseline_add_24_white" />-->
-
-<!--    </RelativeLayout>-->
-
-<!--    &lt;!&ndash; 구분선 &ndash;&gt;-->
-<!--    <RelativeLayout-->
-<!--        android:layout_width="360dp"-->
-<!--        android:layout_height="9dp"-->
-<!--        android:layout_marginStart="0dp"-->
-<!--        android:layout_marginTop="241dp"-->
-<!--        android:background="@color/light_light_grey"/>-->
-<!--    &lt;!&ndash;&ndash;&gt;-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="16dp"-->
-<!--        android:layout_marginTop="297dp"-->
-<!--        android:text="지난 입양 이동 봉사"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="20sp"-->
-<!--        android:fontFamily="@font/suit_bold" />-->
-
-
-
-
-<!--    &lt;!&ndash; 지난 입양 이동 봉사 1&ndash;&gt;-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="328dp"-->
-<!--        android:layout_height="147dp"-->
-<!--        android:layout_marginStart="16dp"-->
-<!--        android:layout_marginTop="335dp"-->
-<!--        app:srcCompat="@drawable/dogvector1" />-->
-
-<!--    <Button-->
-<!--        android:layout_width="140dp"-->
-<!--        android:layout_height="28dp"-->
-<!--        android:layout_marginTop="442dp"-->
-<!--        android:layout_marginStart="169dp"-->
-<!--        android:background="@color/mint"-->
-<!--        android:text="입양 후기 보기"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:textSize="14sp"-->
-<!--        android:fontFamily="@font/suit_semibold"-->
-<!--        android:paddingTop="2dp"/>-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="347dp"-->
-<!--        android:layout_marginStart="158dp"-->
-<!--        android:text="가디"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="25sp"-->
-<!--        android:fontFamily="@font/suit_bold"/>-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="384dp"-->
-<!--        android:layout_marginStart="182dp"-->
-<!--        android:text="INC"-->
-<!--        android:textSize="12sp"-->
-<!--        android:textColor="@color/dark_grey"-->
-<!--        android:fontFamily="@font/suit_medium" />-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="384dp"-->
-<!--        android:layout_marginStart="240dp"-->
-<!--        android:text="JFK"-->
-<!--        android:textSize="12sp"-->
-<!--        android:textColor="@color/dark_grey"-->
-<!--        android:fontFamily="@font/suit_medium" />-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="408.5dp"-->
-<!--        android:layout_marginStart="182dp"-->
-<!--        android:text="2023년 12월 24일 (일)"-->
-<!--        android:textSize="12sp"-->
-<!--        android:textColor="@color/dark_grey"-->
-<!--        android:fontFamily="@font/suit_medium" />-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="384dp"-->
-<!--        android:layout_marginStart="158dp"-->
-<!--        app:srcCompat="@drawable/airplanetakeoff" />-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="408dp"-->
-<!--        android:layout_marginStart="158dp"-->
-<!--        app:srcCompat="@drawable/calendar" />-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="384dp"-->
-<!--        android:layout_marginStart="214dp"-->
-<!--        app:srcCompat="@drawable/dotsthree"/>-->
-
-
-<!--    &lt;!&ndash; 지난 입양 이동 봉사 2&ndash;&gt;-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="328dp"-->
-<!--        android:layout_height="147dp"-->
-<!--        android:layout_marginStart="16dp"-->
-<!--        android:layout_marginTop="498dp"-->
-<!--        app:srcCompat="@drawable/dogvector2" />-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="510dp"-->
-<!--        android:layout_marginStart="158dp"-->
-<!--        android:text="미일"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="25sp"-->
-<!--        android:fontFamily="@font/suit_bold"/>-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="547dp"-->
-<!--        android:layout_marginStart="182dp"-->
-<!--        android:text="INC"-->
-<!--        android:textSize="12sp"-->
-<!--        android:textColor="@color/dark_grey"-->
-<!--        android:fontFamily="@font/suit_medium" />-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="547dp"-->
-<!--        android:layout_marginStart="240dp"-->
-<!--        android:text="LAX"-->
-<!--        android:textSize="12sp"-->
-<!--        android:textColor="@color/dark_grey"-->
-<!--        android:fontFamily="@font/suit_medium" />-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="571.5dp"-->
-<!--        android:layout_marginStart="182dp"-->
-<!--        android:text="2023년 11월 9일 (목)"-->
-<!--        android:textSize="12sp"-->
-<!--        android:textColor="@color/dark_grey"-->
-<!--        android:fontFamily="@font/suit_medium" />-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="547dp"-->
-<!--        android:layout_marginStart="158dp"-->
-<!--        app:srcCompat="@drawable/airplanetakeoff" />-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="571dp"-->
-<!--        android:layout_marginStart="158dp"-->
-<!--        app:srcCompat="@drawable/calendar" />-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="547dp"-->
-<!--        android:layout_marginStart="214dp"-->
-<!--        app:srcCompat="@drawable/dotsthree"/>-->
-
-<!--    <Button-->
-<!--        android:layout_width="140dp"-->
-<!--        android:layout_height="28dp"-->
-<!--        android:layout_marginTop="605dp"-->
-<!--        android:layout_marginStart="169dp"-->
-<!--        android:background="@color/mint"-->
-<!--        android:text="입양 후기 보기"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:textSize="14sp"-->
-<!--        android:fontFamily="@font/suit_semibold"-->
-<!--        android:paddingTop="2dp"/>-->
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -254,6 +29,7 @@
             <!--이동봉사 신청하기-->
 
             <RelativeLayout
+                android:id="@+id/applyLayout"
                 android:layout_width="328dp"
                 android:layout_height="154dp"
                 android:layout_marginTop="67dp"
@@ -279,6 +55,215 @@
                     android:layout_marginTop="76dp"
                     android:background="@color/mint"
                     app:srcCompat="@drawable/baseline_add_24_white" />
+
+            </RelativeLayout>
+
+
+            <!-- 구분선과 지난 입양 이동 봉사 텍스트, 사진 두 개가 포함된 레이아웃-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="256dp">
+
+                <!-- 구분선 -->
+                <RelativeLayout
+                    android:layout_width="360dp"
+                    android:layout_height="9dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/light_light_grey"/>
+                <!---->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="41dp"
+                    android:text="지난 입양 이동 봉사"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/suit_bold" />
+
+                <!-- 지난 입양 이동 봉사 1-->
+                <RelativeLayout
+                    android:id="@+id/dog1Layout"
+                    android:layout_width="336dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="79dp"
+                    android:layout_marginStart="12dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/dogvector1" />
+
+                    <Button
+                        android:id="@+id/toAdoptionDetaildpage1"
+                        android:layout_width="140dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="107dp"
+                        android:layout_marginStart="157dp"
+                        android:background="@color/mint"
+                        android:text="입양 후기 보기"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/suit_semibold"
+                        android:paddingTop="2dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="146dp"
+                        android:text="가디"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/suit_bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="170dp"
+                        android:text="INC"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="218dp"
+                        android:text="JFK"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73.5dp"
+                        android:layout_marginStart="170dp"
+                        android:text="2023년 12월 24일 (일)"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="146dp"
+                        app:srcCompat="@drawable/airplanetakeoff" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginStart="146dp"
+                        app:srcCompat="@drawable/calendar" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="197dp"
+                        app:srcCompat="@drawable/dotsthree"/>
+
+                </RelativeLayout>
+
+                <!-- 지난 입양 이동 봉사 1 -->
+
+                <RelativeLayout
+                    android:id="@+id/dog2Layout"
+                    android:layout_width="336dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginStart="12dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        app:srcCompat="@drawable/dogvector2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="154dp"
+                        android:text="미일"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/suit_bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="178dp"
+                        android:text="INC"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="225dp"
+                        android:text="LAX"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73.5dp"
+                        android:layout_marginStart="178dp"
+                        android:text="2023년 11월 9일 (목)"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="154dp"
+                        app:srcCompat="@drawable/airplanetakeoff" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginStart="154dp"
+                        app:srcCompat="@drawable/calendar" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="205dp"
+                        app:srcCompat="@drawable/dotsthree"/>
+
+                    <Button
+                        android:id="@+id/toAdoptionDetaildpage2"
+                        android:layout_width="140dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="107dp"
+                        android:layout_marginStart="157dp"
+                        android:background="@color/mint"
+                        android:text="입양 후기 보기"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/suit_semibold"
+                        android:paddingTop="2dp"/>
+                </RelativeLayout>
 
             </RelativeLayout>
 
@@ -556,396 +541,8 @@
 
             </RelativeLayout>
 
-            <!-- 구분선과 지난 입양 이동 봉사 텍스트, 사진 두 개가 포함된 레이아웃-->
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="256dp">
-
-                <!-- 구분선 -->
-                <RelativeLayout
-                    android:layout_width="360dp"
-                    android:layout_height="9dp"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:background="@color/light_light_grey"/>
-                <!---->
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="41dp"
-                    android:text="지난 입양 이동 봉사"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:fontFamily="@font/suit_bold" />
-
-                <!-- 지난 입양 이동 봉사 1-->
-                <RelativeLayout
-                    android:id="@+id/dog1Layout"
-                    android:layout_width="336dp"
-                    android:layout_height="155dp"
-                    android:layout_marginTop="79dp"
-                    android:layout_marginStart="12dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/dogvector1" />
-
-                    <Button
-                        android:layout_width="140dp"
-                        android:layout_height="28dp"
-                        android:layout_marginTop="107dp"
-                        android:layout_marginStart="157dp"
-                        android:background="@color/mint"
-                        android:text="입양 후기 보기"
-                        android:textColor="@color/white"
-                        android:textSize="14sp"
-                        android:fontFamily="@font/suit_semibold"
-                        android:paddingTop="2dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:layout_marginStart="146dp"
-                        android:text="가디"
-                        android:textColor="@color/black"
-                        android:textSize="25sp"
-                        android:fontFamily="@font/suit_bold"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="49dp"
-                        android:layout_marginStart="170dp"
-                        android:text="INC"
-                        android:textSize="12sp"
-                        android:textColor="@color/dark_grey"
-                        android:fontFamily="@font/suit_medium" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="49dp"
-                        android:layout_marginStart="218dp"
-                        android:text="JFK"
-                        android:textSize="12sp"
-                        android:textColor="@color/dark_grey"
-                        android:fontFamily="@font/suit_medium" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="73.5dp"
-                        android:layout_marginStart="170dp"
-                        android:text="2023년 12월 24일 (일)"
-                        android:textSize="12sp"
-                        android:textColor="@color/dark_grey"
-                        android:fontFamily="@font/suit_medium" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="49dp"
-                        android:layout_marginStart="146dp"
-                        app:srcCompat="@drawable/airplanetakeoff" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="73dp"
-                        android:layout_marginStart="146dp"
-                        app:srcCompat="@drawable/calendar" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="49dp"
-                        android:layout_marginStart="197dp"
-                        app:srcCompat="@drawable/dotsthree"/>
-
-                </RelativeLayout>
-
-                <!-- 지난 입양 이동 봉사 1 -->
-
-                <RelativeLayout
-                    android:id="@+id/dog2Layout"
-                    android:layout_width="336dp"
-                    android:layout_height="155dp"
-                    android:layout_marginTop="240dp"
-                    android:layout_marginStart="12dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp"
-                        app:srcCompat="@drawable/dogvector2" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:layout_marginStart="154dp"
-                        android:text="미일"
-                        android:textColor="@color/black"
-                        android:textSize="25sp"
-                        android:fontFamily="@font/suit_bold"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="49dp"
-                        android:layout_marginStart="178dp"
-                        android:text="INC"
-                        android:textSize="12sp"
-                        android:textColor="@color/dark_grey"
-                        android:fontFamily="@font/suit_medium" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="49dp"
-                        android:layout_marginStart="225dp"
-                        android:text="LAX"
-                        android:textSize="12sp"
-                        android:textColor="@color/dark_grey"
-                        android:fontFamily="@font/suit_medium" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="73.5dp"
-                        android:layout_marginStart="178dp"
-                        android:text="2023년 11월 9일 (목)"
-                        android:textSize="12sp"
-                        android:textColor="@color/dark_grey"
-                        android:fontFamily="@font/suit_medium" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="49dp"
-                        android:layout_marginStart="154dp"
-                        app:srcCompat="@drawable/airplanetakeoff" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="73dp"
-                        android:layout_marginStart="154dp"
-                        app:srcCompat="@drawable/calendar" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="49dp"
-                        android:layout_marginStart="205dp"
-                        app:srcCompat="@drawable/dotsthree"/>
-
-                    <Button
-                        android:layout_width="140dp"
-                        android:layout_height="28dp"
-                        android:layout_marginTop="107dp"
-                        android:layout_marginStart="157dp"
-                        android:background="@color/mint"
-                        android:text="입양 후기 보기"
-                        android:textColor="@color/white"
-                        android:textSize="14sp"
-                        android:fontFamily="@font/suit_semibold"
-                        android:paddingTop="2dp"/>
-                </RelativeLayout>
-
-            </RelativeLayout>
-
-
-
-
-
-
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginStart="16dp"-->
-<!--                android:layout_marginTop="297dp"-->
-<!--                android:text="지난 입양 이동 봉사"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="20sp"-->
-<!--                android:fontFamily="@font/suit_bold" />-->
-
-<!--            &lt;!&ndash; 지난 입양 이동 봉사 1&ndash;&gt;-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="328dp"-->
-<!--                android:layout_height="147dp"-->
-<!--                android:layout_marginStart="16dp"-->
-<!--                android:layout_marginTop="335dp"-->
-<!--                app:srcCompat="@drawable/dogvector1" />-->
-
-<!--            <Button-->
-<!--                android:layout_width="140dp"-->
-<!--                android:layout_height="28dp"-->
-<!--                android:layout_marginTop="442dp"-->
-<!--                android:layout_marginStart="169dp"-->
-<!--                android:background="@color/mint"-->
-<!--                android:text="입양 후기 보기"-->
-<!--                android:textColor="@color/white"-->
-<!--                android:textSize="14sp"-->
-<!--                android:fontFamily="@font/suit_semibold"-->
-<!--                android:paddingTop="2dp"/>-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="347dp"-->
-<!--                android:layout_marginStart="158dp"-->
-<!--                android:text="가디"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="25sp"-->
-<!--                android:fontFamily="@font/suit_bold"/>-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="384dp"-->
-<!--                android:layout_marginStart="182dp"-->
-<!--                android:text="INC"-->
-<!--                android:textSize="12sp"-->
-<!--                android:textColor="@color/dark_grey"-->
-<!--                android:fontFamily="@font/suit_medium" />-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="384dp"-->
-<!--                android:layout_marginStart="240dp"-->
-<!--                android:text="JFK"-->
-<!--                android:textSize="12sp"-->
-<!--                android:textColor="@color/dark_grey"-->
-<!--                android:fontFamily="@font/suit_medium" />-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="408.5dp"-->
-<!--                android:layout_marginStart="182dp"-->
-<!--                android:text="2023년 12월 24일 (일)"-->
-<!--                android:textSize="12sp"-->
-<!--                android:textColor="@color/dark_grey"-->
-<!--                android:fontFamily="@font/suit_medium" />-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="384dp"-->
-<!--                android:layout_marginStart="158dp"-->
-<!--                app:srcCompat="@drawable/airplanetakeoff" />-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="408dp"-->
-<!--                android:layout_marginStart="158dp"-->
-<!--                app:srcCompat="@drawable/calendar" />-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="384dp"-->
-<!--                android:layout_marginStart="214dp"-->
-<!--                app:srcCompat="@drawable/dotsthree"/>-->
-
-            <!-- 지난 입양 이동 봉사 2-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="328dp"-->
-<!--                android:layout_height="147dp"-->
-<!--                android:layout_marginStart="16dp"-->
-<!--                android:layout_marginTop="498dp"-->
-<!--                app:srcCompat="@drawable/dogvector2" />-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="510dp"-->
-<!--                android:layout_marginStart="158dp"-->
-<!--                android:text="미일"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="25sp"-->
-<!--                android:fontFamily="@font/suit_bold"/>-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="547dp"-->
-<!--                android:layout_marginStart="182dp"-->
-<!--                android:text="INC"-->
-<!--                android:textSize="12sp"-->
-<!--                android:textColor="@color/dark_grey"-->
-<!--                android:fontFamily="@font/suit_medium" />-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="547dp"-->
-<!--                android:layout_marginStart="240dp"-->
-<!--                android:text="LAX"-->
-<!--                android:textSize="12sp"-->
-<!--                android:textColor="@color/dark_grey"-->
-<!--                android:fontFamily="@font/suit_medium" />-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="571.5dp"-->
-<!--                android:layout_marginStart="182dp"-->
-<!--                android:text="2023년 11월 9일 (목)"-->
-<!--                android:textSize="12sp"-->
-<!--                android:textColor="@color/dark_grey"-->
-<!--                android:fontFamily="@font/suit_medium" />-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="547dp"-->
-<!--                android:layout_marginStart="158dp"-->
-<!--                app:srcCompat="@drawable/airplanetakeoff" />-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="571dp"-->
-<!--                android:layout_marginStart="158dp"-->
-<!--                app:srcCompat="@drawable/calendar" />-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="547dp"-->
-<!--                android:layout_marginStart="214dp"-->
-<!--                app:srcCompat="@drawable/dotsthree"/>-->
-
-<!--            <Button-->
-<!--                android:layout_width="140dp"-->
-<!--                android:layout_height="28dp"-->
-<!--                android:layout_marginTop="605dp"-->
-<!--                android:layout_marginStart="169dp"-->
-<!--                android:background="@color/mint"-->
-<!--                android:text="입양 후기 보기"-->
-<!--                android:textColor="@color/white"-->
-<!--                android:textSize="14sp"-->
-<!--                android:fontFamily="@font/suit_semibold"-->
-<!--                android:paddingTop="2dp"/>-->
-
         </RelativeLayout>
 
     </ScrollView>
-
-
 
 </RelativeLayout>
