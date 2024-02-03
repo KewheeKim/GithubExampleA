@@ -1,16 +1,35 @@
 package com.example.myapplication
 
+import android.animation.LayoutTransition
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.ImageButton
+import android.widget.LinearLayout
+import android.widget.TextView
+import androidx.cardview.widget.CardView
 
 class HomeActivity : AppCompatActivity() {
+    private lateinit var detailsText: TextView
+    private lateinit var layout: LinearLayout
+    private lateinit var expand: CardView
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+        detailsText = findViewById(R.id.detailsText)
+        layout = findViewById(R.id.layouts)
+        expand = findViewById(R.id.expandable)
+
+        layout.layoutTransition.enableTransitionType(LayoutTransition.CHANGING)
+        expand.setOnClickListener {
+            val v = if (detailsText.visibility == View.GONE) View.VISIBLE else View.GONE
+            detailsText.visibility = v
+        }
 
         var plus = findViewById<ImageButton>(R.id.plus)
 

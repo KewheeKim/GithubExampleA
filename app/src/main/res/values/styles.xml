@@ -26,6 +26,11 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
+    <style name="details">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
     <style name="withmeTitle">
         <item name="fontFamily">@font/suit_bold</item>
         <item name="android:textSize">20sp</item>
