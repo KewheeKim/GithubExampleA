@@ -156,7 +156,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="16dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="310dp"
+                android:layout_marginTop="315dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="6.6dp"
                 app:contentPadding="10dp"
@@ -321,7 +321,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="16dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="774"
+                android:layout_marginTop="774dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/ic_dog_bg" />
 
@@ -332,7 +332,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="238dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="781"
+                android:layout_marginTop="781dp"
                 android:background="@drawable/img_mypage_dog_1" />
 
             <TextView
