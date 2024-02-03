@@ -8,6 +8,7 @@ import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.RelativeLayout
@@ -17,6 +18,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 
+
+var AFTERAPPLY_VISIBILITY : Boolean = false
 class AccompanyBeforeActivity : AppCompatActivity() {
 
     lateinit var ap2DBManager: Ap2DBManager
@@ -48,7 +51,7 @@ class AccompanyBeforeActivity : AppCompatActivity() {
         var afterApply = findViewById<RelativeLayout>(R.id.afterApply)
         var afterApply_visibility: Boolean = false
         var toAdoptionDetaildpage1 = findViewById<Button>(R.id.toAdoptionDetaildpage1)
-        var toAdoptionDetaildpage2 = findViewById<Button>(R.id.toAdoptionDetaildpage2)
+        var lastVolunteerLayout = findViewById<RelativeLayout>(R.id.lastVolunteerLayout)
         var cursor: Cursor
 
         ap2DBManager = Ap2DBManager(this, "ap2", null, 1)
@@ -92,6 +95,12 @@ class AccompanyBeforeActivity : AppCompatActivity() {
 
             // afterApply 레이아웃을 보이게 만듦
             afterApply.visibility = View.VISIBLE
+
+            //
+            val params = lastVolunteerLayout.layoutParams as ViewGroup.MarginLayoutParams
+            params.topMargin = 630
+
+            lastVolunteerLayout.layoutParams = params // 변경된 마진 값을 lastVolunteerLayout에 적용합니다.
 
         } else {
             afterApply.visibility = View.GONE
