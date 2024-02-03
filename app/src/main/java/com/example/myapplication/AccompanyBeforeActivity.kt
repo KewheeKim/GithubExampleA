@@ -38,7 +38,6 @@ class AccompanyBeforeActivity : AppCompatActivity() {
         var addBtn = findViewById<ImageButton>(R.id.addBtn)
         var tvDestination = findViewById<TextView>(R.id.tvDestination)
         var tvDate1 = findViewById<TextView>(R.id.tvDate1)
-//        var tvDate2 = findViewById<TextView>(R.id.tvDate2)
         var tvTime1 = findViewById<TextView>(R.id.tvTime1)
         var tvTime2 = findViewById<TextView>(R.id.tvTime2)
         var tvAirLine = findViewById<TextView>(R.id.tvAirLine)
@@ -70,7 +69,6 @@ class AccompanyBeforeActivity : AppCompatActivity() {
 
         if(cursor.moveToLast()) {
             tvDate1.text = cursor.getString(cursor.getColumnIndex("Date1")).toString()
-            //tvDate2.text = cursor.getString(cursor.getColumnIndex("Date2")).toString()
             tvTime1.text = cursor.getString(cursor.getColumnIndex("Time1")).toString()
             tvTime2.text = cursor.getString(cursor.getColumnIndex("Time2")).toString()
         }

@@ -23,9 +23,6 @@ import java.util.Timer
 
 class ApplyPage4Activity : AppCompatActivity() {
 
-//    lateinit var myHelper : myDBHelper
-//    lateinit var sqlDB: SQLiteDatabase
-
     lateinit var ap4DBManager: Ap4DBManager
     lateinit var sqlitedb: SQLiteDatabase
 
@@ -61,9 +58,9 @@ class ApplyPage4Activity : AppCompatActivity() {
             // DatePickerDialog 표시
             val datePickerDialog = DatePickerDialog(
                 this,
-                DatePickerDialog.OnDateSetListener { view: DatePicker, selectedYear: Int, selectedMonth: Int, dayOfMonth: Int ->
+                { view: DatePicker, selectedYear: Int, selectedMonth: Int, dayOfMonth: Int ->
                     // 날짜가 설정되면 실행되는 콜백 함수
-                    val selectedDate = "       $selectedYear/${selectedMonth + 1}/$dayOfMonth"
+                    val selectedDate = "${selectedYear}년 ${selectedMonth + 1}월 ${dayOfMonth}일"
                     edtDate1.text = selectedDate // 버튼 텍스트를 선택한 날짜로 설정
                 },
                 year,
@@ -85,7 +82,7 @@ class ApplyPage4Activity : AppCompatActivity() {
                 this,
                 DatePickerDialog.OnDateSetListener { view: DatePicker, selectedYear: Int, selectedMonth: Int, dayOfMonth: Int ->
                     // 날짜가 설정되면 실행되는 콜백 함수
-                    val selectedDate = "       $selectedYear/${selectedMonth + 1}/$dayOfMonth"
+                    val selectedDate = "${selectedYear}년 ${selectedMonth + 1}월 ${dayOfMonth}일"
                     edtDate2.text = selectedDate // 버튼 텍스트를 선택한 날짜로 설정
                 },
                 year,
@@ -114,7 +111,7 @@ class ApplyPage4Activity : AppCompatActivity() {
                 minute,
                 true
             )
-            //timePickerDialog.getWindow()?.setBackgroundDrawableResource(android.R.color.transparent)
+
             timePickerDialog.show()
         }
 
@@ -128,7 +125,7 @@ class ApplyPage4Activity : AppCompatActivity() {
             val timePickerDialog = TimePickerDialog (
                 this,
                 android.R.style.Theme_Holo_Light_Dialog_NoActionBar,
-                TimePickerDialog.OnTimeSetListener { view: TimePicker, selectedHour: Int, minuteOfDay: Int ->
+                { view: TimePicker, selectedHour: Int, minuteOfDay: Int ->
                     // 시간이 설정되면 실행되는 콜백 함수
                     val selectedTime = "$selectedHour:$minuteOfDay"
                     edtTime2.text = selectedTime // 버튼 텍스트를 선택한 날짜로 설정
@@ -140,8 +137,6 @@ class ApplyPage4Activity : AppCompatActivity() {
             timePickerDialog.show()
         }
 
-        //myHelper = myDBHelper(this)
-
         ap4DBManager = Ap4DBManager(this, "ap4", null, 1)
 
         // 다음 화면으로 전환, 데베에 저장
@@ -152,10 +147,6 @@ class ApplyPage4Activity : AppCompatActivity() {
             val valueTime1 = edtTime1.text.toString()
             val valueTime2 = edtTime2.text.toString()
 
-//            sqlDB = myHelper.writableDatabase
-//            sqlDB.execSQL("INSERT INTO ap4TBL VALUES ('$valueDate1', '$valueDate2', '$valueTime1', '$valueTime2')")
-//            sqlDB.close()
-
             sqlitedb = ap4DBManager.writableDatabase
             sqlitedb.execSQL("INSERT INTO ap4 VALUES ('$valueDate1', '$valueDate2', '$valueTime1', '$valueTime2')")
             sqlitedb.close()
@@ -164,17 +155,5 @@ class ApplyPage4Activity : AppCompatActivity() {
             startActivity(intent)
         })
     }
-/*
-    inner class myDBHelper(context: Context) : SQLiteOpenHelper(context, "ap4DB", null, 1) {
-        override fun onCreate(db: SQLiteDatabase?) {
-            db!!.execSQL("CREATE TABLE ap4TBL (Date1 text, Date2 text, Time1 text, Time2 text);")
-        }
 
-        override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
-            db!!.execSQL("DROP TABLE IF EXISTS ap4DB")
-            onCreate(db)
-        }
-    }
-
-*/
 }

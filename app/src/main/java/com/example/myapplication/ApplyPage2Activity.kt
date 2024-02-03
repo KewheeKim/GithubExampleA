@@ -15,8 +15,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 
 class ApplyPage2Activity : AppCompatActivity() {
-    //lateinit var myHelper : myDBHelper
-    //lateinit var sqlDB: SQLiteDatabase
 
     lateinit var ap2DBManager: Ap2DBManager
     lateinit var sqlitedb: SQLiteDatabase
@@ -48,11 +46,6 @@ class ApplyPage2Activity : AppCompatActivity() {
             nextBtn.setOnClickListener({
                 val destination = resources.getResourceEntryName(selectedRBtn.id)
 
-                /*myHelper = myDBHelper(this)
-
-                sqlDB = myHelper.writableDatabase
-                sqlDB.execSQL("INSERT INTO ap2TBL VALUES ('$destination')")
-                sqlDB.close()*/
 
                 sqlitedb = ap2DBManager.writableDatabase
                 sqlitedb.execSQL("INSERT INTO ap2 VALUES ('$destination')")
@@ -63,15 +56,5 @@ class ApplyPage2Activity : AppCompatActivity() {
             })
         }
     }
-/*
-    inner class myDBHelper(context: Context) : SQLiteOpenHelper(context, "ap2DB", null, 1) {
-        override fun onCreate(db: SQLiteDatabase?) {
-            db!!.execSQL("CREATE TABLE ap2TBL (destination text);")
-        }
 
-        override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
-            db!!.execSQL("DROP TABLE IF EXISTS ap2DB")
-            onCreate(db)
-        }
-    }*/
 }
