@@ -33,7 +33,10 @@ class ApplyPage7Activity : AppCompatActivity() {
         nextBtn.setOnClickListener({
             lastPage.visibility = View.VISIBLE
             Handler().postDelayed({
-                val intent = Intent(this, AccompanyAfterActivity::class.java)
+                val intent = Intent(this, AccompanyBeforeActivity::class.java)
+
+                // afterApply_visibility에 true를 저장하여 AccompanyBeforeActivity에 넘김
+                intent.putExtra("afterApply_visibility", true)
                 startActivity(intent)
             }, 3000)
         })

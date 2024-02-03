@@ -62,6 +62,7 @@
             <!-- 구분선과 지난 입양 이동 봉사 텍스트, 사진 두 개가 포함된 레이아웃-->
 
             <RelativeLayout
+                android:id="@+id/lastVolunteerLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="256dp">
@@ -274,7 +275,7 @@
                 android:layout_height="565dp"
                 android:layout_marginTop="63dp"
                 android:layout_marginStart="8dp"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="match_parent"
