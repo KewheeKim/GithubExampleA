@@ -6,230 +6,946 @@
     android:layout_height="match_parent" >
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:text="다가오는 입양 이동 봉사"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:fontFamily="@font/suit_bold"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:text="다가오는 입양 이동 봉사"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:fontFamily="@font/suit_bold"/>-->
 
-    <RelativeLayout
-        android:layout_width="328dp"
-        android:layout_height="154dp"
-        android:layout_marginTop="67dp"
-        android:layout_marginStart="16dp"
-        android:backgroundTint="@color/mint"
-        android:background="@color/light_light_grey">
+<!--    <RelativeLayout-->
+<!--        android:layout_width="328dp"-->
+<!--        android:layout_height="154dp"-->
+<!--        android:layout_marginTop="67dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:backgroundTint="@color/mint"-->
+<!--        android:background="@color/light_light_grey">-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="106dp"
-            android:layout_marginTop="46dp"
-            android:text="이동봉사 신청하기"
-            android:textColor="@color/white"
-            android:fontFamily="@font/suit_bold"
-            android:textSize="16sp" />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="106dp"-->
+<!--            android:layout_marginTop="46dp"-->
+<!--            android:text="이동봉사 신청하기"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:fontFamily="@font/suit_bold"-->
+<!--            android:textSize="16sp" />-->
 
-        <ImageButton
-            android:id="@+id/addBtn"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:layout_marginStart="148dp"
-            android:layout_marginTop="76dp"
-            android:background="@color/mint"
-            app:srcCompat="@drawable/baseline_add_24_white" />
+<!--        <ImageButton-->
+<!--            android:id="@+id/addBtn"-->
+<!--            android:layout_width="32dp"-->
+<!--            android:layout_height="32dp"-->
+<!--            android:layout_marginStart="148dp"-->
+<!--            android:layout_marginTop="76dp"-->
+<!--            android:background="@color/mint"-->
+<!--            app:srcCompat="@drawable/baseline_add_24_white" />-->
 
-    </RelativeLayout>
+<!--    </RelativeLayout>-->
 
-    <!-- 구분선 -->
-    <RelativeLayout
-        android:layout_width="360dp"
-        android:layout_height="9dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="241dp"
-        android:background="@color/light_light_grey"/>
-    <!---->
+<!--    &lt;!&ndash; 구분선 &ndash;&gt;-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="9dp"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_marginTop="241dp"-->
+<!--        android:background="@color/light_light_grey"/>-->
+<!--    &lt;!&ndash;&ndash;&gt;-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="297dp"
-        android:text="지난 입양 이동 봉사"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:fontFamily="@font/suit_bold" />
-
-
-    <!-- 지난 입양 이동 봉사 1-->
-
-    <ImageView
-        android:layout_width="328dp"
-        android:layout_height="147dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="335dp"
-        app:srcCompat="@drawable/dogvector1" />
-
-    <Button
-        android:layout_width="140dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="442dp"
-        android:layout_marginStart="169dp"
-        android:background="@color/mint"
-        android:text="입양 후기 보기"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        android:fontFamily="@font/suit_semibold"
-        android:paddingTop="2dp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="347dp"
-        android:layout_marginStart="158dp"
-        android:text="가디"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:fontFamily="@font/suit_bold"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="384dp"
-        android:layout_marginStart="182dp"
-        android:text="INC"
-        android:textSize="12sp"
-        android:textColor="@color/dark_grey"
-        android:fontFamily="@font/suit_medium" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="384dp"
-        android:layout_marginStart="240dp"
-        android:text="JFK"
-        android:textSize="12sp"
-        android:textColor="@color/dark_grey"
-        android:fontFamily="@font/suit_medium" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="408.5dp"
-        android:layout_marginStart="182dp"
-        android:text="2023년 12월 24일 (일)"
-        android:textSize="12sp"
-        android:textColor="@color/dark_grey"
-        android:fontFamily="@font/suit_medium" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="384dp"
-        android:layout_marginStart="158dp"
-        app:srcCompat="@drawable/airplanetakeoff" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="408dp"
-        android:layout_marginStart="158dp"
-        app:srcCompat="@drawable/calendar" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="384dp"
-        android:layout_marginStart="214dp"
-        app:srcCompat="@drawable/dotsthree"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="297dp"-->
+<!--        android:text="지난 입양 이동 봉사"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        android:fontFamily="@font/suit_bold" />-->
 
 
-    <!-- 지난 입양 이동 봉사 2-->
 
 
-    <ImageView
-        android:layout_width="328dp"
-        android:layout_height="147dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="498dp"
-        app:srcCompat="@drawable/dogvector2" />
+<!--    &lt;!&ndash; 지난 입양 이동 봉사 1&ndash;&gt;-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="510dp"
-        android:layout_marginStart="158dp"
-        android:text="미일"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:fontFamily="@font/suit_bold"/>
+<!--    <ImageView-->
+<!--        android:layout_width="328dp"-->
+<!--        android:layout_height="147dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="335dp"-->
+<!--        app:srcCompat="@drawable/dogvector1" />-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="547dp"
-        android:layout_marginStart="182dp"
-        android:text="INC"
-        android:textSize="12sp"
-        android:textColor="@color/dark_grey"
-        android:fontFamily="@font/suit_medium" />
+<!--    <Button-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:layout_marginTop="442dp"-->
+<!--        android:layout_marginStart="169dp"-->
+<!--        android:background="@color/mint"-->
+<!--        android:text="입양 후기 보기"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="14sp"-->
+<!--        android:fontFamily="@font/suit_semibold"-->
+<!--        android:paddingTop="2dp"/>-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="547dp"
-        android:layout_marginStart="240dp"
-        android:text="LAX"
-        android:textSize="12sp"
-        android:textColor="@color/dark_grey"
-        android:fontFamily="@font/suit_medium" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="347dp"-->
+<!--        android:layout_marginStart="158dp"-->
+<!--        android:text="가디"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="25sp"-->
+<!--        android:fontFamily="@font/suit_bold"/>-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="571.5dp"
-        android:layout_marginStart="182dp"
-        android:text="2023년 11월 9일 (목)"
-        android:textSize="12sp"
-        android:textColor="@color/dark_grey"
-        android:fontFamily="@font/suit_medium" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="384dp"-->
+<!--        android:layout_marginStart="182dp"-->
+<!--        android:text="INC"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textColor="@color/dark_grey"-->
+<!--        android:fontFamily="@font/suit_medium" />-->
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="547dp"
-        android:layout_marginStart="158dp"
-        app:srcCompat="@drawable/airplanetakeoff" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="384dp"-->
+<!--        android:layout_marginStart="240dp"-->
+<!--        android:text="JFK"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textColor="@color/dark_grey"-->
+<!--        android:fontFamily="@font/suit_medium" />-->
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="571dp"
-        android:layout_marginStart="158dp"
-        app:srcCompat="@drawable/calendar" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="408.5dp"-->
+<!--        android:layout_marginStart="182dp"-->
+<!--        android:text="2023년 12월 24일 (일)"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textColor="@color/dark_grey"-->
+<!--        android:fontFamily="@font/suit_medium" />-->
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="547dp"
-        android:layout_marginStart="214dp"
-        app:srcCompat="@drawable/dotsthree"/>
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="384dp"-->
+<!--        android:layout_marginStart="158dp"-->
+<!--        app:srcCompat="@drawable/airplanetakeoff" />-->
 
-    <Button
-        android:layout_width="140dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="605dp"
-        android:layout_marginStart="169dp"
-        android:background="@color/mint"
-        android:text="입양 후기 보기"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        android:fontFamily="@font/suit_semibold"
-        android:paddingTop="2dp"/>
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="408dp"-->
+<!--        android:layout_marginStart="158dp"-->
+<!--        app:srcCompat="@drawable/calendar" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="384dp"-->
+<!--        android:layout_marginStart="214dp"-->
+<!--        app:srcCompat="@drawable/dotsthree"/>-->
+
+
+<!--    &lt;!&ndash; 지난 입양 이동 봉사 2&ndash;&gt;-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="328dp"-->
+<!--        android:layout_height="147dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="498dp"-->
+<!--        app:srcCompat="@drawable/dogvector2" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="510dp"-->
+<!--        android:layout_marginStart="158dp"-->
+<!--        android:text="미일"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="25sp"-->
+<!--        android:fontFamily="@font/suit_bold"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="547dp"-->
+<!--        android:layout_marginStart="182dp"-->
+<!--        android:text="INC"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textColor="@color/dark_grey"-->
+<!--        android:fontFamily="@font/suit_medium" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="547dp"-->
+<!--        android:layout_marginStart="240dp"-->
+<!--        android:text="LAX"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textColor="@color/dark_grey"-->
+<!--        android:fontFamily="@font/suit_medium" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="571.5dp"-->
+<!--        android:layout_marginStart="182dp"-->
+<!--        android:text="2023년 11월 9일 (목)"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textColor="@color/dark_grey"-->
+<!--        android:fontFamily="@font/suit_medium" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="547dp"-->
+<!--        android:layout_marginStart="158dp"-->
+<!--        app:srcCompat="@drawable/airplanetakeoff" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="571dp"-->
+<!--        android:layout_marginStart="158dp"-->
+<!--        app:srcCompat="@drawable/calendar" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="547dp"-->
+<!--        android:layout_marginStart="214dp"-->
+<!--        app:srcCompat="@drawable/dotsthree"/>-->
+
+<!--    <Button-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:layout_marginTop="605dp"-->
+<!--        android:layout_marginStart="169dp"-->
+<!--        android:background="@color/mint"-->
+<!--        android:text="입양 후기 보기"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="14sp"-->
+<!--        android:fontFamily="@font/suit_semibold"-->
+<!--        android:paddingTop="2dp"/>-->
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:text="다가오는 입양 이동 봉사"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/suit_bold"/>
+
+            <!--이동봉사 신청하기-->
+
+            <RelativeLayout
+                android:layout_width="328dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="67dp"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="@color/mint"
+                android:background="@color/light_light_grey">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="46dp"
+                    android:text="이동봉사 신청하기"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/suit_bold"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/addBtn"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="148dp"
+                    android:layout_marginTop="76dp"
+                    android:background="@color/mint"
+                    app:srcCompat="@drawable/baseline_add_24_white" />
+
+            </RelativeLayout>
+
+            <!-- 정보창 -->
+            <RelativeLayout
+                android:id="@+id/afterApply"
+                android:layout_width="344dp"
+                android:layout_height="565dp"
+                android:layout_marginTop="63dp"
+                android:layout_marginStart="8dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/dbimg" />
+
+                <TextView
+                    android:id="@+id/tvDate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="177dp"
+                    android:layout_marginStart="121dp"
+                    android:text="2000년 00월 00일 (월)"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginStart="50dp"
+                    android:text="ICH"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tvDestination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginStart="261dp"
+                    android:text="OOO"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tvTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="221dp"
+                    android:layout_marginStart="32dp"
+                    android:text="00:00"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/manydots"
+                    android:layout_marginTop="211dp"
+                    android:layout_marginStart="121dp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    app:srcCompat="@drawable/airplane"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginStart="165dp" />
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/manydots"
+                    android:layout_marginTop="211dp"
+                    android:layout_marginStart="188dp" />
+
+                <TextView
+                    android:id="@+id/tvTime2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="221dp"
+                    android:layout_marginStart="244dp"
+                    android:text="00:00"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginStart="24dp"
+                    android:text="이름"
+                    android:textSize="10sp"
+                    android:textColor="@color/dark_grey"
+                    android:fontFamily="@font/suit_medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginStart="147dp"
+                    android:text="몸무게 / 털색"
+                    android:textSize="10sp"
+                    android:textColor="@color/dark_grey"
+                    android:fontFamily="@font/suit_medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="289dp"
+                    android:layout_marginStart="24dp"
+                    android:text="호강"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/suit_semibold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="289dp"
+                    android:layout_marginStart="147dp"
+                    android:text="15.5 kg / 호피"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/suit_semibold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="317dp"
+                    android:layout_marginStart="24dp"
+                    android:text="성별"
+                    android:textSize="10sp"
+                    android:textColor="@color/dark_grey"
+                    android:fontFamily="@font/suit_medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="317dp"
+                    android:layout_marginStart="147dp"
+                    android:text="나이"
+                    android:textSize="10sp"
+                    android:textColor="@color/dark_grey"
+                    android:fontFamily="@font/suit_medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="336dp"
+                    android:layout_marginStart="24dp"
+                    android:text="암컷"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/suit_semibold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="336dp"
+                    android:layout_marginStart="147dp"
+                    android:text="4살 추정"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/suit_semibold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="394dp"
+                    android:layout_marginStart="24dp"
+                    android:text="체크인 장소"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/dark_grey" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="413dp"
+                    android:layout_marginStart="24dp"
+                    android:text="인천국제공항 제1터미널 A 카운터"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/suit_semibold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="447dp"
+                    android:layout_marginStart="24dp"
+                    android:text="항공사"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/dark_grey" />
+
+                <TextView
+                    android:id="@+id/tvAirLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="466dp"
+                    android:layout_marginStart="24dp"
+                    android:text="ㅇㅇㅇㅇ항공"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="447dp"
+                    android:layout_marginStart="147dp"
+                    android:text="편명"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/dark_grey" />
+
+                <TextView
+                    android:id="@+id/tvFName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="466dp"
+                    android:layout_marginStart="147dp"
+                    android:text="XX000"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="495dp"
+                    android:layout_marginStart="24dp"
+                    android:text="예약번호 12자리"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/dark_grey" />
+
+                <TextView
+                    android:id="@+id/tvRNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="514dp"
+                    android:layout_marginStart="24dp"
+                    android:text="123456789000"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="495dp"
+                    android:layout_marginStart="147dp"
+                    android:text="입양 단체 연락처"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/dark_grey" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="514dp"
+                    android:layout_marginStart="147dp"
+                    android:text="010-5644-7427"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <!-- 구분선과 지난 입양 이동 봉사 텍스트, 사진 두 개가 포함된 레이아웃-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="256dp">
+
+                <!-- 구분선 -->
+                <RelativeLayout
+                    android:layout_width="360dp"
+                    android:layout_height="9dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/light_light_grey"/>
+                <!---->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="41dp"
+                    android:text="지난 입양 이동 봉사"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/suit_bold" />
+
+                <!-- 지난 입양 이동 봉사 1-->
+                <RelativeLayout
+                    android:id="@+id/dog1Layout"
+                    android:layout_width="336dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="79dp"
+                    android:layout_marginStart="12dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/dogvector1" />
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="107dp"
+                        android:layout_marginStart="157dp"
+                        android:background="@color/mint"
+                        android:text="입양 후기 보기"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/suit_semibold"
+                        android:paddingTop="2dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="146dp"
+                        android:text="가디"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/suit_bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="170dp"
+                        android:text="INC"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="218dp"
+                        android:text="JFK"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73.5dp"
+                        android:layout_marginStart="170dp"
+                        android:text="2023년 12월 24일 (일)"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="146dp"
+                        app:srcCompat="@drawable/airplanetakeoff" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginStart="146dp"
+                        app:srcCompat="@drawable/calendar" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="197dp"
+                        app:srcCompat="@drawable/dotsthree"/>
+
+                </RelativeLayout>
+
+                <!-- 지난 입양 이동 봉사 1 -->
+
+                <RelativeLayout
+                    android:id="@+id/dog2Layout"
+                    android:layout_width="336dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginStart="12dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        app:srcCompat="@drawable/dogvector2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="154dp"
+                        android:text="미일"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/suit_bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="178dp"
+                        android:text="INC"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="225dp"
+                        android:text="LAX"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73.5dp"
+                        android:layout_marginStart="178dp"
+                        android:text="2023년 11월 9일 (목)"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_grey"
+                        android:fontFamily="@font/suit_medium" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="154dp"
+                        app:srcCompat="@drawable/airplanetakeoff" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginStart="154dp"
+                        app:srcCompat="@drawable/calendar" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginStart="205dp"
+                        app:srcCompat="@drawable/dotsthree"/>
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="107dp"
+                        android:layout_marginStart="157dp"
+                        android:background="@color/mint"
+                        android:text="입양 후기 보기"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/suit_semibold"
+                        android:paddingTop="2dp"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="297dp"-->
+<!--                android:text="지난 입양 이동 봉사"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp"-->
+<!--                android:fontFamily="@font/suit_bold" />-->
+
+<!--            &lt;!&ndash; 지난 입양 이동 봉사 1&ndash;&gt;-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="328dp"-->
+<!--                android:layout_height="147dp"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="335dp"-->
+<!--                app:srcCompat="@drawable/dogvector1" />-->
+
+<!--            <Button-->
+<!--                android:layout_width="140dp"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:layout_marginTop="442dp"-->
+<!--                android:layout_marginStart="169dp"-->
+<!--                android:background="@color/mint"-->
+<!--                android:text="입양 후기 보기"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="14sp"-->
+<!--                android:fontFamily="@font/suit_semibold"-->
+<!--                android:paddingTop="2dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="347dp"-->
+<!--                android:layout_marginStart="158dp"-->
+<!--                android:text="가디"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="25sp"-->
+<!--                android:fontFamily="@font/suit_bold"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="384dp"-->
+<!--                android:layout_marginStart="182dp"-->
+<!--                android:text="INC"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="@color/dark_grey"-->
+<!--                android:fontFamily="@font/suit_medium" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="384dp"-->
+<!--                android:layout_marginStart="240dp"-->
+<!--                android:text="JFK"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="@color/dark_grey"-->
+<!--                android:fontFamily="@font/suit_medium" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="408.5dp"-->
+<!--                android:layout_marginStart="182dp"-->
+<!--                android:text="2023년 12월 24일 (일)"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="@color/dark_grey"-->
+<!--                android:fontFamily="@font/suit_medium" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="384dp"-->
+<!--                android:layout_marginStart="158dp"-->
+<!--                app:srcCompat="@drawable/airplanetakeoff" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="408dp"-->
+<!--                android:layout_marginStart="158dp"-->
+<!--                app:srcCompat="@drawable/calendar" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="384dp"-->
+<!--                android:layout_marginStart="214dp"-->
+<!--                app:srcCompat="@drawable/dotsthree"/>-->
+
+            <!-- 지난 입양 이동 봉사 2-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="328dp"-->
+<!--                android:layout_height="147dp"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="498dp"-->
+<!--                app:srcCompat="@drawable/dogvector2" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="510dp"-->
+<!--                android:layout_marginStart="158dp"-->
+<!--                android:text="미일"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="25sp"-->
+<!--                android:fontFamily="@font/suit_bold"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="547dp"-->
+<!--                android:layout_marginStart="182dp"-->
+<!--                android:text="INC"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="@color/dark_grey"-->
+<!--                android:fontFamily="@font/suit_medium" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="547dp"-->
+<!--                android:layout_marginStart="240dp"-->
+<!--                android:text="LAX"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="@color/dark_grey"-->
+<!--                android:fontFamily="@font/suit_medium" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="571.5dp"-->
+<!--                android:layout_marginStart="182dp"-->
+<!--                android:text="2023년 11월 9일 (목)"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="@color/dark_grey"-->
+<!--                android:fontFamily="@font/suit_medium" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="547dp"-->
+<!--                android:layout_marginStart="158dp"-->
+<!--                app:srcCompat="@drawable/airplanetakeoff" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="571dp"-->
+<!--                android:layout_marginStart="158dp"-->
+<!--                app:srcCompat="@drawable/calendar" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="547dp"-->
+<!--                android:layout_marginStart="214dp"-->
+<!--                app:srcCompat="@drawable/dotsthree"/>-->
+
+<!--            <Button-->
+<!--                android:layout_width="140dp"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:layout_marginTop="605dp"-->
+<!--                android:layout_marginStart="169dp"-->
+<!--                android:background="@color/mint"-->
+<!--                android:text="입양 후기 보기"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="14sp"-->
+<!--                android:fontFamily="@font/suit_semibold"-->
+<!--                android:paddingTop="2dp"/>-->
+
+        </RelativeLayout>
+
+    </ScrollView>
+
 
 
 </RelativeLayout>
