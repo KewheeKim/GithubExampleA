@@ -17,8 +17,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 
 class ApplyPage5Activity : AppCompatActivity() {
-//        lateinit var sqlDB: SQLiteDatabase
-//        lateinit var myHelper: myDBHelper
 
     lateinit var ap5DBManager: Ap5DBManager
     lateinit var sqlitedb: SQLiteDatabase
@@ -49,16 +47,11 @@ class ApplyPage5Activity : AppCompatActivity() {
                 val valueRNum = edtRNum.text.toString()
                 val vlaueAirLine = selectedRBtn.text.toString()
 
-//                myHelper = myDBHelper(this)
-//
-//                sqlDB = myHelper.writableDatabase
-//                sqlDB.execSQL("INSERT INTO ap5TBL VALUES ('$vlaueAirLine','$valueFName', '$valueRNum')")
-//                sqlDB.close()
 
                 ap5DBManager = Ap5DBManager(this, "ap5", null, 1)
 
                 sqlitedb = ap5DBManager.writableDatabase
-                sqlitedb.execSQL("INSERT INTO ap5 VALUES ('$vlaueAirLine','$valueFName', '$valueRNum')")
+                sqlitedb.execSQL("INSERT INTO ap5 VALUES ('$vlaueAirLine','$valueFName', $valueRNum)")
                 sqlitedb.close()
 
                 val intent = Intent(this, ApplyPage6Activity::class.java)
@@ -67,18 +60,5 @@ class ApplyPage5Activity : AppCompatActivity() {
         }
 
     }
-    /*
-    inner class myDBHelper(context: Context) : SQLiteOpenHelper (context, "ap5DB", null, 1) {
-        override fun onCreate(db: SQLiteDatabase?) {
-            db!!.execSQL("CREATE TABLE ap5TBL (airLine text, FName text, RNum text);")
-        }
-
-        override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
-            db!!.execSQL("DROP TABLE IF EXISTS ap5DB")
-            onCreate(db)
-        }
-    }
-    */
-
 
 }

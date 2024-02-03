@@ -10,7 +10,7 @@ class Ap5DBManager (context: Context,
                     version: Int
 ) : SQLiteOpenHelper(context, name, factory, version) {
     override fun onCreate(db: SQLiteDatabase?) {
-        db!!.execSQL("CREATE TABLE ap5 (airLine text, FName text, RNum text)")
+        db!!.execSQL("CREATE TABLE ap5 (airLine text, FName text, RNum INTEGER)")
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
