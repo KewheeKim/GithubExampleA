@@ -105,48 +105,6 @@
                 android:layout_marginTop="210dp"
                 android:background="@drawable/ic_plus" />
 
-            <!-- 이동 봉사 시 주의사항-->
-            <!--<View
-                android:id="@+id/noticeBg"
-                android:layout_width="350dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="4dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="310dp"
-                android:background="@drawable/rect_notice_2"
-                android:gravity="center" />
-            <View
-                android:id="@+id/noticeIcon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="24dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="330dp"
-                android:background="@drawable/ic_info"/>
-            <TextView
-                android:id="@+id/some_id"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="53dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="329dp"
-                android:text="@string/infoText"
-                android:textAppearance="@style/info"
-                android:lineSpacingExtra="4sp"
-                android:translationY="-2.02sp"
-                android:gravity="center_horizontal|top" />
-            <View
-                android:id="@+id/noticeArrow"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="304dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="322dp"
-                android:background="@drawable/ic_arrow"/> -->
 
             <!-- height wrap 고정 필수 -->
             <androidx.cardview.widget.CardView

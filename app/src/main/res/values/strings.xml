@@ -5,7 +5,6 @@
     <string name="beforeVol">이동 봉사를 신청하고\n유기견에게 새로운 삶을 선물하세요</string>
     <string name="applyVol">이동봉사 신청하기</string>
     <string name="mainTitle">투게독</string>
-    <string name="noticeTitle">이동 봉사 시 주의사항</string>
     <string name="withmeTitle">나의 여행길에 함께한 친구들</string>
     <string name="meetFamilyTitle">드디어 가족을 만났어요</string>
     <string name="meetFamilyName">크리스마스에 찾아온 소중한 가족</string>
@@ -15,7 +14,6 @@
     <string name="dogName1">가디</string>
     <string name="dogName2">미일</string>
     <string name="dogName3">캠퍼</string>
-    <string name="infoText">이동 봉사 시 주의사항</string>
     <string name="faketext">1. 사전 준비\n
 ① 기내 동반은 희망하시는 분에 한하여 진행합니다.\n
 
@@ -30,7 +28,7 @@
 ② 입양견은 큰짐 찾는 곳(Oversized Baggage Claim)으로 나옵니다.\n
 ④ 검역소에 도착하시면 이동봉사 레터 및 검역/건강증명서를 검역관에게 보여주세요.\n
 ⑤ 입양자 또는 단체 봉사자와의 만남: 수속을 마치시고 입국장으로 나오시면 강아지를 픽업하실 분께서 기다리고 계십니다. 픽업하시는 분께 강아지와 서류를 전달해주시면 됩니다. </string>
-    <string name="demo">이동 봉사 시 주의 사항</string>
+    <string name="demo">이동 봉사 시 주의사항</string>
     <string name="text_dogname">몽지</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
