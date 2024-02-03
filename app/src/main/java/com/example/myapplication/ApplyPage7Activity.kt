@@ -3,19 +3,27 @@ package com.example.myapplication
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.style.ForegroundColorSpan
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class ApplyPage7Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_applypage7)
 
-        //액션바 이름 변경
-        getSupportActionBar()?.setTitle("해외 입양 이동 봉사 신청")
+        // 액션바 제목, 글자 색 변경
+        val spannableString = SpannableString("해외 입양 이동 봉사 신청")
+        spannableString.setSpan(
+            ForegroundColorSpan(ContextCompat.getColor(this, R.color.black)),
+            0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        supportActionBar?.title = spannableString
 
         var nextBtn = findViewById<Button>(R.id.nextBtn)
         var btnClose = findViewById<ImageButton>(R.id.btnClose)
