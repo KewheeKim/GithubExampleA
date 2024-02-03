@@ -203,7 +203,7 @@
             android:gravity="top" />
 
         <TextView
-            android:id="@+id/text_dog_ex1"
+            android:id="@+id/text_dog_ex1_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -217,11 +217,25 @@
             android:gravity="top" />
 
         <TextView
-            android:id="@+id/text_dog_ex2"
+            android:id="@+id/text_dog_ex1_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="104dp"
+            android:layout_marginLeft="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="345dp"
+            android:text="수컷"
+            android:textAppearance="@style/text_dog_ex_2"
+            android:lineSpacingExtra="3sp"
+            android:translationY="-1.26sp"
+            android:gravity="top" />
+
+        <TextView
+            android:id="@+id/text_dog_ex2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="120dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="330dp"
             android:text="추정나이"
@@ -231,13 +245,27 @@
             android:gravity="top" />
 
         <TextView
-            android:id="@+id/text_dog_ex3"
+            android:id="@+id/text_dog_ex2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="345dp"
+            android:text="1살"
+            android:textAppearance="@style/text_dog_ex_2"
+            android:lineSpacingExtra="3sp"
+            android:translationY="-1.26sp"
+            android:gravity="top" />
+
+        <TextView
+            android:id="@+id/text_dog_ex3_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="31dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="357dp"
+            android:layout_marginTop="363dp"
             android:text="몸무게"
             android:textAppearance="@style/text_dog_ex"
             android:lineSpacingExtra="2sp"
@@ -245,13 +273,27 @@
             android:gravity="top" />
 
         <TextView
-            android:id="@+id/text_dog_ex4"
+            android:id="@+id/text_dog_ex3_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="104dp"
+            android:layout_marginLeft="31dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="357dp"
+            android:layout_marginTop="378dp"
+            android:text="15.0kg"
+            android:textAppearance="@style/text_dog_ex_2"
+            android:lineSpacingExtra="3sp"
+            android:translationY="-1.26sp"
+            android:gravity="top" />
+
+        <TextView
+            android:id="@+id/text_dog_ex4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="363dp"
             android:text="털색"
             android:textAppearance="@style/text_dog_ex"
             android:lineSpacingExtra="2sp"
@@ -259,32 +301,120 @@
             android:gravity="top" />
 
         <TextView
-            android:id="@+id/text_dog_ex5"
+            android:id="@+id/text_dog_ex4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="378dp"
+            android:text="블랙브라운"
+            android:textAppearance="@style/text_dog_ex_2"
+            android:lineSpacingExtra="3sp"
+            android:translationY="-1.26sp"
+            android:gravity="top" />
+
+        <TextView
+            android:id="@+id/text_dog_ex5_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="31dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="384dp"
+            android:layout_marginTop="395dp"
             android:text="친화도"
             android:textAppearance="@style/text_dog_ex"
             android:lineSpacingExtra="2sp"
             android:translationY="-1.01sp"
             android:gravity="top" />
 
+        <View
+            android:id="@+id/rect_dog_1"
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_doginfo" />
+        <View
+            android:id="@+id/rect_dog_2"
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_doginfo" />
+        <View
+            android:id="@+id/rect_dog_3"
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="69dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_doginfo" />
+        <View
+            android:id="@+id/rect_dog_4"
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_doginfo" />
+
+
         <TextView
             android:id="@+id/text_dog_ex6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="104dp"
+            android:layout_marginLeft="120dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="384dp"
+            android:layout_marginTop="395dp"
             android:text="활발함"
             android:textAppearance="@style/text_dog_ex"
             android:lineSpacingExtra="2sp"
             android:translationY="-1.01sp"
             android:gravity="top" />
+        <View
+            android:id="@+id/rect_dog_5"
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_doginfo" />
+        <View
+            android:id="@+id/rect_dog_6"
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="139dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_doginfo" />
+        <View
+            android:id="@+id/rect_dog_7"
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="158dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_doginfo" />
+        <View
+            android:id="@+id/rect_dog_8"
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="177dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_doginfo_2" />
 
 
         <TextView
