@@ -13,8 +13,6 @@ class myPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_my_page)
 
-        // 액션바 이름 변경
-        getSupportActionBar()?.setTitle("마이페이지");
         // 액션바 뒤로가기
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         // 액션바 글자 색 변경

@@ -511,7 +511,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="613dp"
+            android:layout_marginTop="614dp"
             android:background="@drawable/headset" />
 
         <View
@@ -520,7 +520,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="666dp"
+            android:layout_marginTop="665dp"
             android:background="@drawable/signout" />
 
         <View
@@ -529,7 +529,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="563dp"
+            android:layout_marginTop="566dp"
             android:background="@drawable/charcircle" />
 
         <View
@@ -538,7 +538,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="519dp"
+            android:layout_marginTop="515dp"
             android:background="@drawable/megaphonesimple" />
 
         <View
@@ -547,7 +547,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="463dp"
+            android:layout_marginTop="464dp"
             android:background="@drawable/textsize" />
 
         <View
