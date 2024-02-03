@@ -193,23 +193,94 @@
                 android:translationY="-2.52sp"
                 android:gravity="center_horizontal|top" />
 
+            <View
+                android:id="@+id/main_dog_1"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="430dp"
+                android:background="@drawable/main_dog_1" />
+
+            <TextView
+                android:id="@+id/main_dog_1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="55dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="545dp"
+                android:text="가디"
+                android:textAppearance="@style/text_fraction"
+                android:lineSpacingExtra="4sp"
+                android:translationY="-1.76sp"
+                android:gravity="top" />
+
+            <View
+                android:id="@+id/main_dog_2"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="129dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="430dp"
+                android:background="@drawable/main_dog_2" />
+
+            <TextView
+                android:id="@+id/main_dog_2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="164dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="545dp"
+                android:text="미일"
+                android:textAppearance="@style/text_fraction"
+                android:lineSpacingExtra="4sp"
+                android:translationY="-1.76sp"
+                android:gravity="top" />
+
+            <View
+                android:id="@+id/main_dog_3"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="242dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="430dp"
+                android:background="@drawable/main_dog_3" />
+
+            <TextView
+                android:id="@+id/main_dog_3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="280dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="545dp"
+                android:text="캠퍼"
+                android:textAppearance="@style/text_fraction"
+                android:lineSpacingExtra="4sp"
+                android:translationY="-1.76sp"
+                android:gravity="top" />
+
             <!-- 드디어 가족을 만났어요 -->
             <TextView
                 android:id="@+id/meetFamilyTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
                 android:layout_marginTop="585dp"
-                android:fontFamily="@font/suit_bold"
-                android:gravity="center_horizontal|top"
-                android:lineSpacingExtra="5sp"
                 android:text="@string/meetFamilyTitle"
                 android:textAppearance="@style/withmeTitle"
-                android:translationY="-2.52sp" />
+                android:lineSpacingExtra="5sp"
+                android:translationY="-2.52sp"
+                android:gravity="center_horizontal|top" />
 
-            <View
+            <ImageButton
                 android:id="@+id/meetFamilyBg"
                 android:layout_width="328dp"
                 android:layout_height="112dp"
@@ -233,30 +304,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="27dp"
+                android:layout_alignParentTop="true"
                 android:layout_marginTop="624dp"
-                android:fontFamily="@font/suit_semibold"
-                android:gravity="top"
-                android:lineSpacingExtra="4sp"
                 android:text="@string/meetFamilyName"
                 android:textAppearance="@style/meetFamilyName"
-                android:translationY="-1.76sp" />
+                android:lineSpacingExtra="4sp"
+                android:translationY="-1.76sp"
+                android:gravity="top" />
 
             <TextView
                 android:id="@+id/meetFamilyContent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="27dp"
+                android:layout_alignParentTop="true"
                 android:layout_marginTop="654dp"
-                android:fontFamily="@font/suit_medium"
-                android:gravity="top"
-                android:lineSpacingExtra="3sp"
                 android:text="@string/meetFamilyContent"
                 android:textAppearance="@style/meetFamilyContent"
-                android:translationY="-1.51sp" />
+                android:lineSpacingExtra="3sp"
+                android:translationY="-1.51sp"
+                android:gravity="top" />
 
 
             <!-- 평생 가족을 기다려요 -->
@@ -265,15 +334,14 @@
                 android:layout_width="167dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="16dp"
-                android:layout_marginTop="745dp"
-                android:fontFamily="@font/suit_bold"
-                android:gravity="center_horizontal|top"
-                android:lineSpacingExtra="5sp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="743dp"
                 android:text="@string/waitFamilyTitle"
                 android:textAppearance="@style/withmeTitle"
-                android:translationY="-2.52sp" />
+                android:lineSpacingExtra="5sp"
+                android:translationY="-2.52sp"
+                android:gravity="center_horizontal|top" />
 
             <View
                 android:id="@+id/myPageDogBg"
@@ -301,15 +369,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="30dp"
+                android:layout_alignParentTop="true"
                 android:layout_marginTop="782dp"
-                android:fontFamily="@font/suit_semibold"
-                android:gravity="top"
-                android:lineSpacingExtra="5sp"
                 android:text="@string/text_dogname"
                 android:textAppearance="@style/text_dogname"
-                android:translationY="-2.52sp" />
+                android:lineSpacingExtra="5sp"
+                android:translationY="-2.52sp"
+                android:gravity="top" />
 
             <TextView
                 android:id="@+id/text_dog_ex1_1"
