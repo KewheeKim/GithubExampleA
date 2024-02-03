@@ -179,12 +179,15 @@
                             android:id="@+id/noticeIcon"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
                             android:background="@drawable/ic_info"/>
 
                         <TextView
                             android:id="@+id/titleText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginLeft="9dp"
                             android:text="@string/demo"
                             android:textAppearance="@style/noticeTitle" />
 
@@ -193,7 +196,7 @@
                             android:layout_width="32dp"
                             android:layout_height="32dp"
                             android:layout_alignParentLeft="true"
-                            android:layout_marginLeft="100dp"
+                            android:layout_marginLeft="96dp"
                             android:layout_alignParentTop="true"
                             android:background="@drawable/ic_arrow"/>
                     </LinearLayout>
