@@ -7,6 +7,9 @@ import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.os.Bundle
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.style.ForegroundColorSpan
 import android.widget.Button
 import android.widget.DatePicker
 import android.widget.EditText
@@ -14,6 +17,7 @@ import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.TimePicker
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import java.util.Calendar
 import java.util.Timer
 
@@ -29,8 +33,12 @@ class ApplyPage4Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_applypage4)
 
-        //액션바 이름 변경
-        getSupportActionBar()?.setTitle("해외 입양 이동 봉사 신청")
+        // 액션바 제목, 글자 색 변경
+        val spannableString = SpannableString("해외 입양 이동 봉사 신청")
+        spannableString.setSpan(
+            ForegroundColorSpan(ContextCompat.getColor(this, R.color.black)),
+            0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        supportActionBar?.title = spannableString
 
         var nextBtn = findViewById<Button>(R.id.nextBtn)
         var arrowDownBtn1 = findViewById<ImageButton>(R.id.arrowDownBtn1)

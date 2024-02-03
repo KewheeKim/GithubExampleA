@@ -3,8 +3,12 @@ package com.example.myapplication
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.style.ForegroundColorSpan
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class AccompanyAfterActivity : AppCompatActivity() {
     lateinit var ap2DBManager: Ap2DBManager
@@ -16,8 +20,12 @@ class AccompanyAfterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_accompanyafter)
 
-        //액션바 이름 변경
-        getSupportActionBar()?.setTitle("나의 동행")
+        // 액션바 제목, 글자 색 변경
+        val spannableString = SpannableString("나의 동행")
+        spannableString.setSpan(
+            ForegroundColorSpan(ContextCompat.getColor(this, R.color.black)),
+            0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        supportActionBar?.title = spannableString
 
         var tvDestination = findViewById<TextView>(R.id.tvDestination)
         var tvDate1 = findViewById<TextView>(R.id.tvDate1)
