@@ -17,108 +17,103 @@
             android:orientation="vertical">
 
 
+            <TextView
+                android:id="@+id/text_reviewdetailed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="5sp"
 
+                android:text="고된 미국 출장 속 작은 행복"
+                android:textColor="#121212"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationY="-2.52sp" />
 
-    <TextView
-        android:id="@+id/text_reviewdetailed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="68dp"
-        android:fontFamily="@font/suit"
-        android:gravity="top"
-        android:lineSpacingExtra="5sp"
+            <View
+                android:id="@+id/rectangle_32"
+                android:layout_width="328dp"
+                android:layout_height="328dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="246dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/vpicture2" />
 
-        android:text="고된 미국 출장 속 작은 행복"
-        android:textColor="#121212"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:translationY="-2.52sp" />
+            <View
+                android:id="@+id/rectangle_22"
+                android:layout_width="328dp"
+                android:layout_height="328dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="683dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/vpicture1" />
 
-    <TextView
-        android:id="@+id/text_reviewdatedetailed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="103dp"
-        android:fontFamily="@font/suit"
-        android:gravity="center_vertical"
-        android:lineSpacingExtra="1sp"
-        android:text="2024.01.23 화요일 12:29"
-        android:textColor="#181818"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_reviewdatedetailed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="76dp"
+                android:fontFamily="@font/suit"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="1sp"
+                android:text="2024.01.23 화요일 12:29"
+                android:textColor="#181818"
+                android:textSize="12sp" />
 
+            <View
+                android:id="@+id/rectangle_"
+                android:layout_width="360dp"
+                android:layout_height="3dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="134dp"
+                android:layout_marginEnd="-1dp"
+                android:background="#F4F4F4" />
 
-
-    <View
-        android:id="@+id/rectangle_"
-        android:layout_width="360dp"
-        android:layout_height="3dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="134dp"
-        android:layout_marginEnd="-1dp"
-        android:background="#F4F4F4" />
-
-    <TextView
-        android:id="@+id/text_detailedreview1_1"
-        android:layout_width="326dp"
-        android:layout_height="96dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="165dp"
-        android:text="샌프란시스코로 출장을 가야 하는 일정이 잡혀 이번에도 어김없이 해외 입양 이동 봉사를 신청해보았습니다. 항상 눈에 밟히던 친구인 와리가 가족을 만나게 되어 기쁩니다."
-        android:lineSpacingExtra="4sp"
-        android:translationY="-2.02sp"
-        android:gravity="top"
-        android:textSize="16sp"
-        android:textColor="#121212"
-        android:fontFamily="@font/suit"
-        />
-
-    <View
-        android:id="@+id/rectangle_32"
-        android:layout_width="328dp"
-        android:layout_height="328dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="273dp"
-        android:background="@drawable/vpicture2"
-        />
+            <TextView
+                android:id="@+id/text_detailedreview1_1"
+                android:layout_width="326dp"
+                android:layout_height="96dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="124dp"
+                android:fontFamily="@font/suit"
+                android:gravity="top"
+                android:lineSpacingExtra="4sp"
+                android:text="샌프란시스코로 출장을 가야 하는 일정이 잡혀 이번에도 어김없이 해외 입양 이동 봉사를 신청해보았습니다. 항상 눈에 밟히던 친구인 와리가 가족을 만나게 되어 기쁩니다."
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:translationY="-2.02sp" />
 
             <TextView
                 android:id="@+id/text_detailedreview1_2"
                 android:layout_width="326dp"
                 android:layout_height="96dp"
                 android:layout_alignParentLeft="true"
-                android:layout_marginLeft="16dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="625dp"
-                android:text="탑승 전에 잠깐 산책을 했더니 긴장이 조금 풀어진 모습입니다. 장시간 비행을 하는 동안 와리가 많이 힘들어하지 않길 바라고 있습니다."
-                android:lineSpacingExtra="4sp"
-                android:translationY="-2.02sp"
-                android:gravity="top"
-                android:textSize="16sp"
-                android:textColor="#121212"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="584dp"
                 android:fontFamily="@font/suit"
-                />
+                android:gravity="top"
+                android:lineSpacingExtra="4sp"
+                android:text="탑승 전에 잠깐 산책을 했더니 긴장이 조금 풀어진 모습입니다. 장시간 비행을 하는 동안 와리가 많이 힘들어하지 않길 바라고 있습니다."
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:translationY="-2.02sp" />
 
-    <View
-        android:id="@+id/rectangle_22"
-        android:layout_width="328dp"
-        android:layout_height="328dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="710dp"
-        android:background="@drawable/vpicture1"
-        />
 
             <View
                 android:id="@+id/rect_occupy"
@@ -126,56 +121,13 @@
                 android:layout_height="51dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="1100dp"
+                android:layout_marginTop="1030dp"
                 android:background="#FFFFFF"
                 />
 
 
         </RelativeLayout>
     </ScrollView>
-    <View
-        android:id="@+id/rect_title"
-        android:layout_width="360dp"
-        android:layout_height="51dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp"
-        android:background="#FFFFFF"
-        />
-    <!-- 뒤로 가기 버튼-->
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_width="24dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/arrowleft" />
 
-    <View
-        android:id="@+id/rectangle_30"
-        android:layout_width="360dp"
-        android:layout_height="3dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="0dp"
-        android:background="#F4F4F4" />
-
-    <TextView
-        android:id="@+id/text_ourwork"
-        android:layout_width="300dp"
-        android:layout_height="26dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="9dp"
-        android:fontFamily="@font/suit"
-        android:gravity="center_vertical"
-        android:lineSpacingExtra="3sp"
-        android:text="봉사 후기"
-        android:textAppearance="@style/text_mypage"
-        android:textStyle="bold" />
 
 </RelativeLayout>
