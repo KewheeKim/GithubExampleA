@@ -49,6 +49,7 @@ class ApplyPage5Activity : AppCompatActivity() {
                 val vlaueAirLine = selectedRBtn.text.toString()
 
                 // 예약 번호를 12자리가 아니게 입력했을 경우 토스트 문구가 뜸
+
                 if(valueRNum.length != 12) {
                     Toast.makeText(this, "예약 번호는 12자리 입니다.", Toast.LENGTH_SHORT).show()
                 }

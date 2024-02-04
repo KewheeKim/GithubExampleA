@@ -44,9 +44,10 @@ class AccompanyBeforeActivity : AppCompatActivity() {
         var tvFName = findViewById<TextView>(R.id.tvFName)
         var tvRNum = findViewById<TextView>(R.id.tvRNum)
         var afterApply = findViewById<RelativeLayout>(R.id.afterApply)
-        var afterApply_visibility: Boolean = false
         var toAdoptionDetaildpage1 = findViewById<Button>(R.id.toAdoptionDetaildpage1)
         var lastVolunteerLayout = findViewById<RelativeLayout>(R.id.lastVolunteerLayout)
+        var applyLayout = findViewById<RelativeLayout>(R.id.applyLayout)
+
         var cursor: Cursor
 
 
@@ -84,18 +85,16 @@ class AccompanyBeforeActivity : AppCompatActivity() {
         }
 
 
-        // ApplyPage7Activity에서 intent로 afterApply_visibility 값을 받아옴
-        afterApply_visibility = intent.getBooleanExtra("afterApply_visibility", false)
 
-
-        // afterApply_visibility 혹은 ApplyPage7Activity.VISIBILITY중 하나 이상이 true이면 신청 후 정보 화면이 뜨게함
+        //ApplyPage7Activity.VISIBILITY중 하나 이상이 true이면 신청 후 정보 화면이 뜨게함
         if(ApplyPage7Activity.VISIBILITY == true) {
 
             // afterApply 레이아웃을 보이게 만듦
             afterApply.visibility = View.VISIBLE
+            applyLayout.visibility = View.GONE
 
             val params = lastVolunteerLayout.layoutParams as ViewGroup.MarginLayoutParams
-            params.topMargin = 630
+            params.topMargin = 640
 
             // 변경된 마진 값을 lastVolunteerLayout에 적용
             lastVolunteerLayout.layoutParams = params
