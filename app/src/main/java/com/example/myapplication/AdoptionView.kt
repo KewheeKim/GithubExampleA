@@ -35,26 +35,26 @@ class AdoptionView : AppCompatActivity() {
             startActivity(intent)
         }
 
-    // 액션바 뒤로가기
-    supportActionBar?.setDisplayHomeAsUpEnabled(true)
-    // 액션바 글자 색 변경
-    val spannableString = SpannableString("우리의 동행")
-    spannableString.setSpan(ForegroundColorSpan(ContextCompat.getColor(this, R.color.black)),
-    0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
-    supportActionBar?.title = spannableString
-}
-
-// 액션바 뒤로가기 기능 구현
-override fun onOptionsItemSelected(item: MenuItem): Boolean {
-    when (item?.itemId) {
-        android.R.id.home -> {
-            finish()
-            return true
-        }
-        else -> {
-            return super.onOptionsItemSelected(item)
-        }
+        // 액션바 뒤로가기
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        // 액션바 글자 색 변경
+        val spannableString = SpannableString("우리의 동행")
+        spannableString.setSpan(ForegroundColorSpan(ContextCompat.getColor(this, R.color.black)),
+        0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        supportActionBar?.title = spannableString
     }
-}
+
+        // 액션바 뒤로가기 기능 구현
+        override fun onOptionsItemSelected(item: MenuItem): Boolean {
+            when (item?.itemId) {
+                android.R.id.home -> {
+                    finish()
+                    return true
+                }
+                else -> {
+                    return super.onOptionsItemSelected(item)
+                }
+            }
+        }
 
 }
