@@ -73,7 +73,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         viewPager2_1.adapter = ViewPagerAdapter(dogs)
-        viewPager2_1.offscreenPageLimit = 4 // 옆에 미리 로드 할 페이지의 개수
+        viewPager2_1.offscreenPageLimit = 3 // 옆에 미리 로드 할 페이지의 개수
         viewPager2_1.orientation = ViewPager2.ORIENTATION_HORIZONTAL
 
         // 게시글 뷰 페이저
