@@ -20,7 +20,7 @@ class AdoptionView : AppCompatActivity() {
         setContentView(R.layout.activity_adoption_view)
 
         // 버튼 초기화
-        btnVolReview = findViewById<Button>(R.id.btnVolReview) ?: Button(this)
+        btnVolReview = findViewById(R.id.btnVolReview)
         btn_AdoptReview = findViewById(R.id.btn_AdoptReview)
 
         btnVolReview.setOnClickListener {
