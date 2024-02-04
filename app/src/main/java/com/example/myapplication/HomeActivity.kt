@@ -108,6 +108,8 @@ class HomeActivity : AppCompatActivity() {
         // 신청 완료 후 정보 티켓창이 뜸
         if(ApplyPage7Activity.VISIBILITY == true) {
 
+            tvDday.text = ApplyPage4Activity.strDday
+
             // 디데이 문구 출력
             tvAfterApply.visibility = View.VISIBLE
             tvDday.visibility = View.VISIBLE

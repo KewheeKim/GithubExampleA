@@ -23,8 +23,28 @@ import java.util.Timer
 
 class ApplyPage4Activity : AppCompatActivity() {
 
+    companion object {
+        var strDday : String = ""
+    }
+
     lateinit var ap4DBManager: Ap4DBManager
     lateinit var sqlitedb: SQLiteDatabase
+
+    fun getDday(dDay_year: Int, dDay_month: Int, dDay_day: Int) : Long {
+        var ddayCalendar: Calendar = Calendar.getInstance()
+        var todayCalender: Calendar = Calendar.getInstance()
+
+         // 매개변수로 받은 값으로 날짜 지정
+        ddayCalendar.set(dDay_year, dDay_month, dDay_day)
+
+        var ddayMilliseconds = ddayCalendar.timeInMillis
+        var todayMilliseconds = todayCalender.timeInMillis
+
+        // D-day를 구하기 위해 지정된 날짜와 오늘 날짜를 뺀 후 밀리초를 환산한다
+        var Dday = (ddayMilliseconds - todayMilliseconds) / (24 * 60 * 60 * 1000)
+
+        return Dday
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,6 +68,7 @@ class ApplyPage4Activity : AppCompatActivity() {
         var edtTime2 = findViewById<TextView>(R.id.edtTime2)
 
 
+
         arrowDownBtn1.setOnClickListener {
             // 현재 날짜 가져오기
             val calendar = Calendar.getInstance()
@@ -62,6 +83,9 @@ class ApplyPage4Activity : AppCompatActivity() {
                     // 날짜가 설정되면 실행되는 콜백 함수
                     val selectedDate = "${selectedYear}년 ${selectedMonth + 1}월 ${dayOfMonth}일"
                     edtDate1.text = selectedDate // 버튼 텍스트를 선택한 날짜로 설정
+
+                    // 디데이 설정
+                    strDday = "D-${getDday(selectedYear, selectedMonth, dayOfMonth)}"
                 },
                 year,
                 month,
@@ -80,7 +104,7 @@ class ApplyPage4Activity : AppCompatActivity() {
             // DatePickerDialog 표시
             val datePickerDialog = DatePickerDialog(
                 this,
-                DatePickerDialog.OnDateSetListener { view: DatePicker, selectedYear: Int, selectedMonth: Int, dayOfMonth: Int ->
+                { view: DatePicker, selectedYear: Int, selectedMonth: Int, dayOfMonth: Int ->
                     // 날짜가 설정되면 실행되는 콜백 함수
                     val selectedDate = "${selectedYear}년 ${selectedMonth + 1}월 ${dayOfMonth}일"
                     edtDate2.text = selectedDate // 버튼 텍스트를 선택한 날짜로 설정
@@ -102,7 +126,7 @@ class ApplyPage4Activity : AppCompatActivity() {
             val timePickerDialog = TimePickerDialog (
                 this,
                 android.R.style.Theme_Holo_Light_Dialog_NoActionBar,
-                TimePickerDialog.OnTimeSetListener { view: TimePicker, selectedHour: Int, minuteOfDay: Int ->
+                { view: TimePicker, selectedHour: Int, minuteOfDay: Int ->
                     // 시간이 설정되면 실행되는 콜백 함수
                     val selectedTime = "$selectedHour:$minuteOfDay"
                     edtTime1.text = selectedTime // 버튼 텍스트를 선택한 날짜로 설정
