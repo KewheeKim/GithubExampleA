@@ -33,6 +33,7 @@ class ApplyPage1Activity : AppCompatActivity() {
 
                 // 체크 박스 두 개가 모두 눌렸을 경우
                 if(check1.isChecked == true && check2.isChecked == true) {
+                    // 다음 화면으로 전환
                     val intent = Intent(this, ApplyPage2Activity::class.java)
                     startActivity(intent)
                 } else {

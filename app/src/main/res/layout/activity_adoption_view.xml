@@ -381,57 +381,57 @@
         </RelativeLayout>
     </ScrollView>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnVolReview"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="182dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="-1dp"
-        android:background="#FFFFFF"
-        android:text="봉사 후기"
-        android:textSize="16sp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnVolReview"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="182dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="-1dp"
+                android:background="#FFFFFF"
+                android:text="봉사 후기"
+                android:textSize="16sp" />
 
-    <Button
-        android:id="@+id/btnAdoptReview"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="0dp"
-        android:background="#FFFFFF"
-        android:text="입양 후기"
-        android:textSize="16sp" />
+            <Button
+                android:id="@+id/btnAdoptReview"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="0dp"
+                android:background="#FFFFFF"
+                android:text="입양 후기"
+                android:textSize="16sp" />
 
-    <View
-        android:id="@+id/rectangle_4"
-        android:layout_width="180dp"
-        android:layout_height="3dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginTop="49dp"
-        android:background="#43D491" />
+            <View
+                android:id="@+id/rectangle_4"
+                android:layout_width="180dp"
+                android:layout_height="3dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="49dp"
+                android:background="#43D491" />
 
-    <View
-        android:id="@+id/rectangle_5"
-        android:layout_width="180dp"
-        android:layout_height="3dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="182dp"
-        android:layout_marginLeft="182dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="-2dp"
-        android:background="#F3F3F3" />
+            <View
+                android:id="@+id/rectangle_5"
+                android:layout_width="180dp"
+                android:layout_height="3dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="182dp"
+                android:layout_marginLeft="182dp"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="-2dp"
+                android:background="#F3F3F3" />
 
 
 

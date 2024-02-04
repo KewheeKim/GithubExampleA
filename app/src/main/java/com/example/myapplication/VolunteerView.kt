@@ -53,20 +53,20 @@ class VolunteerView : AppCompatActivity() {
         supportActionBar?.title = spannableString
     }
 
-    // 액션바 뒤로가기 기능 구현
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item?.itemId) {
-            android.R.id.home -> {
-                finish()
-                return true
-            }
-            else -> {
-                return super.onOptionsItemSelected(item)
+        // 액션바 뒤로가기 기능 구현
+        override fun onOptionsItemSelected(item: MenuItem): Boolean {
+            when (item?.itemId) {
+                android.R.id.home -> {
+                    finish()
+                    return true
+                }
+                else -> {
+                    return super.onOptionsItemSelected(item)
+                }
             }
         }
-    }
 
-}
+    }
 
 
 
