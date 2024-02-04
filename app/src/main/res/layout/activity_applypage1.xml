@@ -95,6 +95,7 @@
     </LinearLayout>
 
     <CheckBox
+        android:id="@+id/check1"
         android:layout_width="24px"
         android:layout_height="24px"
         android:layout_marginTop="202dp"
@@ -139,6 +140,7 @@
     </LinearLayout>
 
     <CheckBox
+        android:id="@+id/check2"
         android:layout_width="24px"
         android:layout_height="24px"
         android:layout_marginTop="422dp"
