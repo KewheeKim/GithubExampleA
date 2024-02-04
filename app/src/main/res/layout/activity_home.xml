@@ -105,6 +105,138 @@
                 android:layout_marginTop="210dp"
                 android:background="@drawable/ic_plus" />
 
+            <!-- 신청 후 티켓 -->
+            <RelativeLayout
+                android:id="@+id/afterApplyTicket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="137dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="328dp"
+                    android:layout_height="147dp"
+                    android:background="@drawable/homedogimg" />
+
+                <TextView
+                    android:id="@+id/tvDate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="183dp"
+                    android:text="2000년 00월 00일"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/suit_regular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginStart="163dp"
+                    android:text="ICH"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/suit_bold" />
+
+                <TextView
+                    android:id="@+id/tvDestination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginStart="259dp"
+                    android:text="OOO"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/suit_bold" />
+
+                <TextView
+                    android:id="@+id/tvTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="59dp"
+                    android:layout_marginStart="149dp"
+                    android:text="00:00"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/suit_bold" />
+
+                <TextView
+                    android:id="@+id/tvTime2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="59dp"
+                    android:layout_marginStart="245dp"
+                    android:text="00:00"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/suit_bold" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginStart="217dp"
+                    app:srcCompat="@drawable/airplane" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginStart="200dp"
+                    app:srcCompat="@drawable/dotsthree" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginStart="234dp"
+                    app:srcCompat="@drawable/dotsthree" />
+                
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="97dp"
+                    android:layout_marginStart="149dp"
+                    app:srcCompat="@drawable/mappinimg" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="117dp"
+                    android:layout_marginStart="149dp"
+                    app:srcCompat="@drawable/phoneimg" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="97dp"
+                    android:layout_marginStart="165dp"
+                    android:text="인천국제공항 제1터미널 A 카운터"
+                    android:textSize="10sp"
+                    android:textColor="@color/dark_grey"
+                    android:fontFamily="@font/suit_medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="117dp"
+                    android:layout_marginStart="165dp"
+                    android:text="010-5644-7427"
+                    android:textSize="10sp"
+                    android:textColor="@color/dark_grey"
+                    android:fontFamily="@font/suit_medium" />
+
+                <Button
+                    android:id="@+id/btnToAccompanyBefore"
+                    android:layout_width="328dp"
+                    android:layout_height="147dp"
+                    android:visibility="invisible"/>
+
+            </RelativeLayout>
+
 
             <!-- height wrap 고정 필수 -->
             <androidx.cardview.widget.CardView

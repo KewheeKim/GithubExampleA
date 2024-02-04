@@ -44,8 +44,9 @@ class ApplyPage2Activity : AppCompatActivity() {
             // 라디오 버튼의 선택 상태가 변경될 때마다 처리할 내용
             // 다음 화면으로 전환, db에 저장
             nextBtn.setOnClickListener({
-                val destination = resources.getResourceEntryName(selectedRBtn.id)
 
+                // destination에 선택된 객체의 id가 저장되게 함
+                val destination = resources.getResourceEntryName(selectedRBtn.id)
 
                 sqlitedb = ap2DBManager.writableDatabase
                 sqlitedb.execSQL("INSERT INTO ap2 VALUES ('$destination')")
