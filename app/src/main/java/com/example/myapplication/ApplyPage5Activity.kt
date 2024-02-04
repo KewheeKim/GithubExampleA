@@ -40,33 +40,34 @@ class ApplyPage5Activity : AppCompatActivity() {
 
         // 라디오 버튼이 눌릴 때마다 selectedRBtn의 값이 바뀜
         rGroup.setOnCheckedChangeListener { group, checkedId ->
+            // 선택된 라디오 객체가 selectedRBtn에 담김
             val selectedRBtn = findViewById<RadioButton>(checkedId)
 
             // 다음 화면으로 전환, 데베에 저장
             nextBtn.setOnClickListener({
-                val valueFName = edtFName.text.toString()
-                val valueRNum = edtRNum.text.toString()
-                val vlaueAirLine = selectedRBtn.text.toString()
+                var valueAirLine : String = ""
+                var valueFName : String = ""
+                var valueRNum : String = ""
 
-                // 예약 번호를 12자리가 아니게 입력했을 경우 토스트 문구가 뜸
+                valueAirLine = selectedRBtn.text.toString()
+                valueFName = edtFName.text.toString()
+                valueRNum = edtRNum.text.toString()
 
-                if(valueRNum.length != 12) {
-                    Toast.makeText(this, "예약 번호는 12자리 입니다.", Toast.LENGTH_SHORT).show()
-                }
+                // 예약 번호 12자리를 알맞게 입력하면 페이지 이동, 아닐 경우 토스트 문구 출력
+                    if(valueRNum.length == 12) {
+                        ap5DBManager = Ap5DBManager(this, "ap5", null, 1)
 
+                        sqlitedb = ap5DBManager.writableDatabase
+                        sqlitedb.execSQL("INSERT INTO ap5 VALUES ('$valueAirLine','$valueFName', $valueRNum)")
+                        sqlitedb.close()
 
+                        val intent = Intent(this, ApplyPage6Activity::class.java)
+                        startActivity(intent)
+                    } else {
+                        Toast.makeText(this, "예약 번호는 12자리 입니다.", Toast.LENGTH_SHORT).show()
+                    }
 
-                ap5DBManager = Ap5DBManager(this, "ap5", null, 1)
-
-                sqlitedb = ap5DBManager.writableDatabase
-                sqlitedb.execSQL("INSERT INTO ap5 VALUES ('$vlaueAirLine','$valueFName', $valueRNum)")
-                sqlitedb.close()
-
-                val intent = Intent(this, ApplyPage6Activity::class.java)
-                startActivity(intent)
             })
         }
-
     }
-
 }
