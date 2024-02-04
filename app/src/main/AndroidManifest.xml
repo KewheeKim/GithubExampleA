@@ -53,7 +53,7 @@
             android:exported="false" />
         <activity
             android:name=".ApplyPage1Activity"
-            android:parentActivityName=".HomeActivity" />
+            android:parentActivityName=".AccompanyBeforeActivity" />
         <activity
             android:name=".ApplyPage2Activity"
             android:parentActivityName=".ApplyPage1Activity" />
