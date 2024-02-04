@@ -8,17 +8,20 @@ import android.text.style.ForegroundColorSpan
 import android.view.MenuItem
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
 
 class VolunteerView : AppCompatActivity() {
-    private lateinit var btnAdoptionReview: Button
+    private lateinit var btnAdoptionReview: AppCompatTextView
     private lateinit var btnWriteReview: Button
     private lateinit var btn_VolReview: Button
+    private lateinit var btnVolReview: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_volunteer_view)
 
         //버튼 초기화
+        btnVolReview = findViewById<Button>(R.id.btn_VolReview)
         btnAdoptionReview = findViewById(R.id.btnAdoptReview)
         btnWriteReview = findViewById(R.id.btnWriteReview)
         btn_VolReview = findViewById(R.id.btn_VolReview)

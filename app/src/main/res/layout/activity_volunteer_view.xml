@@ -25,7 +25,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="180dp"
-                android:layout_marginTop="9dp"
+                android:layout_marginTop="0dp"
                 android:layout_marginEnd="1dp"
                 android:background="#FFFFFF"
                 android:text="봉사 후기"
@@ -38,12 +38,12 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="9dp"
+                android:layout_marginTop="0dp"
                 android:background="#FFFFFF"
                 android:text="입양 후기"
                 android:textSize="16sp" />
 
-            <TextView
+            <Button
                 android:id="@+id/btn_VolReview"
                 android:layout_width="224dp"
                 android:layout_height="19dp"
@@ -68,7 +68,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="262dp"
-                android:layout_marginTop="85dp"
+                android:layout_marginTop="65dp"
                 android:background="@drawable/img_calendar" />
 
             <TextView
@@ -92,8 +92,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="116dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="98dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="3sp"
@@ -103,23 +103,13 @@
                 android:translationY="-1.51sp" />
 
             <View
-                android:id="@+id/vpicture2"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="193dp"
-                android:background="@drawable/vpicture2" />
-
-            <View
                 android:id="@+id/vpicture1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="124dp"
-                android:layout_marginTop="193dp"
+                android:layout_marginLeft="122dp"
+                android:layout_marginTop="157dp"
                 android:background="@drawable/vpicture1" />
 
             <View
@@ -128,8 +118,8 @@
                 android:layout_height="9dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="309dp"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="273dp"
                 android:background="#F7F7F7" />
 
             <TextView
@@ -138,8 +128,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="323dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="303dp"
                 android:background="#FFFFFF"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
@@ -156,8 +146,8 @@
                 android:layout_height="15dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="262dp"
-                android:layout_marginTop="341dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="298dp"
                 android:background="@drawable/img_calendar" />
 
             <TextView
@@ -165,8 +155,8 @@
                 android:layout_height="28dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="285dp"
-                android:layout_marginTop="326dp"
+                android:layout_marginLeft="283dp"
+                android:layout_marginTop="303dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="13sp"
@@ -181,8 +171,8 @@
                 android:layout_height="44dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="364dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="336dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="3sp"
@@ -197,8 +187,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="430dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="394dp"
                 android:background="@drawable/vpicture3" />
 
             <View
@@ -207,8 +197,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="124dp"
-                android:layout_marginTop="430dp"
+                android:layout_marginLeft="122dp"
+                android:layout_marginTop="393dp"
                 android:background="@drawable/vpicture4" />
 
             <View
@@ -217,8 +207,8 @@
                 android:layout_height="9dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="546dp"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="510dp"
                 android:background="#F7F7F7" />
 
             <TextView
@@ -227,8 +217,8 @@
                 android:layout_height="32dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="558dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="538dp"
                 android:background="#FFFFFF"
                 android:gravity="top"
                 android:lineSpacingExtra="8sp"
@@ -243,8 +233,8 @@
                 android:layout_height="15dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="262dp"
-                android:layout_marginTop="572dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="540dp"
                 android:background="@drawable/img_calendar" />
 
             <TextView
@@ -252,8 +242,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="286dp"
-                android:layout_marginTop="558dp"
+                android:layout_marginLeft="284dp"
+                android:layout_marginTop="545dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="13sp"
@@ -268,8 +258,8 @@
                 android:layout_height="44dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="601dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="583dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="3sp"
@@ -284,8 +274,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="667dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="631dp"
                 android:background="@drawable/vpicture5" />
 
             <View
@@ -294,8 +284,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="124dp"
-                android:layout_marginTop="667dp"
+                android:layout_marginLeft="122dp"
+                android:layout_marginTop="631dp"
                 android:background="@drawable/vpicture6" />
 
             <View
@@ -304,8 +294,8 @@
                 android:layout_height="9dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="783dp"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="747dp"
                 android:background="#F7F7F7" />
 
             <TextView
@@ -314,8 +304,8 @@
                 android:layout_height="28dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="796dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="776dp"
                 android:gravity="top"
                 android:lineSpacingExtra="8sp"
                 android:text="새해 맞이 입양 이동 봉사 후기"
@@ -329,8 +319,8 @@
                 android:layout_height="44dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="838dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="820dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="3sp"
@@ -345,8 +335,8 @@
                 android:layout_height="15dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="262dp"
-                android:layout_marginTop="814dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="781dp"
                 android:background="@drawable/img_calendar" />
 
             <TextView
@@ -354,8 +344,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="286dp"
-                android:layout_marginTop="799dp"
+                android:layout_marginLeft="284dp"
+                android:layout_marginTop="786dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="13sp"
@@ -370,8 +360,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="904dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="878dp"
                 android:background="@drawable/vpicture7" />
 
             <View
@@ -380,8 +370,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="124dp"
-                android:layout_marginTop="904dp"
+                android:layout_marginLeft="122dp"
+                android:layout_marginTop="878dp"
                 android:background="@drawable/vpicture9" />
 
             <View
@@ -390,13 +380,9 @@
                 android:layout_height="51dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="1030dp"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="1014dp"
                 android:background="#FFFFFF" />
-
-
-
-
 
             <Button
                 android:id="@+id/btnWriteReview"
@@ -407,6 +393,17 @@
                 android:background="@drawable/btn_review" />
 
             <View
+                android:id="@+id/vpicture2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="157dp"
+                android:background="@drawable/vpicture2" />
+
+
+            <View
                 android:id="@+id/rectangle_4"
                 android:layout_width="180dp"
                 android:layout_height="3dp"
@@ -415,7 +412,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="1dp"
                 android:layout_marginLeft="1dp"
-                android:layout_marginTop="57dp"
+                android:layout_marginTop="49dp"
                 android:background="#F3F3F3" />
 
             <View
@@ -428,7 +425,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="180dp"
                 android:layout_marginLeft="180dp"
-                android:layout_marginTop="57dp"
+                android:layout_marginTop="49dp"
                 android:layout_marginEnd="1dp"
                 android:background="#43D491" />
 
