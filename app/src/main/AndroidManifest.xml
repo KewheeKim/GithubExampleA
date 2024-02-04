@@ -75,9 +75,6 @@
         <activity 
             android:name=".AccompanyBeforeActivity"
             android:parentActivityName=".HomeActivity"/>
-        <activity
-            android:name=".AccompanyAfterActivity"
-            android:parentActivityName=".HomeActivity"/>
     </application>
 
 </manifest>
