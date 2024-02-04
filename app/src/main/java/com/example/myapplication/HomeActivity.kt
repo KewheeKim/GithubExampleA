@@ -1,12 +1,12 @@
 package com.example.myapplication
 
 import android.animation.LayoutTransition
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Html.ImageGetter
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -16,6 +16,7 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.viewpager2.widget.ViewPager2
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var detailsText: TextView
@@ -37,6 +38,7 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var ap4DBManager: Ap4DBManager
     private lateinit var cursor: Cursor
 
+    @SuppressLint("MissingInflatedId", "Range")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -54,6 +56,11 @@ class HomeActivity : AppCompatActivity() {
         text_entertitle = findViewById(R.id.text_entertitle)
         tvAfterApply = findViewById(R.id.tvAfterApply)
         tvDday = findViewById(R.id.tvDday)
+
+        val viewPager2: ViewPager2 = findViewById(R.id.viewPager2)
+        val images = listOf(R.drawable.main_board_1, R.drawable.main_board_2, R.drawable.main_board_3)
+
+        viewPager2.adapter = ViewPagerAdapter(images)
 
         ap2DBManager = Ap2DBManager(this, "ap2", null, 1)
         ap4DBManager = Ap4DBManager(this,"ap4", null, 1)
