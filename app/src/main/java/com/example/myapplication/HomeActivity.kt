@@ -22,8 +22,6 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var layout: LinearLayout
     private lateinit var expand: CardView
     private lateinit var plus:ImageButton
-    private lateinit var ap2DBManager: Ap2DBManager
-    private lateinit var ap4DBManager: Ap4DBManager
     private lateinit var sqlitedb: SQLiteDatabase
     private lateinit var afterApplyTicket: RelativeLayout
     private lateinit var tvDestination: TextView
@@ -31,6 +29,12 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var tvTime1: TextView
     private lateinit var tvTime2: TextView
     private lateinit var btnToAccompanyBefore: Button
+    private lateinit var text_entertitle: TextView
+    private lateinit var tvAfterApply:TextView
+    private lateinit var tvDday: TextView
+
+    private lateinit var ap2DBManager: Ap2DBManager
+    private lateinit var ap4DBManager: Ap4DBManager
     private lateinit var cursor: Cursor
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,6 +51,9 @@ class HomeActivity : AppCompatActivity() {
         tvTime1 = findViewById(R.id.tvTime1)
         tvTime2 = findViewById(R.id.tvTime2)
         btnToAccompanyBefore = findViewById(R.id.btnToAccompanyBefore)
+        text_entertitle = findViewById(R.id.text_entertitle)
+        tvAfterApply = findViewById(R.id.tvAfterApply)
+        tvDday = findViewById(R.id.tvDday)
 
         ap2DBManager = Ap2DBManager(this, "ap2", null, 1)
         ap4DBManager = Ap4DBManager(this,"ap4", null, 1)
@@ -72,6 +79,11 @@ class HomeActivity : AppCompatActivity() {
 
         // 신청 완료 후 정보 티켓창이 뜸
         if(ApplyPage7Activity.VISIBILITY == true) {
+
+            // 디데이 문구 출력
+            tvAfterApply.visibility = View.VISIBLE
+            tvDday.visibility = View.VISIBLE
+            text_entertitle.visibility = View.INVISIBLE
 
             // afterApplyTicket 레이아웃을 보이게 만듦
             afterApplyTicket.visibility = View.VISIBLE

@@ -42,6 +42,7 @@
             <!-- 신청 전 문구 -->
             <TextView
                 android:id="@+id/text_entertitle"
+                android:visibility="visible"
                 android:layout_width="277dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -53,6 +54,8 @@
                 android:lineSpacingExtra="5sp"
                 android:translationY="-2.52sp"
                 android:gravity="top" />
+
+
 
             <!-- 신청 전 티켓 -->
             <View
