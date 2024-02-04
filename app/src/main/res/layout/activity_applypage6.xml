@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- 다음 버튼 -->
     <Button
         android:id="@+id/nextBtn"
         android:layout_width="332dp"

@@ -30,6 +30,7 @@ class ApplyPage2Activity : AppCompatActivity() {
             0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         supportActionBar?.title = spannableString
 
+
         var nextBtn = findViewById<Button>(R.id.nextBtn)
         var rGroup = findViewById<RadioGroup>(R.id.rGroup)
 
@@ -52,6 +53,7 @@ class ApplyPage2Activity : AppCompatActivity() {
                 sqlitedb.execSQL("INSERT INTO ap2 VALUES ('$destination')")
                 sqlitedb.close()
 
+                // 다음 화면으로 전환
                 val intent = Intent(this, ApplyPage3Activity::class.java)
                 startActivity(intent)
             })

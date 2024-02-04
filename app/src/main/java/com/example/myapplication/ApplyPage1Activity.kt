@@ -23,6 +23,7 @@ class ApplyPage1Activity : AppCompatActivity() {
             0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         supportActionBar?.title = spannableString
 
+
         var nextBtn = findViewById<Button>(R.id.nextBtn)
         var check1 = findViewById<CheckBox>(R.id.check1)
         var check2 = findViewById<CheckBox>(R.id.check2)

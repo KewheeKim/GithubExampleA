@@ -9,6 +9,8 @@ class Ap5DBManager (context: Context,
                     factory: SQLiteDatabase.CursorFactory?,
                     version: Int
 ) : SQLiteOpenHelper(context, name, factory, version) {
+
+    // ap5 테이블 생성
     override fun onCreate(db: SQLiteDatabase?) {
         db!!.execSQL("CREATE TABLE ap5 (airLine text, FName text, RNum INTEGER)")
     }

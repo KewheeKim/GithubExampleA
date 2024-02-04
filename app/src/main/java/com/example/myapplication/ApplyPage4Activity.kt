@@ -23,6 +23,8 @@ import java.util.Timer
 
 class ApplyPage4Activity : AppCompatActivity() {
 
+
+    // 모든 클래스에서 접근 가능한 strDday 설정
     companion object {
         var strDday : String = ""
     }
@@ -31,6 +33,8 @@ class ApplyPage4Activity : AppCompatActivity() {
     lateinit var sqlitedb: SQLiteDatabase
 
     fun getDday(dDay_year: Int, dDay_month: Int, dDay_day: Int) : Long {
+
+        // ddayCalender와 todayCalender 선언
         var ddayCalendar: Calendar = Calendar.getInstance()
         var todayCalender: Calendar = Calendar.getInstance()
 
@@ -40,7 +44,7 @@ class ApplyPage4Activity : AppCompatActivity() {
         var ddayMilliseconds = ddayCalendar.timeInMillis
         var todayMilliseconds = todayCalender.timeInMillis
 
-        // D-day를 구하기 위해 지정된 날짜와 오늘 날짜를 뺀 후 밀리초를 환산한다
+        // D-day를 구하기 위해 지정된 날짜와 오늘 날짜를 뺀 후 밀리초로 나누어 계산
         var Dday = (ddayMilliseconds - todayMilliseconds) / (24 * 60 * 60 * 1000)
 
         return Dday
@@ -57,6 +61,7 @@ class ApplyPage4Activity : AppCompatActivity() {
             0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         supportActionBar?.title = spannableString
 
+
         var nextBtn = findViewById<Button>(R.id.nextBtn)
         var arrowDownBtn1 = findViewById<ImageButton>(R.id.arrowDownBtn1)
         var arrowDownBtn2 = findViewById<ImageButton>(R.id.arrowDownBtn2)
@@ -66,7 +71,6 @@ class ApplyPage4Activity : AppCompatActivity() {
         var edtDate2 = findViewById<TextView>(R.id.edtDate2)
         var edtTime1 = findViewById<TextView>(R.id.edtTime1)
         var edtTime2 = findViewById<TextView>(R.id.edtTime2)
-
 
 
         arrowDownBtn1.setOnClickListener {
@@ -82,9 +86,12 @@ class ApplyPage4Activity : AppCompatActivity() {
                 { view: DatePicker, selectedYear: Int, selectedMonth: Int, dayOfMonth: Int ->
                     // 날짜가 설정되면 실행되는 콜백 함수
                     val selectedDate = "${selectedYear}년 ${selectedMonth + 1}월 ${dayOfMonth}일"
-                    edtDate1.text = selectedDate // 버튼 텍스트를 선택한 날짜로 설정
 
-                    // 디데이 설정
+                    // 버튼 텍스트를 선택한 날짜로 설정
+                    edtDate1.text = selectedDate
+
+
+                    // strDday에 선택된 날짜로부터 디데이 설정
                     strDday = "D-${getDday(selectedYear, selectedMonth, dayOfMonth)}"
                 },
                 year,
@@ -107,7 +114,9 @@ class ApplyPage4Activity : AppCompatActivity() {
                 { view: DatePicker, selectedYear: Int, selectedMonth: Int, dayOfMonth: Int ->
                     // 날짜가 설정되면 실행되는 콜백 함수
                     val selectedDate = "${selectedYear}년 ${selectedMonth + 1}월 ${dayOfMonth}일"
-                    edtDate2.text = selectedDate // 버튼 텍스트를 선택한 날짜로 설정
+
+                    // 버튼 텍스트를 선택한 날짜로 설정
+                    edtDate2.text = selectedDate
                 },
                 year,
                 month,
@@ -129,7 +138,9 @@ class ApplyPage4Activity : AppCompatActivity() {
                 { view: TimePicker, selectedHour: Int, minuteOfDay: Int ->
                     // 시간이 설정되면 실행되는 콜백 함수
                     val selectedTime = "$selectedHour:$minuteOfDay"
-                    edtTime1.text = selectedTime // 버튼 텍스트를 선택한 날짜로 설정
+
+                    // 버튼 텍스트를 선택한 날짜로 설정
+                    edtTime1.text = selectedTime
                 },
                 hour,
                 minute,
@@ -152,7 +163,9 @@ class ApplyPage4Activity : AppCompatActivity() {
                 { view: TimePicker, selectedHour: Int, minuteOfDay: Int ->
                     // 시간이 설정되면 실행되는 콜백 함수
                     val selectedTime = "$selectedHour:$minuteOfDay"
-                    edtTime2.text = selectedTime // 버튼 텍스트를 선택한 날짜로 설정
+
+                    // 버튼 텍스트를 선택한 날짜로 설정
+                    edtTime2.text = selectedTime
                 },
                 hour,
                 minute,
@@ -175,6 +188,7 @@ class ApplyPage4Activity : AppCompatActivity() {
             sqlitedb.execSQL("INSERT INTO ap4 VALUES ('$valueDate1', '$valueDate2', '$valueTime1', '$valueTime2')")
             sqlitedb.close()
 
+            // 다음 화면으로 전환
             val intent = Intent(this, ApplyPage5Activity::class.java)
             startActivity(intent)
         })

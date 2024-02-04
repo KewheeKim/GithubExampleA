@@ -108,6 +108,7 @@ class HomeActivity : AppCompatActivity() {
         // 신청 완료 후 정보 티켓창이 뜸
         if(ApplyPage7Activity.VISIBILITY == true) {
 
+            // 전역 변수 strDday로 tvDay의 텍스트를 설정함
             tvDday.text = ApplyPage4Activity.strDday
 
             // 디데이 문구 출력
@@ -132,7 +133,6 @@ class HomeActivity : AppCompatActivity() {
         sqlitedb.close()
         ap2DBManager.close()
         ap4DBManager.close()
-
 
 
         layout.layoutTransition.enableTransitionType(LayoutTransition.CHANGING)

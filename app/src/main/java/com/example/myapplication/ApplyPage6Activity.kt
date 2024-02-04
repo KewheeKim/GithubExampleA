@@ -21,6 +21,7 @@ class ApplyPage6Activity : AppCompatActivity() {
             0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         supportActionBar?.title = spannableString
 
+
         var nextBtn = findViewById<Button>(R.id.nextBtn)
 
         // 다음 화면으로 전환

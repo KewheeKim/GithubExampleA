@@ -35,6 +35,7 @@ class AccompanyBeforeActivity : AppCompatActivity() {
             0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         supportActionBar?.title = spannableString
 
+
         var addBtn = findViewById<ImageButton>(R.id.addBtn)
         var tvDestination = findViewById<TextView>(R.id.tvDestination)
         var tvDate1 = findViewById<TextView>(R.id.tvDate1)
@@ -93,6 +94,7 @@ class AccompanyBeforeActivity : AppCompatActivity() {
             afterApply.visibility = View.VISIBLE
             applyLayout.visibility = View.GONE
 
+            // 바뀐 마진 값을 설정
             val params = lastVolunteerLayout.layoutParams as ViewGroup.MarginLayoutParams
             params.topMargin = 655
 
@@ -110,6 +112,8 @@ class AccompanyBeforeActivity : AppCompatActivity() {
         ap4DBManager.close()
         ap5DBManager.close()
 
+
+        // 입양 후기 상세 페이지로 전환
         toAdoptionDetaildpage1.setOnClickListener({
             val intent = Intent(this, AdoptionDetailedpage::class.java)
             startActivity(intent)

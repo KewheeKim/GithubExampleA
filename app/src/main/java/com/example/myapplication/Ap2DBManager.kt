@@ -9,6 +9,8 @@ class Ap2DBManager(context: Context,
                    factory: SQLiteDatabase.CursorFactory?,
                    version: Int
 ) : SQLiteOpenHelper(context, name, factory, version) {
+
+    // ap2 테이블 생성
     override fun onCreate(db: SQLiteDatabase?) {
         db!!.execSQL("CREATE TABLE ap2 (destination text)")
     }

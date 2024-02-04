@@ -27,7 +27,6 @@
                 android:fontFamily="@font/suit_bold"/>
 
             <!--이동봉사 신청하기-->
-
             <RelativeLayout
                 android:id="@+id/applyLayout"
                 android:visibility="visible"
@@ -61,7 +60,6 @@
 
 
             <!-- 구분선과 지난 입양 이동 봉사 텍스트, 사진 두 개가 포함된 레이아웃-->
-
             <RelativeLayout
                 android:id="@+id/lastVolunteerLayout"
                 android:layout_width="match_parent"
@@ -75,7 +73,7 @@
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
                     android:background="@color/light_light_grey"/>
-                <!---->
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -176,8 +174,7 @@
 
                 </RelativeLayout>
 
-                <!-- 지난 입양 이동 봉사 1 -->
-
+                <!-- 지난 입양 이동 봉사 2 -->
                 <RelativeLayout
                     android:id="@+id/dog2Layout"
                     android:layout_width="336dp"
@@ -269,7 +266,7 @@
 
             </RelativeLayout>
 
-            <!-- 정보창 -->
+            <!-- 정보 화면 -->
             <RelativeLayout
                 android:id="@+id/afterApply"
                 android:layout_width="344dp"

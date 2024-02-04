@@ -110,7 +110,8 @@
             android:layout_marginTop="366dp"
             android:layout_marginStart="14dp"
             android:fontFamily="@font/suit_bold"/>
-        
+
+        <!-- 신청하기 버튼 -->
         <Button
             android:id="@+id/nextBtn"
             android:layout_width="300dp"

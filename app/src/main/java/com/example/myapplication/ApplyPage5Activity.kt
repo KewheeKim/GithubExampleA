@@ -33,6 +33,7 @@ class ApplyPage5Activity : AppCompatActivity() {
             0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         supportActionBar?.title = spannableString
 
+
         var nextBtn = findViewById<Button>(R.id.nextBtn)
         var edtFName = findViewById<EditText>(R.id.edtFName)
         var edtRNum = findViewById<EditText>(R.id.edtRNum)
@@ -61,9 +62,12 @@ class ApplyPage5Activity : AppCompatActivity() {
                         sqlitedb.execSQL("INSERT INTO ap5 VALUES ('$valueAirLine','$valueFName', $valueRNum)")
                         sqlitedb.close()
 
+                        // 알맞게 입력시 다음 화면으로 전환
                         val intent = Intent(this, ApplyPage6Activity::class.java)
                         startActivity(intent)
                     } else {
+
+                        // 예약 번호를 잘못 입력했다는 토스트 문구 출력
                         Toast.makeText(this, "예약 번호는 12자리 입니다.", Toast.LENGTH_SHORT).show()
                     }
 
