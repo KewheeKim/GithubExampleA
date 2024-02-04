@@ -94,7 +94,7 @@ class AccompanyBeforeActivity : AppCompatActivity() {
             applyLayout.visibility = View.GONE
 
             val params = lastVolunteerLayout.layoutParams as ViewGroup.MarginLayoutParams
-            params.topMargin = 640
+            params.topMargin = 655
 
             // 변경된 마진 값을 lastVolunteerLayout에 적용
             lastVolunteerLayout.layoutParams = params
