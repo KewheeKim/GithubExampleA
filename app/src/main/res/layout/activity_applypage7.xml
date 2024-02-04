@@ -175,7 +175,7 @@
             android:layout_marginStart="41dp"
             android:fontFamily="@font/suit_medium"
             android:textColor="@color/black"
-            android:text="  유기견에게 새 삶을 선물해주셔서 감사합니다.\n곧 알림으로 ㅇㅇ님과 동행할 친구를 알려드릴게요!" />
+            android:text="  유기견에게 새 삶을 선물해주셔서 감사합니다.\n곧 알림으로 투게독님과 동행할 친구를 알려드릴게요!" />
 
     </RelativeLayout>
 

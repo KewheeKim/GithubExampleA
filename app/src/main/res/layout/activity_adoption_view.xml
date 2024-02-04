@@ -23,60 +23,46 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="54dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="0dp"
                 android:background="#FFFFFF"
                 android:text="입양 후기"
                 android:textSize="16sp" />
 
-    <Button
-        android:id="@+id/btnVolReview"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="180dp"
-        android:layout_marginTop="54dp"
-        android:layout_marginEnd="1dp"
-        android:background="#FFFFFF"
-        android:text="봉사 후기"
-        android:textSize="16sp" />
+            <View
+                android:id="@+id/rectangle_4"
+                android:layout_width="180dp"
+                android:layout_height="3dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="47dp"
+                android:background="#43D491" />
 
-    <View
-        android:id="@+id/rectangle_4"
-        android:layout_width="180dp"
-        android:layout_height="3dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="102dp"
-        android:background="#43D491" />
+            <View
+                android:id="@+id/rectangle_5"
+                android:layout_width="180dp"
+                android:layout_height="3dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="182dp"
+                android:layout_marginLeft="182dp"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="-2dp"
+                android:background="#F3F3F3" />
 
-    <View
-        android:id="@+id/rectangle_5"
-        android:layout_width="180dp"
-        android:layout_height="3dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="180dp"
-        android:layout_marginLeft="181dp"
-        android:layout_marginTop="102dp"
-        android:background="#F3F3F3" />
-
-            <!-- 크리스마스에 찾아온 후기-->
             <Button
                 android:id="@+id/btn_AdoptReview"
                 android:layout_width="wrap_content"
                 android:layout_height="34dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="128dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="69dp"
                 android:background="#FFFFFF"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
@@ -93,8 +79,8 @@
                 android:layout_height="15dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="262dp"
-                android:layout_marginTop="130dp"
+                android:layout_marginLeft="264dp"
+                android:layout_marginTop="69dp"
                 android:background="@drawable/img_calendar" />
 
             <TextView
@@ -102,8 +88,8 @@
                 android:layout_height="28dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="285dp"
-                android:layout_marginTop="137dp"
+                android:layout_marginLeft="287dp"
+                android:layout_marginTop="75dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="13sp"
@@ -118,8 +104,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="167dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="110dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="3sp"
@@ -134,7 +120,8 @@
                 android:layout_height="9dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="354dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="299dp"
                 android:background="#F7F7F7" />
 
             <View
@@ -142,8 +129,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="238dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="183dp"
                 android:background="@drawable/picture1" />
 
             <View
@@ -151,11 +138,9 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="124dp"
-                android:layout_marginTop="238dp"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="183dp"
                 android:background="@drawable/picture2" />
-
-            <!--버들이 입양후기-->
 
             <TextView
                 android:layout_width="231dp"
@@ -163,8 +148,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="380dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="325dp"
                 android:background="#FFFFFF"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
@@ -181,8 +166,8 @@
                 android:layout_height="15dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="262dp"
-                android:layout_marginTop="386dp"
+                android:layout_marginLeft="264dp"
+                android:layout_marginTop="325dp"
                 android:background="@drawable/img_calendar" />
 
             <TextView
@@ -190,8 +175,8 @@
                 android:layout_height="28dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="285dp"
-                android:layout_marginTop="392dp"
+                android:layout_marginLeft="287dp"
+                android:layout_marginTop="330dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="13sp"
@@ -206,8 +191,8 @@
                 android:layout_height="44dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="415dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="362dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="3sp"
@@ -222,8 +207,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="475dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="420dp"
                 android:background="@drawable/picture3" />
 
             <View
@@ -232,8 +217,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="124dp"
-                android:layout_marginTop="475dp"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="420dp"
                 android:background="@drawable/picture4" />
 
             <View
@@ -242,8 +227,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="232dp"
-                android:layout_marginTop="475dp"
+                android:layout_marginLeft="234dp"
+                android:layout_marginTop="420dp"
                 android:background="@drawable/picture5" />
 
             <View
@@ -252,18 +237,18 @@
                 android:layout_height="9dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="591dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="536dp"
                 android:background="#F7F7F7" />
 
-            <!--윌리엄이 가족을 만났어요!-->
             <TextView
                 android:id="@+id/text_william"
                 android:layout_width="239dp"
                 android:layout_height="32dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="616dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="560dp"
                 android:background="#FFFFFF"
                 android:gravity="top"
                 android:lineSpacingExtra="8sp"
@@ -278,8 +263,8 @@
                 android:layout_height="15dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="262dp"
-                android:layout_marginTop="617dp"
+                android:layout_marginLeft="264dp"
+                android:layout_marginTop="556dp"
                 android:background="@drawable/img_calendar" />
 
             <TextView
@@ -287,8 +272,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="286dp"
-                android:layout_marginTop="624dp"
+                android:layout_marginLeft="288dp"
+                android:layout_marginTop="562dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="13sp"
@@ -303,8 +288,8 @@
                 android:layout_height="44dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="652dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="595dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="3sp"
@@ -319,8 +304,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="712dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="657dp"
                 android:background="@drawable/picture6" />
 
             <View
@@ -329,8 +314,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="124dp"
-                android:layout_marginTop="712dp"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="657dp"
                 android:background="@drawable/picture7" />
 
             <View
@@ -339,10 +324,9 @@
                 android:layout_height="9dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="828dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="773dp"
                 android:background="#F7F7F7" />
-
-            <!--까미 가족 소개-->
 
             <TextView
                 android:id="@+id/text_entertitle"
@@ -350,8 +334,8 @@
                 android:layout_height="28dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="853dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="798dp"
                 android:gravity="top"
                 android:lineSpacingExtra="8sp"
                 android:text="까미의 가족을 소개합니다"
@@ -365,8 +349,8 @@
                 android:layout_height="44dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="889dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="832dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="3sp"
@@ -381,8 +365,8 @@
                 android:layout_height="15dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="262dp"
-                android:layout_marginTop="859dp"
+                android:layout_marginLeft="264dp"
+                android:layout_marginTop="798dp"
                 android:background="@drawable/img_calendar" />
 
             <TextView
@@ -390,8 +374,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="286dp"
-                android:layout_marginTop="865dp"
+                android:layout_marginLeft="288dp"
+                android:layout_marginTop="803dp"
                 android:fontFamily="@font/suit"
                 android:gravity="top"
                 android:lineSpacingExtra="13sp"
@@ -406,8 +390,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="949dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="894dp"
                 android:background="@drawable/picture8" />
 
             <View
@@ -416,8 +400,8 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="124dp"
-                android:layout_marginTop="949dp"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="894dp"
                 android:background="@drawable/picture9" />
 
             <View
@@ -426,151 +410,40 @@
                 android:layout_height="51dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="1100dp"
-                android:background="#FFFFFF"
-                />
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1050dp"
+                android:background="#FFFFFF" />
 
+
+
+            <Button
+                android:id="@+id/btnVolReview"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="182dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="-1dp"
+                android:background="#FFFFFF"
+                android:text="봉사 후기"
+                android:textSize="16sp" />
+
+
+
+            <!-- 크리스마스에 찾아온 후기-->
+
+            <!--버들이 입양후기-->
+
+            <!--윌리엄이 가족을 만났어요!-->
+
+            <!--까미 가족 소개-->
 
 
         </RelativeLayout>
     </ScrollView>
-    <!-- 뒤로 가기 버튼-->
-    <View
-        android:id="@+id/rect_title"
-        android:layout_width="360dp"
-        android:layout_height="51dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp"
-        android:background="#FFFFFF"
-        />
 
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_width="24dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/arrowleft" />
-
-    <TextView
-        android:id="@+id/text_ourwork"
-        android:layout_width="300dp"
-        android:layout_height="26dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="9dp"
-        android:fontFamily="@font/suit"
-        android:gravity="center_vertical"
-        android:lineSpacingExtra="3sp"
-        android:text="우리의 동행"
-        android:textAppearance="@style/text_mypage"
-        android:textStyle="bold" />
-
-
-    <!--하단네비게이션바-->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="740dp"
-        android:background="#FFFFFF" />
-
-    <View
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="750dp"
-        android:background="@drawable/house" />
-
-    <View
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="122dp"
-        android:layout_marginTop="750dp"
-        android:background="@drawable/img_paw" />
-
-    <View
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="207dp"
-        android:layout_marginTop="750dp"
-        android:layout_weight="1"
-        android:background="@drawable/img_notepencil1" />
-
-    <View
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="295dp"
-        android:layout_marginTop="750dp"
-        android:layout_weight="1"
-        android:background="@drawable/img_user1" />
-
-            <TextView
-                android:id="@+id/text_home1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="42.5dp"
-                android:layout_marginBottom="9dp"
-                android:fontFamily="@font/suit"
-                android:text="홈"
-                android:textColor="#AFAFAF"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/text_home2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="114dp"
-                android:layout_marginBottom="9dp"
-                android:fontFamily="@font/suit"
-                android:text="나의 동행"
-                android:textColor="#AFAFAF"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/text_home3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="194dp"
-                android:layout_marginBottom="9dp"
-                android:fontFamily="@font/suit"
-                android:text="우리의 동행"
-                android:textColor="#43D491"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/text_home4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="284dp"
-                android:layout_marginBottom="9dp"
-                android:fontFamily="@font/suit"
-                android:text="마이페이지"
-                android:textColor="#AFAFAF"
-                android:textSize="10sp" />
-
-    <!-- 하단네비게이션 코드 끝-->
 
 
 

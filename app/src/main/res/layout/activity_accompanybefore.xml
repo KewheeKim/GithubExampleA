@@ -30,6 +30,7 @@
 
             <RelativeLayout
                 android:id="@+id/applyLayout"
+                android:visibility="visible"
                 android:layout_width="328dp"
                 android:layout_height="154dp"
                 android:layout_marginTop="67dp"
@@ -273,7 +274,7 @@
                 android:id="@+id/afterApply"
                 android:layout_width="344dp"
                 android:layout_height="565dp"
-                android:layout_marginTop="63dp"
+                android:layout_marginTop="73dp"
                 android:layout_marginStart="8dp"
                 android:visibility="gone">
 
