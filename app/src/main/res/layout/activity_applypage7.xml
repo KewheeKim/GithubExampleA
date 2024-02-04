@@ -136,56 +136,45 @@
 
 
 
-    <!-- 신청하기 버튼을 누르면 나타나며 5초 뒤에 사라지는 팝업 이후 메인 화면으로 이동 -->
+    <!-- 신청하기 버튼을 누르면 나타나며 3초 뒤에 사라지는 팝업 이후 나의 동행 화면으로 이동 -->
     <RelativeLayout
         android:id="@+id/lastPage"
         android:layout_width="360dp"
         android:layout_height="800dp"
         android:background="@color/white"
-        android:visibility="gone">
+        android:visibility="visible">
 
         <ImageView
-            android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="145dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="172dp"
             app:srcCompat="@drawable/ellipse" />
 
         <ImageView
-            android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="196dp"
-            android:layout_marginEnd="119dp"
+            android:layout_marginTop="169dp"
+            android:layout_marginStart="130dp"
             app:srcCompat="@drawable/pawprint2" />
 
         <TextView
-            android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="69dp"
-            android:layout_marginBottom="331dp"
-            android:fontFamily="@font/suit_regular"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="302dp"
+            android:fontFamily="@font/suit_semibold"
             android:text="신청이 완료되었습니다."
-            android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textColor="@color/black"
+            android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="288dp"
-            android:fontFamily="@font/suit_regular"
+            android:layout_marginTop="352dp"
+            android:layout_marginStart="41dp"
+            android:fontFamily="@font/suit_medium"
+            android:textColor="@color/black"
             android:text="  유기견에게 새 삶을 선물해주셔서 감사합니다.\n곧 알림으로 ㅇㅇ님과 동행할 친구를 알려드릴게요!" />
 
     </RelativeLayout>
