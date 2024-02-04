@@ -348,66 +348,22 @@
                 android:translationY="-2.52sp"
                 android:gravity="center_horizontal|top" />
 
-
-            <!--View
-                android:id="@+id/main_dog_1"
-                android:layout_width="105dp"
-                android:layout_height="wrap_content"
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/dogViewPager"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="430dp"
-                android:background="@drawable/main_dog_1" />
-
-            <View
-                android:id="@+id/main_dog_2"
-                android:layout_width="105dp"
-                android:layout_height="105dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="129dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="430dp"
-                android:background="@drawable/main_dog_2_2" />
-
-            <TextView
-                android:id="@+id/main_dog_2_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="164dp"
-                android:layout_marginTop="545dp"
-                android:fontFamily="@font/suit_semibold"
-                android:gravity="top"
-                android:lineSpacingExtra="4sp"
-                android:text="미일"
-                android:textAppearance="@style/text_fraction"
-                android:translationY="-1.76sp" />
-
-            <View
-                android:id="@+id/main_dog_3"
-                android:layout_width="105dp"
-                android:layout_height="105dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="242dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="430dp"
-                android:background="@drawable/main_dog_3" />
-
-            <TextView
-                android:id="@+id/main_dog_3_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="280dp"
-                android:layout_marginTop="545dp"
-                android:fontFamily="@font/suit_semibold"
-                android:gravity="top"
-                android:lineSpacingExtra="4sp"
-                android:text="캠퍼"
-                android:textAppearance="@style/text_fraction"
-                android:translationY="-1.76sp" /> -->
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <!-- 드디어 가족을 만났어요 -->
             <TextView
@@ -426,7 +382,7 @@
                 android:translationY="-2.52sp" />
 
             <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/viewPager2"
+                android:id="@+id/boardViewPager"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
