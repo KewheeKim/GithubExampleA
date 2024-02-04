@@ -233,7 +233,7 @@
                     android:id="@+id/btnToAccompanyBefore"
                     android:layout_width="328dp"
                     android:layout_height="147dp"
-                    android:visibility="invisible"/>
+                    android:background="@android:color/transparent"/>
 
             </RelativeLayout>
 
