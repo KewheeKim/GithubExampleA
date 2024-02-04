@@ -59,10 +59,16 @@ class HomeActivity : AppCompatActivity() {
 
 
         // 뷰 페이저
-        val viewPager2: ViewPager2 = findViewById(R.id.viewPager2)
+        val viewPager2_1: ViewPager2 = findViewById(R.id.dogViewPager)
+        val dogs = listOf(R.drawable.main_dog_1, R.drawable.main_dog_2, R.drawable.main_dog_3,
+            R.drawable.main_dog_4, R.drawable.main_dog_5)
+
+        viewPager2_1.adapter = ViewPagerAdapter(dogs)
+
+        val viewPager2_2: ViewPager2 = findViewById(R.id.boardViewPager)
         val images = listOf(R.drawable.main_board_1, R.drawable.main_board_2, R.drawable.main_board_3)
 
-        viewPager2.adapter = ViewPagerAdapter(images)
+        viewPager2_2.adapter = ViewPagerAdapter(images)
 
         ap2DBManager = Ap2DBManager(this, "ap2", null, 1)
         ap4DBManager = Ap4DBManager(this,"ap4", null, 1)

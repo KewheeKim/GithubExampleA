@@ -348,6 +348,21 @@
                 android:translationY="-2.52sp"
                 android:gravity="center_horizontal|top" />
 
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/dogViewPager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="430dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
 
             <!--View
                 android:id="@+id/main_dog_1"
@@ -426,7 +441,7 @@
                 android:translationY="-2.52sp" />
 
             <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/viewPager2"
+                android:id="@+id/boardViewPager"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
