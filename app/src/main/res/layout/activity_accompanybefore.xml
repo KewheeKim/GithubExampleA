@@ -91,7 +91,7 @@
                     android:id="@+id/dog1Layout"
                     android:layout_width="336dp"
                     android:layout_height="155dp"
-                    android:layout_marginTop="79dp"
+                    android:layout_marginTop="84dp"
                     android:layout_marginStart="12dp">
 
                     <ImageView
@@ -181,7 +181,7 @@
                     android:id="@+id/dog2Layout"
                     android:layout_width="336dp"
                     android:layout_height="155dp"
-                    android:layout_marginTop="240dp"
+                    android:layout_marginTop="245dp"
                     android:layout_marginStart="12dp">
 
                     <ImageView
