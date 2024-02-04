@@ -57,6 +57,8 @@ class HomeActivity : AppCompatActivity() {
         tvAfterApply = findViewById(R.id.tvAfterApply)
         tvDday = findViewById(R.id.tvDday)
 
+
+        // 뷰 페이저
         val viewPager2: ViewPager2 = findViewById(R.id.viewPager2)
         val images = listOf(R.drawable.main_board_1, R.drawable.main_board_2, R.drawable.main_board_3)
 
