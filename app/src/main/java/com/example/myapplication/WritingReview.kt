@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.SpannableString
@@ -7,11 +8,21 @@ import android.view.MenuItem
 import androidx.core.content.ContextCompat
 import android.text.Spannable
 import android.text.style.ForegroundColorSpan
+import android.widget.Button
 
 class WritingReview : AppCompatActivity() {
+    private lateinit var btnFinish: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_writing_review)
+
+        btnFinish = findViewById(R.id.btnFinish)
+
+        btnFinish.setOnClickListener {
+            // 완료 버튼 클릭 시 VolunteerView로 이동하는 코드
+            val intent = Intent(this, VolunteerView::class.java)
+            startActivity(intent)
+        }
 
     // 액션바 뒤로가기
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
