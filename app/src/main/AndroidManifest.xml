@@ -35,13 +35,13 @@
             android:exported="false" />
         <activity
             android:name=".VolunteerDetailedpage"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".VolunteerView"
             android:exported="false" />
         <activity
             android:name=".AdoptionDetailedpage"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".AdoptionView"
             android:exported="false" />
