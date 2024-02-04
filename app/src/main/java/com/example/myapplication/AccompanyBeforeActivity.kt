@@ -15,13 +15,10 @@ import android.widget.RelativeLayout
 import android.widget.ScrollView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 
 
-var AFTERAPPLY_VISIBILITY : Boolean = false
 class AccompanyBeforeActivity : AppCompatActivity() {
-
     lateinit var ap2DBManager: Ap2DBManager
     lateinit var ap4DBManager: Ap4DBManager
     lateinit var ap5DBManager: Ap5DBManager
@@ -46,14 +43,14 @@ class AccompanyBeforeActivity : AppCompatActivity() {
         var tvAirLine = findViewById<TextView>(R.id.tvAirLine)
         var tvFName = findViewById<TextView>(R.id.tvFName)
         var tvRNum = findViewById<TextView>(R.id.tvRNum)
-        var scrollView = findViewById<ScrollView>(R.id.scrollView)
-        var applyLayout = findViewById<RelativeLayout>(R.id.applyLayout)
         var afterApply = findViewById<RelativeLayout>(R.id.afterApply)
         var afterApply_visibility: Boolean = false
         var toAdoptionDetaildpage1 = findViewById<Button>(R.id.toAdoptionDetaildpage1)
         var lastVolunteerLayout = findViewById<RelativeLayout>(R.id.lastVolunteerLayout)
         var cursor: Cursor
 
+
+        // ap2, ap4, ap5 dbManager를 생성하여 테이블 관리
         ap2DBManager = Ap2DBManager(this, "ap2", null, 1)
         ap4DBManager = Ap4DBManager(this,"ap4", null, 1)
         ap5DBManager = Ap5DBManager(this, "ap5", null, 1)
@@ -90,21 +87,23 @@ class AccompanyBeforeActivity : AppCompatActivity() {
         // ApplyPage7Activity에서 intent로 afterApply_visibility 값을 받아옴
         afterApply_visibility = intent.getBooleanExtra("afterApply_visibility", false)
 
-        // afterApply_visibility == true면 신청 후 정보 화면이 뜨게함
-        if(afterApply_visibility == true) {
+
+        // afterApply_visibility 혹은 ApplyPage7Activity.VISIBILITY중 하나 이상이 true이면 신청 후 정보 화면이 뜨게함
+        if(ApplyPage7Activity.VISIBILITY == true) {
 
             // afterApply 레이아웃을 보이게 만듦
             afterApply.visibility = View.VISIBLE
 
-            //
             val params = lastVolunteerLayout.layoutParams as ViewGroup.MarginLayoutParams
             params.topMargin = 630
 
-            lastVolunteerLayout.layoutParams = params // 변경된 마진 값을 lastVolunteerLayout에 적용합니다.
+            // 변경된 마진 값을 lastVolunteerLayout에 적용
+            lastVolunteerLayout.layoutParams = params
 
         } else {
             afterApply.visibility = View.GONE
         }
+
 
         cursor.close()
         sqlitedb.close()

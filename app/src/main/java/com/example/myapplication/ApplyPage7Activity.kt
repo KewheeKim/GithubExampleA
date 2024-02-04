@@ -14,9 +14,15 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 
 class ApplyPage7Activity : AppCompatActivity() {
+
+    companion object {
+        var VISIBILITY: Boolean = false
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_applypage7)
+
+
 
         // 액션바 제목, 글자 색 변경
         val spannableString = SpannableString("해외 입양 이동 봉사 신청")
@@ -33,11 +39,18 @@ class ApplyPage7Activity : AppCompatActivity() {
         nextBtn.setOnClickListener({
             lastPage.visibility = View.VISIBLE
             Handler().postDelayed({
-                val intent = Intent(this, AccompanyBeforeActivity::class.java)
 
-                // afterApply_visibility에 true를 저장하여 AccompanyBeforeActivity에 넘김
-                intent.putExtra("afterApply_visibility", true)
-                startActivity(intent)
+                // AccompanyBefore 액티비티에 정보를 넘김
+                val accompanyBefore_intent = Intent(this, AccompanyBeforeActivity::class.java)
+
+                // 전체 클래스에서 접근 가능한 변수 VISIBILITY를 true로 바꿈
+                VISIBILITY = true
+
+                // acccompanyBefore 화면에 afterApply_visibility에 true를 저장하여 AccompanyBeforeActivity에 넘김
+                accompanyBefore_intent.putExtra("afterApply_visibility", VISIBILITY)
+
+                // accompanyBefore 화면으로 전환
+                startActivity(accompanyBefore_intent)
             }, 3000)
         })
 
@@ -46,7 +59,6 @@ class ApplyPage7Activity : AppCompatActivity() {
             val intent = Intent(this, ApplyPage6Activity::class.java)
             startActivity(intent)
         })
-
 
     }
 

@@ -4,6 +4,7 @@ import android.animation.LayoutTransition
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Html.ImageGetter
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -16,14 +17,16 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var detailsText: TextView
     private lateinit var layout: LinearLayout
     private lateinit var expand: CardView
-
+    private lateinit var plus:ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
         detailsText = findViewById(R.id.detailsText)
         layout = findViewById(R.id.layouts)
         expand = findViewById(R.id.expandable)
+        plus = findViewById(R.id.plus)
 
         layout.layoutTransition.enableTransitionType(LayoutTransition.CHANGING)
         expand.setOnClickListener {
@@ -31,13 +34,11 @@ class HomeActivity : AppCompatActivity() {
             detailsText.visibility = v
         }
 
-        var plus = findViewById<ImageButton>(R.id.plus)
-
         plus.setOnClickListener({
 
-            //다음 화면으로 넘어감
-            val intent = Intent(this, ApplyPage1Activity::class.java)
-            startActivity(intent)
+            // 다음 화면(신청서)으로 넘어감
+            val applyPage1_intent = Intent(this, ApplyPage1Activity::class.java)
+            startActivity(applyPage1_intent)
         })
 
     }
