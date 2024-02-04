@@ -339,7 +339,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- 나와 함께한 친구들 -->
+            <!-- 나의 여행길에 함께한 친구들 -->
             <TextView
                 android:id="@+id/withmeTitle"
                 android:layout_width="wrap_content"
@@ -354,30 +354,16 @@
                 android:translationY="-2.52sp"
                 android:gravity="center_horizontal|top" />
 
-            <View
+
+            <!--View
                 android:id="@+id/main_dog_1"
                 android:layout_width="105dp"
-                android:layout_height="105dp"
+                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="16dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="430dp"
                 android:background="@drawable/main_dog_1" />
-
-            <TextView
-                android:id="@+id/main_dog_1_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="55dp"
-                android:layout_marginTop="545dp"
-                android:fontFamily="@font/suit_semibold"
-                android:gravity="top"
-                android:lineSpacingExtra="4sp"
-                android:text="가디"
-                android:textAppearance="@style/text_fraction"
-                android:translationY="-1.76sp" />
 
             <View
                 android:id="@+id/main_dog_2"
@@ -387,7 +373,7 @@
                 android:layout_marginLeft="129dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="430dp"
-                android:background="@drawable/main_dog_2" />
+                android:background="@drawable/main_dog_2_2" />
 
             <TextView
                 android:id="@+id/main_dog_2_name"
@@ -427,7 +413,7 @@
                 android:lineSpacingExtra="4sp"
                 android:text="캠퍼"
                 android:textAppearance="@style/text_fraction"
-                android:translationY="-1.76sp" />
+                android:translationY="-1.76sp" /> -->
 
             <!-- 드디어 가족을 만났어요 -->
             <TextView
@@ -445,55 +431,20 @@
                 android:textAppearance="@style/withmeTitle"
                 android:translationY="-2.52sp" />
 
-            <ImageButton
-                android:id="@+id/meetFamilyBg"
-                android:layout_width="328dp"
-                android:layout_height="112dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="614dp"
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
                 android:layout_marginLeft="16dp"
-                android:background="@drawable/rect_myboard" />
-
-            <View
-                android:id="@+id/meetFamilyImg"
-                android:layout_width="94dp"
-                android:layout_height="94dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="238dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="620dp"
-                android:background="@drawable/img_family" />
-
-            <TextView
-                android:id="@+id/meetFamilyName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="27dp"
-                android:layout_marginTop="624dp"
-                android:fontFamily="@font/suit_semibold"
-                android:gravity="top"
-                android:lineSpacingExtra="4sp"
-                android:text="@string/meetFamilyName"
-                android:textAppearance="@style/meetFamilyName"
-                android:translationY="-1.76sp" />
-
-            <TextView
-                android:id="@+id/meetFamilyContent"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="27dp"
-                android:layout_marginTop="654dp"
-                android:fontFamily="@font/suit_medium"
-                android:gravity="top"
-                android:lineSpacingExtra="3sp"
-                android:text="@string/meetFamilyContent"
-                android:textAppearance="@style/meetFamilyContent"
-                android:translationY="-1.51sp" />
-
+                android:layout_marginTop="615dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <!-- 평생 가족을 기다려요 -->
             <TextView

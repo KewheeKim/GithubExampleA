@@ -2,21 +2,41 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.style.ForegroundColorSpan
+import android.view.MenuItem
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class VolunteerDetailedpage: AppCompatActivity() {
-    lateinit var btnBack: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_voluteer_detailedpage)
 
-        btnBack.setOnClickListener {
-            // 뒤로 가기 버튼 클릭 시 VolunteerView로 이동하는 코드
-            val intent = Intent(this, VolunteerView::class.java)
-            startActivity(intent)
-        }
-
+        // 액션바 뒤로가기
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        // 액션바 글자 색 변경
+        val spannableString = SpannableString("봉사 후기")
+        spannableString.setSpan(
+            ForegroundColorSpan(ContextCompat.getColor(this, R.color.black)),
+            0, spannableString.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        supportActionBar?.title = spannableString
     }
+
+    // 액션바 뒤로가기 기능 구현
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item?.itemId) {
+            android.R.id.home -> {
+                finish()
+                return true
+            }
+            else -> {
+                return super.onOptionsItemSelected(item)
+            }
+        }
+    }
+
 }

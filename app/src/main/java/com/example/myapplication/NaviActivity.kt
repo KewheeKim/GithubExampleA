@@ -24,7 +24,7 @@ class NaviActivity : AppCompatActivity() {
 
                 R.id.action_home -> replaceActivity(HomeActivity::class.java)
                 R.id.action_record -> replaceActivity(AccompanyBeforeActivity::class.java)
-                R.id.action_board -> replaceActivity(VolunteerView::class.java)
+                R.id.action_board -> replaceActivity(AdoptionView::class.java)
                 R.id.action_mypage -> replaceActivity(myPage::class.java)
 
                 else -> {
